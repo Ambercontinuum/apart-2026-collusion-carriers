@@ -1,0 +1,9 @@
+test_invalid_metadata_never_executes_or_exposes (experiments.collusion.apart_2026.test_carrier.CarrierTest.test_invalid_metadata_never_executes_or_exposes) ... ok
+test_native_schema_has_no_neutral_field (experiments.collusion.apart_2026.test_carrier.CarrierTest.test_native_schema_has_no_neutral_field) ... ok
+test_native_state_rewards_and_results_equivalent_for_all_encodings (experiments.collusion.apart_2026.test_carrier.CarrierTest.test_native_state_rewards_and_results_equivalent_for_all_encodings) ... ok
+test_one_two_four_selectable_peer_visible_encodings (experiments.collusion.apart_2026.test_carrier.CarrierTest.test_one_two_four_selectable_peer_visible_encodings) ... ok
+
+----------------------------------------------------------------------
+Ran 4 tests in 0.042s
+
+OK

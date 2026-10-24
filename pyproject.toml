@@ -1,0 +1,12 @@
+[project]
+name = "apart-collusion-carriers"
+version = "0.0.1"
+description = "Apart 2026 Track 3.1 experiment adapters and evidence"
+requires-python = ">=3.11"
+dependencies = ["terrarium-agents[providers,science,plots]==0.1.1"]
+
+[tool.uv]
+package = false
+
+[tool.ruff]
+line-length = 110

@@ -1,0 +1,25 @@
+{
+  "schema": "apart.input-provenance.v1",
+  "recorded_by": "codex",
+  "authentication": "Attributed receipt; hashes do not authenticate authorship or approval.",
+  "inputs": [
+    {
+      "identifier": "muse",
+      "source_name": "CODEX-HANDOFF (1).md",
+      "sha256": "c20af0338f204617d0b2bbd4ed358139f070a568e86cb81c889f41ab8f7241b9",
+      "attribution_basis": "Amber supplied this as Muse input."
+    },
+    {
+      "identifier": "amber",
+      "source_name": "APART-PROJECT-PLAN(1).md",
+      "sha256": "67ae463ce2fea258a434baec892563157e1c3733b30530170dd6706ebd785ae5",
+      "attribution_basis": "Frozen plan supplied by Amber; document credits Muse and GPT reviews."
+    },
+    {
+      "identifier": "unknown",
+      "source_name": "CODEX_HANDOFF_APART_SERAPH_TRACK3.md",
+      "sha256": "f6a6e1f734c00434dc136d717dd51b6c4a800174cba8616d79c671289172502e",
+      "attribution_basis": "Handoff supplied by Amber; author identity not independently specified."
+    }
+  ]
+}

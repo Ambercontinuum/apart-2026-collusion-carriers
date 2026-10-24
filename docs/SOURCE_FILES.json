@@ -1,0 +1,55 @@
+{
+  "schema": "apart.source-files.v1",
+  "files": [
+    {
+      "path": "colosseum/experiments/common/local_protocol.py",
+      "origin_repository": "https://github.com/poseidon-research/collusion_hackathon",
+      "origin_commit": "e6fb1308dae9cf97ae42aec1c5f7889d9e2291e8",
+      "origin_path": "colosseum/experiments/common/local_protocol.py",
+      "origin_url": "https://github.com/poseidon-research/collusion_hackathon/blob/e6fb1308dae9cf97ae42aec1c5f7889d9e2291e8/colosseum/experiments/common/local_protocol.py",
+      "sha256": "ad2a2bb55d0aa94e8dc3a040c46c8e0380ab3f668270487d6bd1e59ed3c550d5",
+      "modification": "Exact Git blob bytes copied from pinned organizer commit."
+    }
+  ],
+  "runtime_dependencies": [
+    {
+      "distribution": "terrarium-agents",
+      "version": "0.1.1",
+      "source_repository": "https://github.com/umass-aisec/Terrarium",
+      "files_used": [
+        "envs/dcops/jira_ticket/jira_ticket_tools.py",
+        "envs/dcops/jira_ticket/jira_ticket_env.py",
+        "envs/dcops/jira_ticket/jira_ticket_prompts.py",
+        "terrarium/blackboard.py"
+      ],
+      "copied_into_project": false
+    }
+  ],
+  "new_sprint_source": [
+    "colosseum/experiments/collusion/apart_2026/carrier.py",
+    "colosseum/experiments/collusion/apart_2026/test_carrier.py",
+    "tools/record_contribution.py"
+  ],
+  "inspected_upstream_sources": [
+    {
+      "path": "colosseum/experiments/collusion/run.py",
+      "url": "https://github.com/poseidon-research/collusion_hackathon/blob/e6fb1308dae9cf97ae42aec1c5f7889d9e2291e8/colosseum/experiments/collusion/run.py",
+      "copied_into_project": false
+    },
+    {
+      "path": "colosseum/experiments/collusion/prompts.py",
+      "url": "https://github.com/poseidon-research/collusion_hackathon/blob/e6fb1308dae9cf97ae42aec1c5f7889d9e2291e8/colosseum/experiments/collusion/prompts.py",
+      "copied_into_project": false
+    },
+    {
+      "path": "colosseum/experiments/collusion/metrics.py",
+      "url": "https://github.com/poseidon-research/collusion_hackathon/blob/e6fb1308dae9cf97ae42aec1c5f7889d9e2291e8/colosseum/experiments/collusion/metrics.py",
+      "copied_into_project": false
+    },
+    {
+      "path": "colosseum/experiments/collusion/configs/hackathon_2_1_b_pair_no_channel.yaml",
+      "url": "https://github.com/poseidon-research/collusion_hackathon/blob/e6fb1308dae9cf97ae42aec1c5f7889d9e2291e8/colosseum/experiments/collusion/configs/hackathon_2_1_b_pair_no_channel.yaml",
+      "copied_into_project": false
+    }
+  ]
+}

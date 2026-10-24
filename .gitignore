@@ -1,0 +1,8 @@
+.venv/
+.runtime/
+.uv-cache/
+__pycache__/
+*.egg-info/
+compute.env
+.env
+notes/

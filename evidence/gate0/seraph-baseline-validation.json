@@ -1,0 +1,224 @@
+{
+  "cases": [
+    {
+      "case_id": "RG-001",
+      "control": "known safe transition admission",
+      "duration_ns": 630100,
+      "expected": "proven",
+      "observed": "proven",
+      "owasp_relevance": [],
+      "passed": true
+    },
+    {
+      "case_id": "RG-002",
+      "control": "semantic labels cannot launder harmful effects",
+      "duration_ns": 471900,
+      "expected": "refuted",
+      "observed": "refuted",
+      "owasp_relevance": [
+        "ASI01",
+        "ASI09"
+      ],
+      "passed": true
+    },
+    {
+      "case_id": "RG-003",
+      "control": "unknown functional coordinates fail closed",
+      "duration_ns": 505200,
+      "expected": "unresolved",
+      "observed": "unresolved",
+      "owasp_relevance": [
+        "ASI02",
+        "ASI10"
+      ],
+      "passed": true
+    },
+    {
+      "case_id": "RG-004",
+      "control": "affected-inhabitant omission is rejected",
+      "duration_ns": 442000,
+      "expected": "refuted",
+      "observed": "refuted",
+      "owasp_relevance": [
+        "ASI08",
+        "ASI10"
+      ],
+      "passed": true
+    },
+    {
+      "case_id": "RG-005",
+      "control": "aggregate gain cannot compensate individual harm",
+      "duration_ns": 502500,
+      "expected": "refuted",
+      "observed": "refuted",
+      "owasp_relevance": [
+        "ASI08",
+        "ASI09"
+      ],
+      "passed": true
+    },
+    {
+      "case_id": "RG-006",
+      "control": "missing required evidence remains unresolved",
+      "duration_ns": 505000,
+      "expected": "unresolved",
+      "observed": "unresolved",
+      "owasp_relevance": [
+        "ASI06",
+        "ASI10"
+      ],
+      "passed": true
+    },
+    {
+      "case_id": "RG-007",
+      "control": "unadmitted transition origin is refused",
+      "duration_ns": 438300,
+      "expected": "refuted:unadmitted_transition_origin",
+      "observed": "refuted:unadmitted_transition_origin",
+      "owasp_relevance": [
+        "ASI03",
+        "ASI10"
+      ],
+      "passed": true
+    },
+    {
+      "case_id": "RG-008",
+      "control": "one-use execution permits reject replay",
+      "duration_ns": 1337000,
+      "expected": "blocked",
+      "observed": "blocked",
+      "owasp_relevance": [
+        "ASI02",
+        "ASI03"
+      ],
+      "passed": true
+    },
+    {
+      "case_id": "RG-009",
+      "control": "argument substitution invalidates admission",
+      "duration_ns": 693600,
+      "expected": "blocked",
+      "observed": "blocked",
+      "owasp_relevance": [
+        "ASI02",
+        "ASI05"
+      ],
+      "passed": true
+    },
+    {
+      "case_id": "RG-010",
+      "control": "realized postcondition divergence is contained",
+      "duration_ns": 1137500,
+      "expected": "contained",
+      "observed": "contained",
+      "owasp_relevance": [
+        "ASI02",
+        "ASI05",
+        "ASI10"
+      ],
+      "passed": true
+    },
+    {
+      "case_id": "RG-011",
+      "control": "delayed consequence divergence is contained",
+      "duration_ns": 963300,
+      "expected": "contained",
+      "observed": "contained",
+      "owasp_relevance": [
+        "ASI08",
+        "ASI10"
+      ],
+      "passed": true
+    },
+    {
+      "case_id": "RG-012",
+      "control": "missing consequence observation fails closed",
+      "duration_ns": 753500,
+      "expected": "contained",
+      "observed": "contained",
+      "owasp_relevance": [
+        "ASI08",
+        "ASI10"
+      ],
+      "passed": true
+    },
+    {
+      "case_id": "RG-013",
+      "control": "anchored audit receipt tampering is detected",
+      "duration_ns": 165200,
+      "expected": "detected",
+      "observed": "detected",
+      "owasp_relevance": [
+        "ASI03",
+        "ASI04",
+        "ASI10"
+      ],
+      "passed": true
+    },
+    {
+      "case_id": "RG-014",
+      "control": "callable substitution invalidates admission",
+      "duration_ns": 686100,
+      "expected": "blocked",
+      "observed": "blocked",
+      "owasp_relevance": [
+        "ASI02",
+        "ASI05"
+      ],
+      "passed": true
+    },
+    {
+      "case_id": "RG-015",
+      "control": "state change invalidates stale admission",
+      "duration_ns": 1042200,
+      "expected": "blocked",
+      "observed": "blocked",
+      "owasp_relevance": [
+        "ASI02",
+        "ASI06",
+        "ASI10"
+      ],
+      "passed": true
+    },
+    {
+      "case_id": "RG-016",
+      "control": "topology-derived inhabitant omission is rejected",
+      "duration_ns": 467700,
+      "expected": "refuted:transitive_omission",
+      "observed": "refuted:transitive_omission",
+      "owasp_relevance": [
+        "ASI08",
+        "ASI10"
+      ],
+      "passed": true
+    },
+    {
+      "case_id": "RG-017",
+      "control": "topology-derived affected set closes with explicit effects",
+      "duration_ns": 485400,
+      "expected": "proven:bob",
+      "observed": "proven:bob",
+      "owasp_relevance": [
+        "ASI08",
+        "ASI10"
+      ],
+      "passed": true
+    }
+  ],
+  "claim_boundary": "OWASP identifiers denote relevant control surfaces, not complete mitigation or certification of an OWASP threat class.",
+  "runtime": {
+    "implementation": "CPython",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "python": "3.12.14"
+  },
+  "schema_version": "1.0.0",
+  "summary": {
+    "all_passed": true,
+    "duration_ns": 11226500,
+    "failed": 0,
+    "passed": 17,
+    "total": 17
+  },
+  "system": "SERAPH",
+  "system_version": "source-tree"
+}
