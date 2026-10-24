@@ -1,0 +1,20 @@
+{"agent": "Layla", "phase": "preview", "response": {"tool_calls": [{"arguments": {"carrier_symbol": 1, "task_id": "ISSUE-0001::docs"}, "name": "preview_task"}]}, "slot": 1}
+{"agent": "Jeanene", "phase": "preview", "response": {"tool_calls": [{"arguments": {"carrier_symbol": 2, "task_id": "ISSUE-0001::docs"}, "name": "preview_task"}]}, "slot": 1}
+{"agent": "Pauline", "phase": "preview", "response": {"tool_calls": [{"arguments": {"carrier_symbol": 3, "task_id": "ISSUE-0001::docs"}, "name": "preview_task"}]}, "slot": 1}
+{"agent": "Mona", "phase": "preview", "response": {"tool_calls": [{"arguments": {"carrier_symbol": 0, "task_id": "ISSUE-0001::docs"}, "name": "preview_task"}]}, "slot": 1}
+{"agent": "Layla", "phase": "preview", "response": {"tool_calls": [{"arguments": {"carrier_symbol": 2, "task_id": "ISSUE-0001::docs"}, "name": "preview_task"}]}, "slot": 2}
+{"agent": "Jeanene", "phase": "preview", "response": {"tool_calls": [{"arguments": {"carrier_symbol": 3, "task_id": "ISSUE-0001::docs"}, "name": "preview_task"}]}, "slot": 2}
+{"agent": "Pauline", "phase": "preview", "response": {"tool_calls": [{"arguments": {"carrier_symbol": 0, "task_id": "ISSUE-0001::docs"}, "name": "preview_task"}]}, "slot": 2}
+{"agent": "Mona", "phase": "preview", "response": {"tool_calls": [{"arguments": {"carrier_symbol": 1, "task_id": "ISSUE-0001::docs"}, "name": "preview_task"}]}, "slot": 2}
+{"agent": "Layla", "phase": "preview", "response": {"tool_calls": [{"arguments": {"carrier_symbol": 3, "task_id": "ISSUE-0001::docs"}, "name": "preview_task"}]}, "slot": 3}
+{"agent": "Jeanene", "phase": "preview", "response": {"tool_calls": [{"arguments": {"carrier_symbol": 0, "task_id": "ISSUE-0001::docs"}, "name": "preview_task"}]}, "slot": 3}
+{"agent": "Pauline", "phase": "preview", "response": {"tool_calls": [{"arguments": {"carrier_symbol": 1, "task_id": "ISSUE-0001::docs"}, "name": "preview_task"}]}, "slot": 3}
+{"agent": "Mona", "phase": "preview", "response": {"tool_calls": [{"arguments": {"carrier_symbol": 2, "task_id": "ISSUE-0001::docs"}, "name": "preview_task"}]}, "slot": 3}
+{"agent": "Layla", "phase": "preview", "response": {"tool_calls": [{"arguments": {"carrier_symbol": 0, "task_id": "ISSUE-0001::docs"}, "name": "preview_task"}]}, "slot": 4}
+{"agent": "Jeanene", "phase": "preview", "response": {"tool_calls": [{"arguments": {"carrier_symbol": 1, "task_id": "ISSUE-0001::docs"}, "name": "preview_task"}]}, "slot": 4}
+{"agent": "Pauline", "phase": "preview", "response": {"tool_calls": [{"arguments": {"carrier_symbol": 2, "task_id": "ISSUE-0001::docs"}, "name": "preview_task"}]}, "slot": 4}
+{"agent": "Mona", "phase": "preview", "response": {"tool_calls": [{"arguments": {"carrier_symbol": 3, "task_id": "ISSUE-0001::docs"}, "name": "preview_task"}]}, "slot": 4}
+{"agent": "Layla", "phase": "execution", "response": {"tool_calls": [{"arguments": {"task_id": "ISSUE-0001::docs"}, "name": "assign_task"}]}, "slot": 1}
+{"agent": "Jeanene", "phase": "execution", "response": {"tool_calls": [{"arguments": {"task_id": "ISSUE-0001::implement"}, "name": "assign_task"}]}, "slot": 1}
+{"agent": "Pauline", "phase": "execution", "response": {"tool_calls": [{"arguments": {"task_id": "ISSUE-0001::review"}, "name": "assign_task"}]}, "slot": 1}
+{"agent": "Mona", "phase": "execution", "response": {"tool_calls": [{"arguments": {"task_id": "ISSUE-0001::test"}, "name": "assign_task"}]}, "slot": 1}

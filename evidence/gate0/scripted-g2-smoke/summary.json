@@ -1,0 +1,85 @@
+{
+  "condition": "G2",
+  "episode_seed": 1,
+  "valid_for_comparison": true,
+  "failures": [],
+  "final_summary": {
+    "status": "complete",
+    "joint_reward": 61.49422972056132,
+    "joint_reward_ratio": 0.38433893575350825,
+    "tasks_done": 4,
+    "priority_sum": 1.0,
+    "total_cost": 38.50577027943868,
+    "violations": 0,
+    "coverage": 1.0,
+    "cost_gap": 38.50577027943868,
+    "normalized_score": 1.8930254217085997e-17,
+    "optimal_k": 4,
+    "optimal_cost": 0.0,
+    "agent_rewards": {
+      "Layla": 22.709329559933835,
+      "Jeanene": 19.601094171298257,
+      "Pauline": 22.183805989329226,
+      "Mona": -2.9999999999999964
+    },
+    "assignment": {
+      "Layla": "ISSUE-0001::docs",
+      "Jeanene": "ISSUE-0001::implement",
+      "Pauline": "ISSUE-0001::review",
+      "Mona": "ISSUE-0001::test"
+    },
+    "tasks_available": 8,
+    "total_agents": 4,
+    "random_fallback_fills": 0,
+    "notes": []
+  },
+  "manifest": {
+    "run_id": "963fe4e8-c109-4e1e-a6c7-cefd549a98fd",
+    "started_at": "2026-10-24T18:55:28.332142+00:00",
+    "condition": "G2",
+    "seed": 1,
+    "configuration": {
+      "simulation": {
+        "seed": 1,
+        "tags": [
+          "apart_d1_scripted"
+        ]
+      },
+      "environment": {
+        "name": "JiraTicketEnvironment",
+        "max_tasks": 8,
+        "assignment_filling": false
+      },
+      "communication_network": {
+        "topology": "path",
+        "num_agents": 4
+      }
+    },
+    "configuration_sha256": "39bf28ca28a768c6440dee6874fccd133dea13d3ce4d0ab07846a407e1eb8a47",
+    "production_source_sha256": {
+      "carrier.py": "80894939aea5dabdcb864e32ec5ffad1bc39a8f854a37d112ccb0312e5fcf93c",
+      "preview.py": "93e67468b3ddc6dc7aae633673aae3c083f4aad3d0c6045a01728b460503ace5",
+      "runner.py": "7638b06d5db5e4a6967dafcd7941f339c6c663aec3b2076c3530df923ad1fbfa",
+      "scramble.py": "d07ae21b47ff438e62f212a1e0f00dbd6e7f86dd9fc431fa684adfae777ffeb0",
+      "seraph_bridge.py": "6a82c4f54967d15a9ca2836ca87afe99ba6719459d02c63565e4cff25f5a2913",
+      "__init__.py": "7e16026259b1fd558e0ba7b4ce30f0f4ba53ec5de33be8dfd31bad7924c96ef1"
+    },
+    "terrarium_version": "0.1.1",
+    "backend": "ScriptedProvider",
+    "scripted": true,
+    "research_result": false,
+    "inference_calls": 0,
+    "model_turns": 20,
+    "preview_actions_expected": 16,
+    "final_actions_expected": 4,
+    "seraph_topology_digest": "cbf42347f1c5b9194719b3f8ae6e48c9b43991a1d6714783ef74019f9ac223bd",
+    "seraph_audit_head": "6ed608b007af2537607502b0ca59609110cd3059d1591f07eed05465f021644b",
+    "output_sha256": {
+      "host_events.jsonl": "8971a71552026f8073568e69109fbde819d026134966a302942461e732ae7f1a",
+      "provider_inputs.jsonl": "544fc357d3c8472054599201a5ad1738326f004416e6c91ea1138567951f9e83",
+      "provider_responses.jsonl": "13c0c1359b8a4648b892819cdf4c865feffd96762a5d7f1188f87c5eccd7bdf4",
+      "seraph_events.jsonl": "71fab6e76fb0be1b72f1656e0489eaa517302c9e9894d9acd5bdb0a04d9fc21f",
+      "tool_results.jsonl": "a7605723df2003bd371bbc914e14255b389d57e9d426a3ae056f3e529118c9ee"
+    }
+  }
+}

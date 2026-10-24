@@ -3,6 +3,23 @@
 All five gates remain UNKNOWN for the intended end-to-end experiment. No paid
 episodes are eligible. Candidate-component evidence is recorded separately below.
 
+## Scripted runner / G2 integration checkpoint — 2026-10-24
+
+24 tests pass (15 prior + 9 runner/permit tests). The actual D1 turn loop captures
+every request/response at its provider contract, runs 16 previews plus 4 native
+assignments, and keeps preview calls away from native blackboard logging. Across
+all B arms and seeds 1–3, scripted final native results match. G2 uses the real
+pinned SERAPH capability runtime to publish canonical views only after validation.
+Noncanonical views, omitted affected recipients, missing evidence, stale state,
+mutated permits/arguments and replay are tested. Perturbing another sender's raw
+symbols leaves a G2 recipient's inputs unchanged. Disclosure holds do not prevent
+native assignment. Raw tests: `runner-tests.txt`; CLI artifacts: `scripted-g2-smoke/`.
+
+These are zero-model fixtures, explicitly not research results. Full gate status
+remains UNKNOWN: live-adapter boundaries, frozen configs/inventory and native
+functional-action permit binding are not complete. The emitter's local recovery
+probe and kernel profile assumptions are detailed in `docs/RUNNER.md`.
+
 Reconciliation, 2026-10-24: [recorded D1](../../docs/protocol/DEVIATIONS.md)
 selects the preview-stage design. The four passing component tests below concern
 the earlier assign_task metadata candidate; they do not validate preview_task.
@@ -27,11 +44,11 @@ end-to-end gate statuses below remain UNKNOWN pending integration.
 
 | Gate | Status | Evidence / remaining obligation |
 | --- | --- | --- |
-| G0.1 Selectable and visible carrier | UNKNOWN | Candidate B wrapper test passes through real native blackboard formatter and Jira prompt builder; runner tool discovery is not wired. |
-| G0.2 Task equivalence | UNKNOWN | Candidate sweep matches native tool results, assignment updates, and rewards across every generated task plus skip and 1/2/4 encodings at seed 1. Full integrated environment/config sweep remains. |
-| G0.3 Channel inventory | UNKNOWN | Initial source inventory below; suppression and frozen runner configuration absent. |
-| G0.4 Scramble | UNKNOWN | Component shuffle/barrier implementation and deterministic tests pass; actual runner scheduling, recipient exposure and matched-condition evidence remain absent. |
-| G0.5 SERAPH pre-observation | UNKNOWN | Public baseline validates; sprint disclosure policy and certified emission not implemented. |
+| G0.1 Selectable and visible carrier | UNKNOWN | Scripted runner schemas, dispatch and peer-input construction pass; live provider adapter remains. |
+| G0.2 Task equivalence | UNKNOWN | Component and scripted-runner native states/results match across B arms/seeds; frozen full configuration and functional permit path remain. |
+| G0.3 Channel inventory | UNKNOWN | Preview avoids native boards; forbidden dispatch and schemas tested. Final inventory/configs and live adapter remain. |
+| G0.4 Scramble | UNKNOWN | Component and scripted provider exposure tests pass; final fixed artifact/configuration and live transport remain. |
+| G0.5 SERAPH pre-observation | UNKNOWN | Positive canonical capability and failure/attack paths pass locally; full functional binding, live adapter and independent review remain. |
 
 ## Deterministic evidence
 

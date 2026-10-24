@@ -1,5 +1,18 @@
 # Apart 2026 deterministic adapter work
 
+## Latest: scripted runner and canonical G2 emission
+
+The prior component-only notes below are historical. `runner.py` now connects
+schema/dispatch, private histories, the barrier and native final assignment.
+`seraph_bridge.py` uses the pinned public topology/frame and capability runtime
+to certify canonical views before the recipient accessor opens. Twenty-four
+tests pass in total. See [runner instructions](../../../../docs/RUNNER.md) for
+the public source prerequisite, complete test command and zero-spend CLI.
+
+This remains a scripted integration fixture, not a live-model experiment or a
+full Gate 0 PASS. Live inference, native functional-action permit binding,
+final configs and inventory, monitor and analysis remain incomplete.
+
 This package is not yet wired into the collusion runner. `CarrierTools` adds a
 required integer `carrier_symbol` to native `assign_task` for candidate B arms.
 It strips that metadata before native execution and publishes it separately in

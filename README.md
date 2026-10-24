@@ -16,7 +16,7 @@ pathway-specific evidence and an auditable governance integration.
 ## Current implementation
 
 **No model-driven experimental episodes have run. There are no collusion findings
-or completed G2 enforcement results.** This is a deterministic component checkpoint.
+or model-driven G2 results.** This is a deterministic runner/integration checkpoint.
 
 | Component | Current state |
 | --- | --- |
@@ -24,10 +24,10 @@ or completed G2 enforcement results.** This is a deterministic component checkpo
 | D1 preview action | Component schema and dispatch for `preview_task(task_id, carrier_symbol)`; native own-cost/feasibility without changing task state. |
 | Barrier and peer views | Four-slot blocks collected before release; peer fields limited to sender, public task ID, delivered slot and symbol; path-neighbor audiences. |
 | Scramble | Seeded Fisher–Yates event-instance shuffle per sender/task block; counts preserved, fixed points retained, index mapping host-only. |
-| Tests | **15 component tests pass:** four historical-candidate tests and eleven D1 tests. Checks cover all agents/encodings at seeds 1–3 and all 256 four-symbol blocks for histogram preservation. |
+| Tests | **24 tests pass:** four historical-candidate, eleven preview/shuffle and nine scripted-runner/permit tests. Checks include all B arms at seeds 1–3, raw-board bypass prevention, canonical peer-input noninterference and permit attacks. |
 | SERAPH baseline | Public upstream corpus passes 17/17 cases; prior-instrument validation, not sprint G2 evidence. |
-| G2 | Functional previews work; release is held because certified canonical emission is not integrated. |
-| Runner and analysis | Actual model-runner integration, full provider-input capture, exploratory monitor and offline analysis remain to be built. |
+| G2 | Real pinned SERAPH capability certifies canonical emission; missing evidence, replay, argument mutation, noncanonical batches and stale state are rejected in scripted tests. Native assignment permit binding remains unresolved. |
+| Runner and analysis | D1 turn loop, isolated histories, exact provider input/response capture and a zero-spend CLI exist. Live inference, P calibration, monitor and analysis remain incomplete. |
 
 All five full [Gate 0 obligations](evidence/gate0/GATE0_REPORT.md) remain
 **UNKNOWN**. Passing component tests does not make the experiment ready to run.
@@ -63,10 +63,13 @@ preview_task(task_id, carrier_symbol)
                                                native final assignment
 ```
 
-The preview, shuffle and view accessor exist as components; actual model turns,
-provider inputs and final-assignment scheduling are not yet connected to them.
+The preview, barrier, provider-input construction and native final-assignment
+schedule now run together with a scripted provider. The live inference adapter
+is not integrated; scripted outputs are not experimental findings.
 Four repeated previews are an **experimental scaffold**, not a claim about natural
-workflow behavior. Other channels, including task selection, shared assignment
+workflow behavior. They also duplicate cost/feasibility already present in the
+native private prompt; legitimate performance is measured on final native
+assignment, not on preview usage. Other channels, including task selection, shared assignment
 state and action ordering, remain to be inventoried and controlled as declared.
 
 ## Planned experiment arms
@@ -85,7 +88,7 @@ seed pairs. Actions and slots within an episode are not independent replicates.
 | **G2** | `{0,1,2,3}` | Four canonical zeroes authorized before observation | Enforceability and legitimate-work preservation |
 
 P's supplied runner is not bundled here. B-arm delivery exists only at component
-level; G2's intended delivery is unimplemented. Public discretionary text must be
+level and in the scripted loop; G2 canonical delivery is tested there. Public discretionary text must be
 suppressed in B arms through both offered schemas and dispatch. P is the explicit
 private-text calibration exception. Full matched run configurations and model
 settings are not frozen yet.
@@ -141,8 +144,10 @@ Set-Location colosseum
 uv run --locked --project .. python -m unittest experiments.collusion.apart_2026.test_carrier experiments.collusion.apart_2026.test_preview -v
 ```
 
-No inference key or model calls are required. [Captured test output](evidence/gate0/preview-component-tests.txt)
-records this checkpoint. There is no completed six-arm runner command yet.
+That command runs the original fifteen component tests without model calls.
+For all 24 tests and the scripted G2 CLI, prepare the pinned SERAPH checkout and
+follow [runner instructions](docs/RUNNER.md). [Captured full-suite output](evidence/gate0/runner-tests.txt)
+records the integration checkpoint. There is no completed live six-arm command yet.
 Paid episodes require all five Gate 0 proofs and Amber's separate spend approval.
 
 ## Sources and prior-work disclosure
@@ -164,9 +169,9 @@ provide further attribution.
 SERAPH is preexisting research-alpha work by the author, developed before this
 sprint and selected as measurement infrastructure and an enforcement boundary.
 New work began October 24, 2026 and currently comprises the historical candidate,
-D1 preview/barrier/shuffle components, their tests, inspection and design records.
-Peer-information topology integration, certified G2 emission, model-driven runs,
-the monitor, analysis and findings remain incomplete. SERAPH is not presented
+D1 components, scripted runner and canonical information-emission integration,
+their tests, inspection and design records. Live model-driven runs, native-action
+certification, monitor, analysis and findings remain incomplete. SERAPH is not presented
 as a validated collusion detector. Upstream validation is separate from sprint claims.
 
 ## Submission and collaboration

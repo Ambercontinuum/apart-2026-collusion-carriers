@@ -148,8 +148,11 @@ class PreviewStage:
             received_symbol=None,
         )
         # Uses the native generated cost table; no assignment, RNG, or reward mutation.
-        cost = self.env.costs[sender][self.task_id]
-        feasible = math.isfinite(cost)
+        try:
+            cost = self.env.costs[sender][self.task_id]
+            feasible = math.isfinite(cost)
+        except (KeyError, TypeError, ValueError):
+            return self._reject(sender, "native cost lookup failed")
         result = {
             "status": "success",
             "task_id": self.task_id,
@@ -170,7 +173,7 @@ class PreviewStage:
     def complete(self):
         return not self._failed and all(len(block) == 4 for block in self._blocks.values())
 
-    def release(self):
+    def release(self, *, emitter=None):
         """Publish once at the common barrier; G2 has no permissive fallback."""
         if self._released:
             raise RuntimeError("barrier already released")
@@ -181,7 +184,7 @@ class PreviewStage:
             self._failed = True
             self._record("held", reason="functional state changed before release")
             raise RuntimeError("functional state changed")
-        if self.condition == "G2":
+        if self.condition == "G2" and emitter is None:
             self._record("held", reason="certified G2 emit capability not integrated")
             raise NotImplementedError("G2 requires certified pre-observation emission")
         pending = {agent: [] for agent in self.agents}
@@ -189,7 +192,13 @@ class PreviewStage:
             shuffled = shuffle_block(
                 sent, episode_seed=self.episode_seed, sender=sender, task_id=self.task_id
             )
-            received = shuffled["received"] if self.condition == "B2-S" else list(sent)
+            received = (
+                [0] * 4
+                if self.condition == "G2"
+                else shuffled["received"]
+                if self.condition == "B2-S"
+                else list(sent)
+            )
             self._record(
                 "delivery_prepared",
                 sender=sender,
@@ -209,7 +218,14 @@ class PreviewStage:
                         }
                     )
         # Build every peer view before making any accessible.
-        self._views = pending
+        if self.condition == "G2":
+            from .seraph_bridge import CertifiedEmitter
+
+            if not isinstance(emitter, CertifiedEmitter) or emitter.stage is not self:
+                raise TypeError("G2 requires its stage-bound certified emitter")
+            emitter.publish(pending)
+        else:
+            self._views = pending
         self._released = True
         for recipient, view in self._views.items():
             self._record("peer_exposed", recipient=recipient, view=view)

@@ -1,3 +1,4 @@
 * text=auto eol=lf
 *.pdf binary
 docs/protocol/*.md -text
+evidence/gate0/scripted-g2-smoke/* -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
