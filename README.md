@@ -16,8 +16,10 @@ and their history are not included.
 **Development checkpoint, not a finished experiment.** The candidate carrier has
 four passing deterministic tests; public SERAPH's existing bounded corpus passes
 17/17 cases. Gate 0 remains incomplete. No paid experimental episodes, completed
-G2 integration, or collusion results are claimed. The extension proposal awaits
-scientific review.
+G2 integration, or collusion results are claimed. The preview-stage design is
+recorded as D1 in the supplied amended handoff; the dated
+[deviation record](docs/protocol/DEVIATIONS.md) identifies its source and remaining
+implementation. No completed independent engineering review is implied.
 
 ## Reproduce the component tests
 
@@ -44,9 +46,15 @@ instructions will be added when that runner exists and is verified.
 - [Submission template](docs/apart-research-submission-template.pdf) and
   [guidance](docs/SUBMISSION_TEMPLATE.md).
 
-SERAPH is preexisting work by the author. New sprint work currently consists of
-the carrier component, its tests, source inspection and proposal. Existing
-SERAPH validation is not a sprint enforcement result. The tests and selected
+SERAPH, the execution-governance layer selected as measurement infrastructure
+and enforcement boundary, is preexisting work by the author, publicly available
+as a research alpha and developed before this sprint. New sprint work began
+October 24, 2026 and currently comprises the carrier component, its tests,
+source inspection and the documented D1 design. The peer-information topology
+integration, preview-stage runner, precommit monitor, experimental episodes,
+analysis and findings remain incomplete. SERAPH is not presented as a validated
+collusion detector. Existing validation is not a sprint enforcement result.
+The tests and selected
 utility use Terrarium 0.1.1; its package supplies the native Jira implementation.
 
 ## Collaboration

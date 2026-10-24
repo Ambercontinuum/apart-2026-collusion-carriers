@@ -6,3 +6,6 @@ __pycache__/
 compute.env
 .env
 notes/
+
+# Local coordination export, not a submission artifact
+/docs/ROADMAP.md

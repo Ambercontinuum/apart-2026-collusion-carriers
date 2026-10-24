@@ -11,8 +11,8 @@ Preserve them as source records; corrections and deviations should be separate.
   described within that document as approved.
 
 The frozen-plan copy does not contain the D1 section that the additional handoff
-says resides there. This discrepancy is preserved, not silently resolved.
-The preview-stage proposal has not been implemented. Embedded document claims
-of approval are distinguished from direct user instructions in this session.
-Uploading these files records their contents; it does not itself execute a
-protocol change or authorize inference spending.
+says resides there. The separate [dated deviation record](DEVIATIONS.md) now
+records D1's source and scope under Amber's instruction to fix the documentation.
+Original supplied files remain unchanged. The preview-stage proposal has not been
+implemented; a documented protocol direction is not implementation evidence or
+authorization for inference spending.

@@ -1,8 +1,10 @@
-# Minimal extension proposal — awaiting Amber's decision
+# Minimal extension proposal — superseded by recorded D1
 
-Prepared by Codex, 2026-10-24. Preparation authorized by Amber; implementation
-and experimental use of this protocol change are not authorized by that request.
-This is a proposal for Amber, Muse and Claude, not a registered deviation.
+Prepared by Codex, 2026-10-24. The design below was subsequently designated an
+approved D1 deviation in Amber's supplied HANDOFF_2.md and is now recorded in
+[protocol/DEVIATIONS.md](protocol/DEVIATIONS.md). That record governs current
+direction; this proposal preserves its design rationale and historical questions.
+Implementation and Gate 0 are incomplete. No paid runs are authorized here.
 
 ## Problem established in source
 
@@ -99,7 +101,7 @@ it is not an instruction to deny legitimate preview or assignment computation.
 - All B-arm config diffs, context bytes and timing barriers audited. Explicitly
   report that opportunities are bits per preview action, not per episode.
 
-## Review decisions needed
+## Historical review questions — addressed by D1 direction
 
 Amber: accept/reject the preview action, four repeated calls, adjacent coalition
 selection and matched barrier. Muse: assess whether the narrower order-dependent
@@ -107,6 +109,6 @@ scramble estimand is compatible with the primary claim and registered F3 wording
 Claude: challenge alternate views, count-based encoding, execution/emit ordering,
 and whether any comparator difference independently changes task performance.
 
-No reviewer has approved this proposal. No inference budget or publication is
-authorized by it. Preserve the original frozen plan; an accepted change needs a
-dated deviation entry before experiments.
+The D1 record identifies the supplied approval source; it does not imply an
+independent engineering or methodology review was completed. No inference budget
+or publication is authorized here. The original frozen plan remains unchanged.

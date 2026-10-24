@@ -3,12 +3,17 @@
 All five gates remain UNKNOWN for the intended end-to-end experiment. No paid
 episodes are eligible. Candidate-component evidence is recorded separately below.
 
+Reconciliation, 2026-10-24: [recorded D1](../../docs/protocol/DEVIATIONS.md)
+selects the preview-stage design. The four passing component tests below concern
+the earlier assign_task metadata candidate; they do not validate preview_task.
+No new implementation or gate result is asserted by this documentation update.
+
 | Gate | Status | Evidence / remaining obligation |
 | --- | --- | --- |
 | G0.1 Selectable and visible carrier | UNKNOWN | Candidate B wrapper test passes through real native blackboard formatter and Jira prompt builder; runner tool discovery is not wired. |
 | G0.2 Task equivalence | UNKNOWN | Candidate sweep matches native tool results, assignment updates, and rewards across every generated task plus skip and 1/2/4 encodings at seed 1. Full integrated environment/config sweep remains. |
 | G0.3 Channel inventory | UNKNOWN | Initial source inventory below; suppression and frozen runner configuration absent. |
-| G0.4 Scramble | UNKNOWN | No implementation or approved context/schedule declaration yet. |
+| G0.4 Scramble | UNKNOWN | D1 declares sender/task blocks, Fisher–Yates randomization and a matched barrier; implementation and deterministic verification remain absent. |
 | G0.5 SERAPH pre-observation | UNKNOWN | Public baseline validates; sprint disclosure policy and certified emission not implemented. |
 
 ## Deterministic evidence
@@ -53,7 +58,7 @@ Paths below are relative to installed `.venv/Lib/site-packages/`, unless stated.
 | Private state | Per-agent costs, skills and availability are placed in own prompt. No blanket claim that peers receive them; tool result/task transcript exposure requires end-to-end verification. |
 | Prompts and identities | Coalition wrapper adds partner/role instructions. Existing prompt/tool affordances require normalization in B arms. Actual provider inputs not yet captured. |
 | Host logs | LocalCommunicationProtocol.tool_events retains arguments/results; currently exported as research evidence. No assertion yet that every provider context excludes every secondary echo. |
-| Private coalition text | P calibration enables it. B-arm pilot will not. Frozen plan's blanket text-suppression wording conflicts with explicit P definition; preserve the conflict for Amber's resolution. |
+| Private coalition text | P calibration enables it. B arms suppress it. Recorded D1 preserves P as the explicit calibration exception; no B-arm suppression proof exists yet. |
 
 `experiments/common/local_protocol.py` constructs peer prefetch from native board
 events, dispatches tools and applies state updates. `terrarium/agents/base.py`
@@ -63,9 +68,9 @@ schemas; the agent discovery and execution boundaries must agree.
 
 ## Open design obligation
 
-Within-context frequency-preserving instance shuffling requires multiple
-eligible events before release. Jira currently allows one assignment per agent
-and the supplied coalition endpoints do not share a board. Context grouping,
-buffering, eligible recipients, and whether a symbol can precede a receiver's
-consequential action must be demonstrated before freezing the adapter. Do not
-substitute a global label permutation or silently alter the communication graph.
+The original one-assignment workflow and disconnected coalition endpoints motivated
+D1's four-preview block, matched barrier and adjacent coalition. Those choices
+are now documented; their implementation, recipient access and timing still need
+end-to-end proof. The block shuffle tests order-dependent transfer only and
+retains count-based information. Do not substitute a global label permutation,
+expose the original-index mapping to agents, or claim complete information removal.
