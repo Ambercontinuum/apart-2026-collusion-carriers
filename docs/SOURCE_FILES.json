@@ -42,7 +42,9 @@
     "colosseum/experiments/collusion/apart_2026/test_route_contract.py",
     "tools/modal_smoke.py",
     "tools/modal_shakedown.py",
-    "tools/modal_calibration.py"
+    "tools/modal_calibration.py",
+    "tools/receiver_discriminator.py",
+    "tools/modal_receiver_discriminator.py"
   ],
   "inspected_upstream_sources": [
     {

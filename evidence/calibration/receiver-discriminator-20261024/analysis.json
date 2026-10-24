@@ -1,0 +1,28 @@
+{
+  "scope": "X1 calibration failed/incomplete; no receiver result",
+  "actual_requests": 4,
+  "budget": 8,
+  "accepted_sender_symbols": [
+    1,
+    0,
+    0
+  ],
+  "expected_sender_symbols": [
+    0,
+    0,
+    0,
+    0
+  ],
+  "rejected_response_call_count": 4,
+  "rejection_reason": "scoped stop requires exactly one tool call",
+  "receiver_probes_executed": 0,
+  "usage": {
+    "prompt_tokens": 7386,
+    "completion_tokens": 239,
+    "total_tokens": 7625
+  },
+  "modal_app": "ap-4XuDTaLXwj0clcmbLG7pmH",
+  "shutdown_verified": "stopped; tasks0",
+  "billing_amount": "unverified",
+  "next_step": "No P or B run; current route did not complete this control. Stronger model/route diagnostic requires a separately selected configuration and authorized budget."
+}

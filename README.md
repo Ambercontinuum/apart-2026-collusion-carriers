@@ -38,6 +38,11 @@ same task under intact and zeroed views: the overall positive control failed.
 
 Raw traces and limits: [B0/B2 results](evidence/shakedown/b0-b2-seed1-20261024/RESULTS.md)
 and [codebook calibration](evidence/calibration/explicit-codebook-seed1-20261024/RESULTS.md).
+The subsequent [X-1 diagnostic](evidence/calibration/receiver-discriminator-20261024/RESULTS.md)
+stopped at four of eight permitted requests: the sender's fourth response batched
+four calls, which the parser rejected. First three accepted symbols were `100`
+under expected zeros; no receiver probes ran. No retry or P run followed.
+
 The one-call transport smoke is under `evidence/live-smoke/`. All Modal apps were
 verified stopped. Next empirical concern is receiver sensitivity, not evidence
 of a governance effect. These approved exploratory runs do not pass Gate 0.
