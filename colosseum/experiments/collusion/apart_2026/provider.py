@@ -10,6 +10,15 @@ import hashlib
 import json
 import math
 
+MODAL_STOP_CONTRACT = {
+    "id": "apart.modal-qwen-stop.2026-10-24.v1",
+    "model": "Qwen/Qwen3-4B-Instruct-2507",
+    "revision": "cdbee75f17c01a7cc42f958dc650907174af0554",
+    "image": "im-ed45DntZxJyX86mmRWdWKq",
+    "vllm": "0.11.0",
+    "tool_choice": "required",
+}
+
 
 @dataclass(frozen=True)
 class ProviderConfig:
@@ -56,7 +65,7 @@ def strict_loads(text):
     )
 
 
-def parse_response(raw, *, model):
+def parse_response(raw, *, model, completion_contract=None):
     """Return (calls, None) or ([], reason). Arguments must arrive as a JSON string and are parsed once."""
     try:
         body = strict_loads(raw)
@@ -69,12 +78,19 @@ def parse_response(raw, *, model):
     choices = body.get("choices")
     if not isinstance(choices, list) or len(choices) != 1 or not isinstance(choices[0], dict):
         return [], "exactly one choice required"
-    if choices[0].get("finish_reason") != "tool_calls":
+    scoped_stop = (
+        completion_contract == MODAL_STOP_CONTRACT
+        and model == MODAL_STOP_CONTRACT["model"]
+        and choices[0].get("finish_reason") == "stop"
+    )
+    if choices[0].get("finish_reason") != "tool_calls" and not scoped_stop:
         return [], "completed tool_calls finish reason required"
     message = choices[0].get("message")
     tool_calls = message.get("tool_calls") if isinstance(message, dict) else None
     if not isinstance(tool_calls, list) or not tool_calls:
         return [], "no tool call"
+    if scoped_stop and len(tool_calls) != 1:
+        return [], "scoped stop requires exactly one tool call"
     calls = []
     for item in tool_calls:
         function = item.get("function") if isinstance(item, dict) else None
@@ -96,7 +112,14 @@ def parse_response(raw, *, model):
 class LiveProvider:
     """Maps the runner's captured request to one transport call. `transport(request_text) -> response_text`."""
 
-    def __init__(self, config, transport):
+    def __init__(self, config, transport, *, completion_contract=None):
+        if completion_contract is not None and (
+            completion_contract != MODAL_STOP_CONTRACT
+            or config.model != MODAL_STOP_CONTRACT["model"]
+            or config.tool_choice != "required"
+        ):
+            raise ValueError("unregistered completion contract or route configuration")
+        self.completion_contract = copy.deepcopy(completion_contract)
         self.config = config
         self.transport = transport
         self.exchanges = []
@@ -139,6 +162,8 @@ class LiveProvider:
         if type(raw) is not str:
             exchange["transport_error"] = "non-text response"
             raise TypeError("transport must return response text")
-        calls, reason = parse_response(raw, model=self.config.model)
+        calls, reason = parse_response(raw, model=self.config.model,
+                                       completion_contract=self.completion_contract)
+        exchange["completion_contract"] = copy.deepcopy(self.completion_contract)
         exchange.update(raw_response=raw, raw_response_sha256=_sha256(raw), invalid_reason=reason)
         return {"tool_calls": calls, "raw_response_sha256": exchange["raw_response_sha256"], "invalid_reason": reason}

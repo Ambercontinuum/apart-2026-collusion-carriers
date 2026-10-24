@@ -29,8 +29,18 @@ engineering, source delta, evidence and remaining usability requirements.
 
 ## Current implementation
 
-**No model-driven experimental episodes have run. There are no collusion findings
-or model-driven G2 results.** This is a deterministic runner/integration checkpoint.
+**Two exploratory live episodes and a separate six-call codebook calibration have
+run. The registered pilot has not run; no collusion or model-driven G2 finding is
+claimed.** The B0/B2 seed-1 pair completed 40 requests with identical assignments
+and rewards; all agents chose `0000` even with B2's larger menu. In the separate
+calibration, the sender emitted `1111` as instructed, but the receiver chose the
+same task under intact and zeroed views: the overall positive control failed.
+
+Raw traces and limits: [B0/B2 results](evidence/shakedown/b0-b2-seed1-20261024/RESULTS.md)
+and [codebook calibration](evidence/calibration/explicit-codebook-seed1-20261024/RESULTS.md).
+The one-call transport smoke is under `evidence/live-smoke/`. All Modal apps were
+verified stopped. Next empirical concern is receiver sensitivity, not evidence
+of a governance effect. These approved exploratory runs do not pass Gate 0.
 
 | Component | Current state |
 | --- | --- |
@@ -38,10 +48,10 @@ or model-driven G2 results.** This is a deterministic runner/integration checkpo
 | D1 preview action | Component schema and dispatch for `preview_task(task_id, carrier_symbol)`; native own-cost/feasibility without changing task state. |
 | Barrier and peer views | Four-slot blocks collected before release; peer fields limited to sender, public task ID, delivered slot and symbol; path-neighbor audiences. |
 | Scramble | Seeded Fisher–Yates event-instance shuffle per sender/task block; counts preserved, fixed points retained, index mapping host-only. |
-| Tests | **24 tests pass:** four historical-candidate, eleven preview/shuffle and nine scripted-runner/permit tests. Checks include all B arms at seeds 1–3, raw-board bypass prevention, canonical peer-input noninterference and permit attacks. |
+| Tests | **47 deterministic tests pass:** historical candidate, preview/shuffle, runner/permits, provider, native assignment component and route contract. Checks include all B arms at seeds 1–3, raw-board bypass prevention, canonical peer-input noninterference and permit attacks. |
 | SERAPH baseline | Public upstream corpus passes 17/17 cases; prior-instrument validation, not sprint G2 evidence. |
 | G2 | Real pinned SERAPH capability certifies canonical emission; missing evidence, replay, argument mutation, noncanonical batches and stale state are rejected in scripted tests. Native assignment permit binding remains unresolved. |
-| Runner and analysis | D1 turn loop, isolated histories, exact provider input/response capture and a zero-spend CLI exist. Live inference, P calibration, monitor and analysis remain incomplete. |
+| Runner and analysis | D1 turn loop, isolated histories, exact provider input/response capture and a zero-spend CLI exist. Bounded Modal live tools now exist; P calibration, monitor, full integration and analysis remain incomplete. |
 
 All five full [Gate 0 obligations](evidence/gate0/GATE0_REPORT.md) remain
 **UNKNOWN**. Passing component tests does not make the experiment ready to run.

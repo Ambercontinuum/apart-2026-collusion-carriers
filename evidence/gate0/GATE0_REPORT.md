@@ -1,5 +1,16 @@
 # Gate 0 — initial engineering checkpoint, 2026-10-24
 
+## Later exploratory live checkpoint - 2026-10-24
+
+The historical checkpoints below predate the authorized live shakedown. Two
+B0/B2 seed1 episodes completed40 calls with equal outcomes and all-zero symbols.
+A separate6-call explicit-codebook control encoded1111 but receiver chose the
+same task under intact/zeroed views; overall positive control failed. These are
+exploratory records, not the registered pilot, P calibration, G2 evidence or
+retrospective Gate0 passes. Current deterministic suite47 tests passes. See
+project README for raw trace/result links. Full Gate0 remains incomplete.
+
+
 All five gates remain UNKNOWN for the intended end-to-end experiment. No paid
 episodes are eligible. Candidate-component evidence is recorded separately below.
 

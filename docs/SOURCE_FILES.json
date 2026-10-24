@@ -36,7 +36,13 @@
     "colosseum/experiments/collusion/apart_2026/seraph_bridge.py",
     "colosseum/experiments/collusion/apart_2026/test_runner.py",
     "colosseum/experiments/collusion/apart_2026/provider.py",
-    "colosseum/experiments/collusion/apart_2026/test_provider.py"
+    "colosseum/experiments/collusion/apart_2026/test_provider.py",
+    "colosseum/experiments/collusion/apart_2026/functional_bridge.py",
+    "colosseum/experiments/collusion/apart_2026/test_functional_bridge.py",
+    "colosseum/experiments/collusion/apart_2026/test_route_contract.py",
+    "tools/modal_smoke.py",
+    "tools/modal_shakedown.py",
+    "tools/modal_calibration.py"
   ],
   "inspected_upstream_sources": [
     {

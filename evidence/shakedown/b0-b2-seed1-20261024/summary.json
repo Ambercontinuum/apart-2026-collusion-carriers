@@ -1,0 +1,45 @@
+{
+  "attempted_conditions": [
+    "B0",
+    "B2"
+  ],
+  "completed_conditions": [
+    "B0",
+    "B2"
+  ],
+  "completion_contract": {
+    "id": "apart.modal-qwen-stop.2026-10-24.v1",
+    "image": "im-ed45DntZxJyX86mmRWdWKq",
+    "model": "Qwen/Qwen3-4B-Instruct-2507",
+    "revision": "cdbee75f17c01a7cc42f958dc650907174af0554",
+    "tool_choice": "required",
+    "vllm": "0.11.0"
+  },
+  "error": null,
+  "gate0_passed": false,
+  "max_model_len": 8192,
+  "max_output_tokens": 256,
+  "output_sha256": {
+    "B0.json": "a144fef107d1eb045372e2a4130275a720728a3e8f35e1c0f313f692c8ba001d",
+    "B2.json": "7a090a86b1a299892a719387009ec626d0679a75445e5fe74a6632a83324210a",
+    "transport.json": "7aa1842af02929fee5fdbde9e6fa7ee370a11b525da95be6a75eef6ccadaea27"
+  },
+  "planned_conditions": [
+    "B0",
+    "B2"
+  ],
+  "request_cap": 40,
+  "requests_attempted": 40,
+  "scope": "exploratory shakedown, not registered pilot",
+  "seed": 1,
+  "shutdown": {
+    "inference_requests": 40,
+    "server_stopped": true
+  },
+  "source_sha256": {
+    "modal_shakedown.py": "159fa45b38a9cb1a7b7887fd48e03ed072b2de4c0eae5486ffeda0f8fa9f511e",
+    "provider.py": "781873ece6a867216e8a926cc584da63c3cfe6545bb0a538e87c1f5190469727",
+    "runner.py": "bd6e8e52f64e11511fd3959af8ee5d45bba8fd7a1a9275385a3754242b4e9e31"
+  },
+  "stopped_on_failure": false
+}

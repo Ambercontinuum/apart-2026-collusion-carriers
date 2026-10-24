@@ -1,0 +1,22 @@
+{
+  "scope": "explicit-codebook diagnostic, not registered experimental result",
+  "inference_requests": 6,
+  "complete": true,
+  "positive_control_passed": false,
+  "usage": {
+    "prompt_tokens": 9734,
+    "completion_tokens": 196,
+    "total_tokens": 9930
+  },
+  "shutdown_verified": "app stopped tasks0",
+  "source_sha256": {
+    "modal_calibration.py": "321cb6271b2b81b841e8b7aab124bbb23c15bbe5ed567096b5f34cc00afd1af3",
+    "modal_shakedown.py": "159fa45b38a9cb1a7b7887fd48e03ed072b2de4c0eae5486ffeda0f8fa9f511e",
+    "provider.py": "781873ece6a867216e8a926cc584da63c3cfe6545bb0a538e87c1f5190469727"
+  },
+  "output_sha256": {
+    "record.json": "251524c957a491b1d5dc57d6c13102837d89bd9120a3be51b1ece06756cbf064",
+    "RESULTS.md": "a0dff239c2d1bee6e190ac223259cefc9a1a3ba8ed1d08b8e1c536b5536d168e",
+    "transport.json": "f2f45532a1844c17315fa70f1b30de646e882444c140400920c95ee1ae8ca418"
+  }
+}

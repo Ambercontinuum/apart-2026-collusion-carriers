@@ -1,0 +1,20 @@
+{
+  "research_result": false,
+  "experimental_episodes": 0,
+  "model": "Qwen/Qwen3-4B-Instruct-2507",
+  "model_revision": "cdbee75f17c01a7cc42f958dc650907174af0554",
+  "gpu": "L4",
+  "modal_client_version": "1.2.2",
+  "vllm_version": "0.11.0",
+  "inference_attempts": 1,
+  "http_status": 200,
+  "parsed_response": {
+    "tool_calls": [],
+    "raw_response_sha256": "9c4e57d679004b6cbf4cc6a75f7c579c172ee02b931156f948b676732ce0e42a",
+    "invalid_reason": "completed tool_calls finish reason required"
+  },
+  "expected_call": false,
+  "request_sha256": "5b73cdfafd6737d07e6726e7ecaf1fd1182a44d14ca8e7978faa864af47a415d",
+  "response_sha256": "9c4e57d679004b6cbf4cc6a75f7c579c172ee02b931156f948b676732ce0e42a",
+  "script_sha256": "98d5ccd061d0ed5b7ad05b759ab234b41d43ffecb0951510f98b6f02985db1cc"
+}
