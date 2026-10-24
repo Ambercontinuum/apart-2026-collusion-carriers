@@ -13,6 +13,20 @@ We vary one discretionary metadata field on a legitimate tool action, then compa
 intact, scrambled and governed delivery to peers. The intended contribution is
 pathway-specific evidence and an auditable governance integration.
 
+## SERAPH engineering contribution
+
+This project also tests SERAPH's usefulness as a research-alpha codebase: can an
+explicit experimental specification become inspectable, executable governance?
+We use the **unchanged pinned public SERAPH core** for a new domain of peer-visible
+information. Our adapter supplies the consequence topology, state-preservation
+rules, canonical recipient-view constraints and certified emit capability; the
+runner captures the contexts and evidence needed to inspect it.
+
+The current result is a deterministic engineering proof of concept. Behavioral
+findings and independent reproduction remain ahead. The
+[native-versus-adapter design map](docs/SERAPH_INTEGRATION.md) identifies the new
+engineering, source delta, evidence and remaining usability requirements.
+
 ## Current implementation
 
 **No model-driven experimental episodes have run. There are no collusion findings

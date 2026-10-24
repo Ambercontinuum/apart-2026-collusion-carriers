@@ -1,0 +1,80 @@
+{
+  "schema": "apart.seraph-integration-audit.v1",
+  "observed_at": "2026-10-24T20:07:21.916211+00:00",
+  "native_source": {
+    "url": "https://github.com/Ambercontinuum/SERAPH-1.0",
+    "pinned_commit": "4ee7d3044a945cbad30a8cd4230e327ba463187f",
+    "observed_head": "4ee7d3044a945cbad30a8cd4230e327ba463187f",
+    "working_tree_porcelain": "",
+    "core_changed_paths": [],
+    "comparison": "git diff --name-only PIN -- seraph adapters",
+    "files": [
+      {
+        "path": "seraph/manifold.py",
+        "git_blob": "389392f558f670d1d1be13280c3c63f2ec71d7ce",
+        "working_file_sha256": "5f2a99fba55eae4851983539372394151fe8261b9f15a539ff541810296c825d"
+      },
+      {
+        "path": "seraph/constraint_layer.py",
+        "git_blob": "77aa81586c6ff02fb2c3ab401a6aef7a4334d109",
+        "working_file_sha256": "1ff465635dcb2e705575b3e34dee51dcee68cb8666bdd6f17f05f33cd0d30c1b"
+      },
+      {
+        "path": "seraph/manifold_bridge.py",
+        "git_blob": "604bdbed04b35c128b08b53217049f4eedb7105a",
+        "working_file_sha256": "5386f1f4e33b2b511e6c779bec197b3dc0eab77c130ecc6077df3c04468d506e"
+      },
+      {
+        "path": "seraph/invariant_model.py",
+        "git_blob": "c0ac5a8b4de96ffb2125c6e1ebd4ad426c5e9e30",
+        "working_file_sha256": "aab9b66ff60e0ae58caee29cbe87bf95d7165d91bae4c1ea90ddd2c2819c23cf"
+      },
+      {
+        "path": "adapters/certified_tool_guard.py",
+        "git_blob": "eb72825eea1d6c66b3dfc9fa68c76e03a423c55c",
+        "working_file_sha256": "9476c8fcce788d13cd08a1d8f40589b5524346105f3e582032d1189d4e18dccd"
+      },
+      {
+        "path": "adapters/capability_runtime.py",
+        "git_blob": "4de6c9c4716f83cd40c7e3245b0eeb045d343402",
+        "working_file_sha256": "d76359f15b0bf126168db2c16b466bb31dab0751c904f7249bf07c784b813453"
+      },
+      {
+        "path": "seraph/audit.py",
+        "git_blob": "e20b4c5def234f1cdf7a62dfcdbb2a993483e20e",
+        "working_file_sha256": "f05be8421fccf2ea49deb26419715ce67b1f9c060a28557abe0faff6ee1d6311"
+      }
+    ]
+  },
+  "integration_source": {
+    "project_commit": "d4793734518e6091ffa2d80e6ea8f6154f41b402",
+    "files": [
+      {
+        "path": "colosseum/experiments/collusion/apart_2026/seraph_bridge.py",
+        "working_file_sha256": "6a82c4f54967d15a9ca2836ca87afe99ba6719459d02c63565e4cff25f5a2913"
+      },
+      {
+        "path": "colosseum/experiments/collusion/apart_2026/runner.py",
+        "working_file_sha256": "7638b06d5db5e4a6967dafcd7941f339c6c663aec3b2076c3530df923ad1fbfa"
+      },
+      {
+        "path": "colosseum/experiments/collusion/apart_2026/preview.py",
+        "working_file_sha256": "93e67468b3ddc6dc7aae633673aae3c083f4aad3d0c6045a01728b460503ace5"
+      },
+      {
+        "path": "colosseum/experiments/collusion/apart_2026/scramble.py",
+        "working_file_sha256": "d07ae21b47ff438e62f212a1e0f00dbd6e7f86dd9fc431fa684adfae777ffeb0"
+      },
+      {
+        "path": "colosseum/experiments/collusion/apart_2026/test_runner.py",
+        "working_file_sha256": "825426bf69d99b31043a46a164e1ee90df8b3fc9b2795adf0a8d079b4dceb222"
+      }
+    ]
+  },
+  "evidence": [
+    "evidence/gate0/runner-tests.txt",
+    "evidence/gate0/scripted-g2-smoke/",
+    "evidence/gate0/GATE0_REPORT.md"
+  ],
+  "scope": "Source delta audit and deterministic integration checkpoint; not model-driven results, fresh-machine reproduction, or formal verification. Working-file SHA256 and Git blob identities are separate because checkout line endings may differ."
+}

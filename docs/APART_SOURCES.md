@@ -20,9 +20,13 @@ We inspect those files without modifying the installed dependency. Package
 version is pinned; an upstream Git commit for the distribution is not asserted.
 
 SERAPH is preexisting research-alpha work by Amber Anson. New sprint work began
-October 24, 2026 and currently comprises the candidate carrier component, tests,
-inspection evidence, and extension proposal. No completed experiment or collusion
-finding is claimed. SERAPH baseline results do not establish sprint enforcement.
+October 24, 2026 and currently comprises the historical carrier candidate, D1
+preview/barrier/shuffle components, scripted runner, public-SERAPH capability
+adapter, tests and inspection evidence. The pinned native core has zero patches;
+the adapter expresses the experimental domain through existing contracts. See
+[SERAPH_INTEGRATION.md](SERAPH_INTEGRATION.md) for the design/contribution map.
+No completed model experiment or collusion finding is claimed. SERAPH baseline
+results do not establish sprint enforcement.
 
 Source files inherited from the organizer, new sprint files and runtime package
 dependencies remain distinguishable. Future copied or adapted files must add
