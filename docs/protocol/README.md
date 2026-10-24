@@ -1,0 +1,18 @@
+# Supplied protocol documents
+
+These are unchanged copies of documents supplied by Amber. Byte hashes and
+attribution bases are in [INPUT_PROVENANCE.json](../INPUT_PROVENANCE.json).
+Preserve them as source records; corrections and deviations should be separate.
+
+- [Frozen v3.1 plan](FROZEN_v3_1.md).
+- [Initial implementation handoff](IMPLEMENTATION_HANDOFF.md).
+- [Muse handoff](MUSE_HANDOFF_1.md), explicitly identified by Amber as Muse input.
+- [Additional handoff](HANDOFF_2.md), supplied later, containing a D1 section
+  described within that document as approved.
+
+The frozen-plan copy does not contain the D1 section that the additional handoff
+says resides there. This discrepancy is preserved, not silently resolved.
+The preview-stage proposal has not been implemented. Embedded document claims
+of approval are distinguished from direct user instructions in this session.
+Uploading these files records their contents; it does not itself execute a
+protocol change or authorize inference spending.

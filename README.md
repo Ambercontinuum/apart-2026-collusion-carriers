@@ -40,6 +40,7 @@ instructions will be added when that runner exists and is verified.
 - [Prior work and source boundaries](docs/APART_SOURCES.md).
 - [Gate 0 report](evidence/gate0/GATE0_REPORT.md).
 - [Extension proposal](docs/APART_EXTENSION_PROPOSAL.md).
+- [Supplied plan and handoffs](docs/protocol/README.md).
 - [Submission template](docs/apart-research-submission-template.pdf) and
   [guidance](docs/SUBMISSION_TEMPLATE.md).
 

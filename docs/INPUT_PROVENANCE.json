@@ -7,19 +7,29 @@
       "identifier": "muse",
       "source_name": "CODEX-HANDOFF (1).md",
       "sha256": "c20af0338f204617d0b2bbd4ed358139f070a568e86cb81c889f41ab8f7241b9",
-      "attribution_basis": "Amber supplied this as Muse input."
+      "attribution_basis": "Amber supplied this as Muse input.",
+      "archived_path": "docs/protocol/MUSE_HANDOFF_1.md"
     },
     {
       "identifier": "amber",
       "source_name": "APART-PROJECT-PLAN(1).md",
       "sha256": "67ae463ce2fea258a434baec892563157e1c3733b30530170dd6706ebd785ae5",
-      "attribution_basis": "Frozen plan supplied by Amber; document credits Muse and GPT reviews."
+      "attribution_basis": "Frozen plan supplied by Amber; document credits Muse and GPT reviews.",
+      "archived_path": "docs/protocol/FROZEN_v3_1.md"
     },
     {
       "identifier": "unknown",
       "source_name": "CODEX_HANDOFF_APART_SERAPH_TRACK3.md",
       "sha256": "f6a6e1f734c00434dc136d717dd51b6c4a800174cba8616d79c671289172502e",
-      "attribution_basis": "Handoff supplied by Amber; author identity not independently specified."
+      "attribution_basis": "Handoff supplied by Amber; author identity not independently specified.",
+      "archived_path": "docs/protocol/IMPLEMENTATION_HANDOFF.md"
+    },
+    {
+      "identifier": "unknown",
+      "source_name": "CODEX-HANDOFF (2).md",
+      "sha256": "c24fa5c9aa795a34984cdb9736271903039408cbef0c13a30f0fc14f99dabd0f",
+      "attribution_basis": "Additional handoff supplied by Amber; authorship and embedded approval assertion recorded as document content.",
+      "archived_path": "docs/protocol/HANDOFF_2.md"
     }
   ]
 }
