@@ -28,7 +28,10 @@
   "new_sprint_source": [
     "colosseum/experiments/collusion/apart_2026/carrier.py",
     "colosseum/experiments/collusion/apart_2026/test_carrier.py",
-    "tools/record_contribution.py"
+    "tools/record_contribution.py",
+    "colosseum/experiments/collusion/apart_2026/preview.py",
+    "colosseum/experiments/collusion/apart_2026/scramble.py",
+    "colosseum/experiments/collusion/apart_2026/test_preview.py"
   ],
   "inspected_upstream_sources": [
     {

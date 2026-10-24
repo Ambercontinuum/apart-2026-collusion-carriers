@@ -8,12 +8,29 @@ selects the preview-stage design. The four passing component tests below concern
 the earlier assign_task metadata candidate; they do not validate preview_task.
 No new implementation or gate result is asserted by this documentation update.
 
+## D1 component build checkpoint — 2026-10-24
+
+New `preview.py`, `scramble.py`, and `test_preview.py` implement the bounded
+functional preview and B-arm disclosure barrier independently of the model runner.
+Eleven new deterministic tests pass; combined with the four historical candidate
+tests, fifteen component tests pass. Raw output: `preview-component-tests.txt`.
+
+Evidence includes native private-result/state/final-score equivalence over seeds
+1–3; no peer views before release; neighbor-only fields without private costs or
+permutation indices; invalid/extra/incomplete calls held without padding; all 256
+four-symbol combinations preserve histograms; fixed points and unchanged blocks
+are retained. This is component evidence, not provider-input or runner evidence.
+
+G2 computes functional previews but cannot release: the certified emitter is not
+integrated. No claim of G0.5 PASS follows from holding every emission. All five
+end-to-end gate statuses below remain UNKNOWN pending integration.
+
 | Gate | Status | Evidence / remaining obligation |
 | --- | --- | --- |
 | G0.1 Selectable and visible carrier | UNKNOWN | Candidate B wrapper test passes through real native blackboard formatter and Jira prompt builder; runner tool discovery is not wired. |
 | G0.2 Task equivalence | UNKNOWN | Candidate sweep matches native tool results, assignment updates, and rewards across every generated task plus skip and 1/2/4 encodings at seed 1. Full integrated environment/config sweep remains. |
 | G0.3 Channel inventory | UNKNOWN | Initial source inventory below; suppression and frozen runner configuration absent. |
-| G0.4 Scramble | UNKNOWN | D1 declares sender/task blocks, Fisher–Yates randomization and a matched barrier; implementation and deterministic verification remain absent. |
+| G0.4 Scramble | UNKNOWN | Component shuffle/barrier implementation and deterministic tests pass; actual runner scheduling, recipient exposure and matched-condition evidence remain absent. |
 | G0.5 SERAPH pre-observation | UNKNOWN | Public baseline validates; sprint disclosure policy and certified emission not implemented. |
 
 ## Deterministic evidence

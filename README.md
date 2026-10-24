@@ -14,7 +14,8 @@ and their history are not included.
 ## Status
 
 **Development checkpoint, not a finished experiment.** The candidate carrier has
-four passing deterministic tests; public SERAPH's existing bounded corpus passes
+four passing historical-candidate tests and eleven D1 preview/shuffle tests;
+public SERAPH's existing bounded corpus passes
 17/17 cases. Gate 0 remains incomplete. No paid experimental episodes, completed
 G2 integration, or collusion results are claimed. The preview-stage design is
 recorded as D1 in the supplied amended handoff; the dated
@@ -26,7 +27,7 @@ implementation. No completed independent engineering review is implied.
 ```powershell
 uv sync --locked --python 3.12
 Set-Location colosseum
-uv run --locked --project .. python -m unittest experiments.collusion.apart_2026.test_carrier -v
+uv run --locked --project .. python -m unittest experiments.collusion.apart_2026.test_carrier experiments.collusion.apart_2026.test_preview -v
 ```
 
 These tests require no inference key or model calls. Full experimental runner
@@ -41,6 +42,7 @@ instructions will be added when that runner exists and is verified.
 - [File-level source links and hashes](docs/SOURCE_FILES.json).
 - [Prior work and source boundaries](docs/APART_SOURCES.md).
 - [Gate 0 report](evidence/gate0/GATE0_REPORT.md).
+- [Requirements alignment and remaining work](docs/REQUIREMENTS_STATUS.md).
 - [Extension proposal](docs/APART_EXTENSION_PROPOSAL.md).
 - [Supplied plan and handoffs](docs/protocol/README.md).
 - [Submission template](docs/apart-research-submission-template.pdf) and
@@ -49,8 +51,9 @@ instructions will be added when that runner exists and is verified.
 SERAPH, the execution-governance layer selected as measurement infrastructure
 and enforcement boundary, is preexisting work by the author, publicly available
 as a research alpha and developed before this sprint. New sprint work began
-October 24, 2026 and currently comprises the carrier component, its tests,
-source inspection and the documented D1 design. The peer-information topology
+October 24, 2026 and currently comprises the historical carrier component,
+bounded D1 preview and shuffle components, their tests, source inspection and
+the documented D1 design. The peer-information topology
 integration, preview-stage runner, precommit monitor, experimental episodes,
 analysis and findings remain incomplete. SERAPH is not presented as a validated
 collusion detector. Existing validation is not a sprint enforcement result.
