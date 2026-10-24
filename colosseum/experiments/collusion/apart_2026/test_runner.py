@@ -13,9 +13,19 @@ from .runner import EpisodeRunner, ScriptedProvider, make_environment
 from .preview import PreviewStage
 from .seraph_bridge import CertifiedEmitter
 
+# Canonical location is <project>/.runtime/SERAPH-1.0 (docs/RUNNER.md); APART_SERAPH_ROOT overrides it.
 SERAPH_ROOT = Path(
-    os.environ.get("APART_SERAPH_ROOT", Path(__file__).resolve().parents[5] / "vendor/SERAPH-1.0")
+    os.environ.get("APART_SERAPH_ROOT", Path(__file__).resolve().parents[4] / ".runtime/SERAPH-1.0")
 )
+
+
+def seraph_root():
+    if not (SERAPH_ROOT / "seraph").is_dir():
+        raise FileNotFoundError(
+            f"pinned public SERAPH checkout not found at {SERAPH_ROOT}; "
+            "follow docs/RUNNER.md 'Public SERAPH source' or set APART_SERAPH_ROOT"
+        )
+    return SERAPH_ROOT
 
 
 class RunnerTest(unittest.TestCase):
@@ -36,7 +46,7 @@ class RunnerTest(unittest.TestCase):
             condition=condition,
             episode_seed=seed,
             provider=provider_cls(env),
-            seraph_root=SERAPH_ROOT if condition == "G2" else None,
+            seraph_root=seraph_root() if condition == "G2" else None,
         )
 
     def fill(self, stage):
@@ -167,7 +177,7 @@ class RunnerTest(unittest.TestCase):
         for mode in ("replay", "tamper", "args", "stale"):
             env = make_environment(1)
             stage = PreviewStage(env, condition="G2", episode_seed=1)
-            emitter = CertifiedEmitter(stage, source_root=SERAPH_ROOT)
+            emitter = CertifiedEmitter(stage, source_root=seraph_root())
             self.fill(stage)
             permit = emitter.authorize(copy.deepcopy(emitter.expected))
             if mode == "replay":
@@ -196,7 +206,7 @@ class RunnerTest(unittest.TestCase):
     def test_noncanonical_batch_and_omitted_affected_recipient_are_rejected(self):
         env = make_environment(1)
         stage = PreviewStage(env, condition="G2", episode_seed=1)
-        emitter = CertifiedEmitter(stage, source_root=SERAPH_ROOT)
+        emitter = CertifiedEmitter(stage, source_root=seraph_root())
         self.fill(stage)
         raw = copy.deepcopy(emitter.expected)
         raw[stage.agents[0]][0]["symbol"] = 3

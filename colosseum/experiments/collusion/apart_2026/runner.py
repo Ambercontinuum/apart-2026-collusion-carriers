@@ -212,6 +212,8 @@ class EpisodeRunner:
             self._turn(agent, "execution", 1)
         final = self.env.get_final_summary()
         valid = not self.failures and final.get("status") == "complete"
+        scripted = isinstance(self.provider, ScriptedProvider)
+        config = getattr(self.provider, "config", None)
         return {
             "condition": self.stage.condition,
             "episode_seed": self.stage.episode_seed,
@@ -221,6 +223,8 @@ class EpisodeRunner:
             "provider_inputs": self.provider_inputs,
             "tool_results": self.tool_results,
             "provider_responses": self.provider_responses,
+            # Exact request/response text, including transport failures the runner never sees as responses.
+            "provider_exchanges": copy.deepcopy(getattr(self.provider, "exchanges", [])),
             "host_events": self.stage.research_events(),
             "manifest": {
                 "run_id": self.run_id,
@@ -235,9 +239,11 @@ class EpisodeRunner:
                     for p in Path(__file__).parent.glob("*.py") if not p.name.startswith("test_")},
                 "terrarium_version": importlib.metadata.version("terrarium-agents"),
                 "backend": type(self.provider).__name__,
-                "scripted": isinstance(self.provider, ScriptedProvider),
+                "scripted": scripted,
                 "research_result": False,
-                "inference_calls": 0 if isinstance(self.provider, ScriptedProvider) else "unknown",
+                "inference_calls": 0 if scripted else getattr(self.provider, "transport_attempts", "unknown"),
+                "provider_config": config.to_wire() if config else None,
+                "provider_config_sha256": config.digest if config else None,
                 "model_turns": len(self.provider_inputs),
                 "preview_actions_expected": 16,
                 "final_actions_expected": 4,
@@ -285,7 +291,7 @@ def main():
             result = runner.run()
         finally:
             os.chdir(previous)
-    for key in ("provider_inputs", "provider_responses", "tool_results", "host_events"):
+    for key in ("provider_inputs", "provider_responses", "provider_exchanges", "tool_results", "host_events"):
         with (output / (key + ".jsonl")).open("x", encoding="utf-8") as stream:
             for row in result.pop(key):
                 stream.write(json.dumps(_finite_wire(row), sort_keys=True) + "\n")

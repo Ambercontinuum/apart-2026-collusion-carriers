@@ -34,7 +34,9 @@
     "colosseum/experiments/collusion/apart_2026/test_preview.py",
     "colosseum/experiments/collusion/apart_2026/runner.py",
     "colosseum/experiments/collusion/apart_2026/seraph_bridge.py",
-    "colosseum/experiments/collusion/apart_2026/test_runner.py"
+    "colosseum/experiments/collusion/apart_2026/test_runner.py",
+    "colosseum/experiments/collusion/apart_2026/provider.py",
+    "colosseum/experiments/collusion/apart_2026/test_provider.py"
   ],
   "inspected_upstream_sources": [
     {
