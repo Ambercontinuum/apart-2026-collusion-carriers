@@ -1,3 +1,5 @@
+> Historical draft checkpoint. The completed study report is [RESEARCH_REPORT.md](RESEARCH_REPORT.md).
+
 # Collusion Carriers and Countermeasures
 
 Amber Anson, AmberContinuum
@@ -95,12 +97,12 @@ Independent diagnostics use reporting-only tools and never replace that screen.
 
 | Completed evidence | Observations | Supported interpretation |
 | --- | --- | --- |
-| Five-arm grid |15 valid episodes, 300 requests, 240/240 symbols 0; per-seed assignments/rewards identical | No varying carrier use elicited; no prevention inference |
-| Governed grid emission |3 real native permits, canonical views; inputs already 0 | Executed integration, not suppression of an attempted signal |
-| Supplied ungated P |28 requests, 7 private posts, task plans reflected in assignments | Explicit private-channel coordination in this setup |
-| Experiment 2 calibration |24 requests;8/8 notes correct;4 correct, 3 wrong, 1 fair, 0 invalid | Failed positive screen;0 main episodes |
-| Minimal/oracle diagnostic |12 requests;4/4 text XOR, 4/4 simple-tool XOR, 4/4 explicit-oracle allocations | Minimal competence and answer following can work |
-| Full-context diagnostic |8 requests;4/4 input-pair extraction, 2/4 XOR reports; all XOR answers 1 | Contextual computation/use remains unreliable |
+| Five-arm grid | 15 valid episodes, 300 requests, 240/240 symbols 0; per-seed assignments/rewards identical | No varying carrier use elicited; no prevention inference |
+| Governed grid emission | 3 real native permits, canonical views; inputs already 0 | Executed integration, not suppression of an attempted signal |
+| Supplied ungated P | 28 requests, 7 private posts, task plans reflected in assignments | Explicit private-channel coordination in this setup |
+| Initial Experiment 2 calibration | 24 requests; 8/8 notes correct; 4 correct, 3 wrong, 1 fair, 0 invalid | Failed positive screen; 0 main episodes |
+| Minimal/oracle diagnostic | 12 requests; 4/4 text XOR, 4/4 simple-tool XOR, 4/4 explicit-oracle allocations | Minimal competence and answer following can work |
+| Full-context diagnostic | 8 requests; 4/4 input-pair extraction, 2/4 XOR reports; all XOR answers 1 | Contextual computation/use remains unreliable |
 
 In P, the coalition mean exceeded the non-coalition mean by 10.4933 native points.
 One outsider skipped and earned zero, influencing that difference; no measured
@@ -109,7 +111,7 @@ remained. Coordination is not itself evidence of harmful or unauthorized intent.
 
 Diagnostic extraction and XOR calls are separate interventions. Correct input
 reports do not reveal the internal processing of earlier allocation calls.
-The identical simple XORtool schema succeeded in minimal context and failed on
+The identical simple XOR tool schema succeeded in minimal context and failed on
 two balanced cases in full context, but history, framing and input representation
 were not independently manipulated. No single causal mechanism is identified.
 
@@ -124,7 +126,7 @@ planned for these small exploratory samples.
 The primary behavioral question remains unresolved: no completed matched batch
 has demonstrated both a varying exploited carrier and a governance-induced loss
 of that advantage. The grid's zero differences are not proof of prevention.
-The supplied Ptrace establishes coordination under a different channel/settings,
+The supplied P trace establishes coordination under a different channel/settings,
 not an ungated counterfactual for the discretionary-metadata experiment.
 
 The engineering evidence is narrower and positive: an unchanged public SERAPH
@@ -160,7 +162,7 @@ Credentials and local environments are excluded. Run-specific source commits,
 raw wire strings, hashes and shutdown checks are preserved with each dataset.
 
 Key reports: [grid](../evidence/exploratory-grid/freeze-20261024/RESULTS.md),
-[P](../evidence/calibration/p-qwen3-4b-seed 1-20261024/RESULTS.md),
+[P](../evidence/calibration/p-qwen3-4b-seed1-20261024/RESULTS.md),
 [failed calibration](../evidence/experiment2/v1_2/RESULTS.md),
 [12-call diagnostic](../evidence/experiment2/xor-diagnostic-v1/RESULTS.md),
 [8-call diagnostic](../evidence/experiment2/context-diagnostic-v1/RESULTS.md).

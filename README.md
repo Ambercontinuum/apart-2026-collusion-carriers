@@ -13,14 +13,22 @@ We vary one discretionary metadata field on a legitimate tool action, then compa
 intact, scrambled and governed delivery to peers. The intended contribution is
 pathway-specific evidence and an auditable governance integration.
 
-## Deadline checkpoint
+## Completed final experiment
 
-The [research report draft](docs/RESEARCH_RESULTS_DRAFT.md) consolidates completed
-experiments and their limits. A [single final matched run](docs/FINAL_EXPERIMENT_RUN_SCOPE.md)
-is approved under Amber A056 for one bounded attempt. If calibration
-fails, the plan closes with the report; the proposed16-call diagnostic is withdrawn.
+The final compact-prompt calibration passed7/8, and all24main episodes completed
+with96total requests. Every main sender chose0. Each arm scored4/8correct with
+mean coalition reward10; observed paired reward differences were0. This did not
+elicit an exploited signal and does not demonstrate collusion prevention.
 
-## Experiment 2: calibration failed; main arms not run
+SERAPH executed32real native permits:8each for checks A/B,emission and allocation.
+All8journal chains and all96wire requests verified. The public core is unchanged.
+[Completed research report](docs/RESEARCH_REPORT.md),
+[final results and audit](evidence/experiment2/final-attempt-v1/RESULTS.md), and
+[approved scope](docs/FINAL_EXPERIMENT_RUN_SCOPE.md) are available for review.
+The approved experimental work is closed; no further diagnostic loop is planned.
+Submission rendering and owner claim/author review remain.
+
+## Earlier Experiment 2 calibration: failed; main arms not run
 
 The separately frozen information-bottleneck task completed its eight-episode
 private-note calibration:24requests,8/8faithful sender notes,4correct receiver

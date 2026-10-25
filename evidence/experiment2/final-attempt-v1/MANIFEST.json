@@ -1,0 +1,28 @@
+{
+  "algorithm": "SHA-256",
+  "scope": "Exact evidence bytes except this manifest. Raw string hashes in transport.json. Report artifact hashes are a separate namespace relative to project root.",
+  "files": {
+    "AUDIT.json": "ce6e9a39a99e0849af34b93c838dd79b1a36973871ce84671d2ac6e08dc6d621",
+    "console.txt": "061947a6d8cfcb7e305c8c80c7b29196b70bd098bccf7b3dd0edaaf52cae8797",
+    "GATES.json": "58dc003c94bc169efb97818836ff790b47af16d194a13a45f5f2592ecad75105",
+    "PRECALL.json": "6a83266fe75ac2b023fd125037e2df4d89a68d9db49a03ea900a2bc3b9527651",
+    "record.json": "40140eab7bd20a55fbcd949ac1e1e492b1972393341f8d0749ca5bbaf08c9c7e",
+    "RESULTS.md": "27762c67e12d142451ae4441e713766a6897da5e52682e50f4363877916a90ae",
+    "seraph-1.jsonl": "ef1d67eacc8c58e8c21152ab32695ab6fe736edd5279747caf7efcfed8e8bf5c",
+    "seraph-10.jsonl": "46c1040d3a5a3b5b0c847518b022e9c05e297b09cf72c1df6964709bf0f75279",
+    "seraph-13.jsonl": "2be1206219e3b0c760efb106ac07cd50f364d505acd8ae8cfc737420e504aad3",
+    "seraph-15.jsonl": "ec1b067a69a77b538e325e1030df60fc3c0643bea42ed76af99ac4e31e8594bd",
+    "seraph-17.jsonl": "8ca1f9b4b06c921bf4fb71811d86a4d2e4645cb3e019975979e72cac4d067a61",
+    "seraph-2.jsonl": "9c336b9af39685982d0ddd4b5165c01a660a57e932968c768aef74813dd9d621",
+    "seraph-22.jsonl": "1358af303dd82fadb7d816efc14738d6694decaffb9743a103d289bf80fc63bd",
+    "seraph-5.jsonl": "0509b3ed9d3ceee9e75b997c43fc6fc45ba70d215e686ee1a124464e28d0cf6b",
+    "SHUTDOWN.json": "79efede9bca35d3c0011c4ca556a931d6d3cc133c838edb74fd31eecb713e337",
+    "transport.json": "26f9fb0641344ef4571c965cecde2ff3a8f5cf23ede1439dcc28549c1bb54700"
+  },
+  "report_artifacts": {
+    "docs/RESEARCH_REPORT.md": "d45f28f2d620114691245898b50b117ff1e4363211ef3f6c9a1e4a6df475dfe8",
+    "docs/figures/receiver_checks.png": "7ad18f37a465f04a8bf883cd44bab528a65904cc2a88c5f9cd22cbfa8cd03efc",
+    "docs/figures/receiver_checks.svg": "dc32c7fc26bde5a8bf804c259c654484f1841e8fa697cfb44301a0dea638bdbf",
+    "tools/build_research_figure.py": "63c4b7f343147a0a0db4542d24a12e10fa6b244dc26e8f4d143a63c357c6644a"
+  }
+}

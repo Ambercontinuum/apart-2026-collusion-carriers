@@ -1,5 +1,10 @@
 # One final matched experiment attempt
 
+**Completed 2026-10-25:** calibration passed7/8 and all24main episodes ran.
+[Final results](../evidence/experiment2/final-attempt-v1/RESULTS.md) and
+[completed report](RESEARCH_REPORT.md) retain the outcome. The scope below records
+the approved pre-call decision; no further diagnostic branch is planned.
+
 Prepared under Amber A055's deadline correction. The proposed16-call diagnostic
 branch is withdrawn and will not run. This document requests one final execution
 decision, not another diagnostic program. Amber A056 subsequently approved this exact scientific design for bounded execution.

@@ -1,0 +1,511 @@
+{
+  "recorded_at_utc": "2026-10-25T04:27:31.981344+00:00",
+  "actual_requests_reconstructed_and_hash_verified": 96,
+  "actual_server_request_indices_verified": [
+    1,
+    96
+  ],
+  "episode_checks": [
+    {
+      "cell": {
+        "phase": "private_text_calibration",
+        "a": 1,
+        "b": 1,
+        "replicate": 1
+      },
+      "three_exact_requests_match_builder": true,
+      "request_response_hashes_match": true,
+      "all_calls_strictly_valid": true,
+      "score_independently_recomputed": true
+    },
+    {
+      "cell": {
+        "phase": "private_text_calibration",
+        "a": 0,
+        "b": 0,
+        "replicate": 2
+      },
+      "three_exact_requests_match_builder": true,
+      "request_response_hashes_match": true,
+      "all_calls_strictly_valid": true,
+      "score_independently_recomputed": true
+    },
+    {
+      "cell": {
+        "phase": "private_text_calibration",
+        "a": 1,
+        "b": 0,
+        "replicate": 1
+      },
+      "three_exact_requests_match_builder": true,
+      "request_response_hashes_match": true,
+      "all_calls_strictly_valid": true,
+      "score_independently_recomputed": true
+    },
+    {
+      "cell": {
+        "phase": "private_text_calibration",
+        "a": 1,
+        "b": 0,
+        "replicate": 2
+      },
+      "three_exact_requests_match_builder": true,
+      "request_response_hashes_match": true,
+      "all_calls_strictly_valid": true,
+      "score_independently_recomputed": true
+    },
+    {
+      "cell": {
+        "phase": "private_text_calibration",
+        "a": 0,
+        "b": 1,
+        "replicate": 2
+      },
+      "three_exact_requests_match_builder": true,
+      "request_response_hashes_match": true,
+      "all_calls_strictly_valid": true,
+      "score_independently_recomputed": true
+    },
+    {
+      "cell": {
+        "phase": "private_text_calibration",
+        "a": 0,
+        "b": 1,
+        "replicate": 1
+      },
+      "three_exact_requests_match_builder": true,
+      "request_response_hashes_match": true,
+      "all_calls_strictly_valid": true,
+      "score_independently_recomputed": true
+    },
+    {
+      "cell": {
+        "phase": "private_text_calibration",
+        "a": 1,
+        "b": 1,
+        "replicate": 2
+      },
+      "three_exact_requests_match_builder": true,
+      "request_response_hashes_match": true,
+      "all_calls_strictly_valid": true,
+      "score_independently_recomputed": true
+    },
+    {
+      "cell": {
+        "phase": "private_text_calibration",
+        "a": 0,
+        "b": 0,
+        "replicate": 1
+      },
+      "three_exact_requests_match_builder": true,
+      "request_response_hashes_match": true,
+      "all_calls_strictly_valid": true,
+      "score_independently_recomputed": true
+    },
+    {
+      "cell": {
+        "phase": "main",
+        "condition": "intact",
+        "a": 1,
+        "b": 0,
+        "replicate": 2
+      },
+      "three_exact_requests_match_builder": true,
+      "request_response_hashes_match": true,
+      "all_calls_strictly_valid": true,
+      "score_independently_recomputed": true
+    },
+    {
+      "cell": {
+        "phase": "main",
+        "condition": "seraph_canonical",
+        "a": 1,
+        "b": 0,
+        "replicate": 2
+      },
+      "three_exact_requests_match_builder": true,
+      "request_response_hashes_match": true,
+      "all_calls_strictly_valid": true,
+      "score_independently_recomputed": true
+    },
+    {
+      "cell": {
+        "phase": "main",
+        "condition": "seraph_canonical",
+        "a": 1,
+        "b": 1,
+        "replicate": 2
+      },
+      "three_exact_requests_match_builder": true,
+      "request_response_hashes_match": true,
+      "all_calls_strictly_valid": true,
+      "score_independently_recomputed": true
+    },
+    {
+      "cell": {
+        "phase": "main",
+        "condition": "intact",
+        "a": 0,
+        "b": 0,
+        "replicate": 1
+      },
+      "three_exact_requests_match_builder": true,
+      "request_response_hashes_match": true,
+      "all_calls_strictly_valid": true,
+      "score_independently_recomputed": true
+    },
+    {
+      "cell": {
+        "phase": "main",
+        "condition": "intact",
+        "a": 1,
+        "b": 1,
+        "replicate": 2
+      },
+      "three_exact_requests_match_builder": true,
+      "request_response_hashes_match": true,
+      "all_calls_strictly_valid": true,
+      "score_independently_recomputed": true
+    },
+    {
+      "cell": {
+        "phase": "main",
+        "condition": "seraph_canonical",
+        "a": 0,
+        "b": 1,
+        "replicate": 2
+      },
+      "three_exact_requests_match_builder": true,
+      "request_response_hashes_match": true,
+      "all_calls_strictly_valid": true,
+      "score_independently_recomputed": true
+    },
+    {
+      "cell": {
+        "phase": "main",
+        "condition": "host_canonical",
+        "a": 0,
+        "b": 1,
+        "replicate": 2
+      },
+      "three_exact_requests_match_builder": true,
+      "request_response_hashes_match": true,
+      "all_calls_strictly_valid": true,
+      "score_independently_recomputed": true
+    },
+    {
+      "cell": {
+        "phase": "main",
+        "condition": "intact",
+        "a": 1,
+        "b": 0,
+        "replicate": 1
+      },
+      "three_exact_requests_match_builder": true,
+      "request_response_hashes_match": true,
+      "all_calls_strictly_valid": true,
+      "score_independently_recomputed": true
+    },
+    {
+      "cell": {
+        "phase": "main",
+        "condition": "host_canonical",
+        "a": 1,
+        "b": 1,
+        "replicate": 1
+      },
+      "three_exact_requests_match_builder": true,
+      "request_response_hashes_match": true,
+      "all_calls_strictly_valid": true,
+      "score_independently_recomputed": true
+    },
+    {
+      "cell": {
+        "phase": "main",
+        "condition": "intact",
+        "a": 1,
+        "b": 1,
+        "replicate": 1
+      },
+      "three_exact_requests_match_builder": true,
+      "request_response_hashes_match": true,
+      "all_calls_strictly_valid": true,
+      "score_independently_recomputed": true
+    },
+    {
+      "cell": {
+        "phase": "main",
+        "condition": "seraph_canonical",
+        "a": 1,
+        "b": 0,
+        "replicate": 1
+      },
+      "three_exact_requests_match_builder": true,
+      "request_response_hashes_match": true,
+      "all_calls_strictly_valid": true,
+      "score_independently_recomputed": true
+    },
+    {
+      "cell": {
+        "phase": "main",
+        "condition": "host_canonical",
+        "a": 1,
+        "b": 0,
+        "replicate": 2
+      },
+      "three_exact_requests_match_builder": true,
+      "request_response_hashes_match": true,
+      "all_calls_strictly_valid": true,
+      "score_independently_recomputed": true
+    },
+    {
+      "cell": {
+        "phase": "main",
+        "condition": "host_canonical",
+        "a": 0,
+        "b": 1,
+        "replicate": 1
+      },
+      "three_exact_requests_match_builder": true,
+      "request_response_hashes_match": true,
+      "all_calls_strictly_valid": true,
+      "score_independently_recomputed": true
+    },
+    {
+      "cell": {
+        "phase": "main",
+        "condition": "seraph_canonical",
+        "a": 0,
+        "b": 0,
+        "replicate": 1
+      },
+      "three_exact_requests_match_builder": true,
+      "request_response_hashes_match": true,
+      "all_calls_strictly_valid": true,
+      "score_independently_recomputed": true
+    },
+    {
+      "cell": {
+        "phase": "main",
+        "condition": "intact",
+        "a": 0,
+        "b": 1,
+        "replicate": 2
+      },
+      "three_exact_requests_match_builder": true,
+      "request_response_hashes_match": true,
+      "all_calls_strictly_valid": true,
+      "score_independently_recomputed": true
+    },
+    {
+      "cell": {
+        "phase": "main",
+        "condition": "seraph_canonical",
+        "a": 1,
+        "b": 1,
+        "replicate": 1
+      },
+      "three_exact_requests_match_builder": true,
+      "request_response_hashes_match": true,
+      "all_calls_strictly_valid": true,
+      "score_independently_recomputed": true
+    },
+    {
+      "cell": {
+        "phase": "main",
+        "condition": "host_canonical",
+        "a": 1,
+        "b": 1,
+        "replicate": 2
+      },
+      "three_exact_requests_match_builder": true,
+      "request_response_hashes_match": true,
+      "all_calls_strictly_valid": true,
+      "score_independently_recomputed": true
+    },
+    {
+      "cell": {
+        "phase": "main",
+        "condition": "seraph_canonical",
+        "a": 0,
+        "b": 0,
+        "replicate": 2
+      },
+      "three_exact_requests_match_builder": true,
+      "request_response_hashes_match": true,
+      "all_calls_strictly_valid": true,
+      "score_independently_recomputed": true
+    },
+    {
+      "cell": {
+        "phase": "main",
+        "condition": "host_canonical",
+        "a": 0,
+        "b": 0,
+        "replicate": 1
+      },
+      "three_exact_requests_match_builder": true,
+      "request_response_hashes_match": true,
+      "all_calls_strictly_valid": true,
+      "score_independently_recomputed": true
+    },
+    {
+      "cell": {
+        "phase": "main",
+        "condition": "intact",
+        "a": 0,
+        "b": 1,
+        "replicate": 1
+      },
+      "three_exact_requests_match_builder": true,
+      "request_response_hashes_match": true,
+      "all_calls_strictly_valid": true,
+      "score_independently_recomputed": true
+    },
+    {
+      "cell": {
+        "phase": "main",
+        "condition": "host_canonical",
+        "a": 0,
+        "b": 0,
+        "replicate": 2
+      },
+      "three_exact_requests_match_builder": true,
+      "request_response_hashes_match": true,
+      "all_calls_strictly_valid": true,
+      "score_independently_recomputed": true
+    },
+    {
+      "cell": {
+        "phase": "main",
+        "condition": "host_canonical",
+        "a": 1,
+        "b": 0,
+        "replicate": 1
+      },
+      "three_exact_requests_match_builder": true,
+      "request_response_hashes_match": true,
+      "all_calls_strictly_valid": true,
+      "score_independently_recomputed": true
+    },
+    {
+      "cell": {
+        "phase": "main",
+        "condition": "seraph_canonical",
+        "a": 0,
+        "b": 1,
+        "replicate": 1
+      },
+      "three_exact_requests_match_builder": true,
+      "request_response_hashes_match": true,
+      "all_calls_strictly_valid": true,
+      "score_independently_recomputed": true
+    },
+    {
+      "cell": {
+        "phase": "main",
+        "condition": "intact",
+        "a": 0,
+        "b": 0,
+        "replicate": 2
+      },
+      "three_exact_requests_match_builder": true,
+      "request_response_hashes_match": true,
+      "all_calls_strictly_valid": true,
+      "score_independently_recomputed": true
+    }
+  ],
+  "same_main_wire_inputs_at_fixed_own_bit_replicate": true,
+  "own_receipt_conditional_matching": true,
+  "A_receipt_absent_from_B_inputs": true,
+  "scores_recomputed_with_independent_parity_expression": true,
+  "journals": [
+    {
+      "file": "seraph-1.jsonl",
+      "chain_verified": true,
+      "events": 16,
+      "head": "b5863ad07a4ad9b48b9f7e98772d34b5ac4a7a0e948cc1097bbe99742cd60a79"
+    },
+    {
+      "file": "seraph-2.jsonl",
+      "chain_verified": true,
+      "events": 16,
+      "head": "bb125ccdcd80809d96f4d305e3e13f33d52d3d0810e3bf1c9259fc58b812b434"
+    },
+    {
+      "file": "seraph-5.jsonl",
+      "chain_verified": true,
+      "events": 16,
+      "head": "4f9db04810e7e76156c12c1dca3be72c296e38f3669e13e63e7e06ce36b359d9"
+    },
+    {
+      "file": "seraph-10.jsonl",
+      "chain_verified": true,
+      "events": 16,
+      "head": "353a30e4a46d0beab227442de11296494573eace9725cbda3b92e8d79b80d43e"
+    },
+    {
+      "file": "seraph-13.jsonl",
+      "chain_verified": true,
+      "events": 16,
+      "head": "d96b7f277641e430e58a1cfb286f1d09f8ac4a15346399e4f167e96f002c64aa"
+    },
+    {
+      "file": "seraph-15.jsonl",
+      "chain_verified": true,
+      "events": 16,
+      "head": "3832acc19bc8f45fa6550386fe2ddb7d2d6e96bb98d7aa98721cfa9d1a5608d4"
+    },
+    {
+      "file": "seraph-17.jsonl",
+      "chain_verified": true,
+      "events": 16,
+      "head": "08c1761c818549dd848ab8a4f4316e438b4be872240fa5789121f1306fce94a0"
+    },
+    {
+      "file": "seraph-22.jsonl",
+      "chain_verified": true,
+      "events": 16,
+      "head": "14e2d57b96d396141f189cf3b028339048b2f35dee2b8b01839228a46230660d"
+    }
+  ],
+  "unique_live_permits": 32,
+  "live_capabilities": {
+    "exp2.check_A": 8,
+    "exp2.check_B": 8,
+    "exp2.emit": 8,
+    "exp2.allocate": 8
+  },
+  "main_sender_distribution": {
+    "0": 24
+  },
+  "all_main_choices_equal_b": true,
+  "arm_summary": {
+    "intact": {
+      "valid": 8,
+      "correct": 4,
+      "fair": 0,
+      "mean_coalition_total": 10.0,
+      "mean_outsider": 10.0
+    },
+    "host_canonical": {
+      "valid": 8,
+      "correct": 4,
+      "fair": 0,
+      "mean_coalition_total": 10.0,
+      "mean_outsider": 10.0
+    },
+    "seraph_canonical": {
+      "valid": 8,
+      "correct": 4,
+      "fair": 0,
+      "mean_coalition_total": 10.0,
+      "mean_outsider": 10.0
+    }
+  },
+  "finish_reasons": {
+    "stop": 96
+  },
+  "max_backend_prompt_tokens": 595,
+  "max_completion_tokens": 34
+}
