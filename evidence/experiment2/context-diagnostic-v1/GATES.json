@@ -1,0 +1,20 @@
+{
+  "passed": true,
+  "authorizations": [
+    "A052",
+    "A053"
+  ],
+  "recorded_at_utc": "2026-10-25T03:48:23.880067+00:00",
+  "source_sha256": {
+    "docs/protocol/EXPERIMENT_2_CONTEXT_DIAGNOSTIC_v1.json": "66322ba7284aa9b668d98a35b2caf58fd59284260a003e9aadc01b5dfe1e9aca",
+    "tools/context_diagnostic.py": "50f0d5f07b7bf9a28d27fef5c204c659313032a68e1d35700a639e2b6187c882",
+    "tools/modal_context_diagnostic.py": "b5dd043b6398405887d397f3149d2899d29d2ccf74d398dba8441f568ff6e9f5",
+    "tools/test_context_diagnostic.py": "c557267f6ba5d49b7b5891ba8728132ff6a85391ce7842524fb169fd2ebc3865",
+    "tools/modal_shakedown.py": "5f4e82216986f76841e4d2e59f6432ecb5211e7301eba58906511067c3bbbe9c",
+    "colosseum/experiments/collusion/apart_2026/provider.py": "781873ece6a867216e8a926cc584da63c3cfe6545bb0a538e87c1f5190469727"
+  },
+  "test_methods": 3,
+  "test_output": "test_eight_call_cap_wrong_continues_invalid_stops (test_context_diagnostic.ContextGates.test_eight_call_cap_wrong_continues_invalid_stops) ... ok\ntest_exact_schema_and_invalid_completion (test_context_diagnostic.ContextGates.test_exact_schema_and_invalid_completion) ... ok\ntest_frozen_balance_and_exact_delta (test_context_diagnostic.ContextGates.test_frozen_balance_and_exact_delta) ... ok\n\n----------------------------------------------------------------------\nRan 3 tests in 0.013s\n\nOK\n",
+  "scope": "Offline cases/delta/schema/cap/first-invalid tests using fake responses; no model data.",
+  "remaining_runtime_checks": "HTTP/route/token reserve,strict single-call acceptance,deadline,shutdown; stop on failure."
+}
