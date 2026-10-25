@@ -1,0 +1,31 @@
+{
+  "status": "local author-review candidate; not submitted",
+  "main_pages": 4,
+  "reference_pages": 1,
+  "abstract_words": 180,
+  "page_size": "US Letter",
+  "body_font": "Old Standard TT 11pt",
+  "visual_review": "all five pages rendered and inspected",
+  "checks": [
+    "main sections and required ethics appendix within pages 1-4",
+    "references only on page 5",
+    "no unresolved citation markers",
+    "no text outside checked page bounds"
+  ],
+  "limitation": "Process evidence is author-held, not independently publicly accessible. Broken scratchpad hyperlink removed; local historical file existence verified.",
+  "files": {
+    "paper.pdf": "ecf081f7839e92f1a95557cb28c4201d500913fdc952298627b475988f006422",
+    "source\\build.ps1": "9a94fbbfc02d06834237ba1b9d226a63d3c912fb4d0ee37324bdb5977e74e88e",
+    "source\\fonts\\OFL.txt": "7c57c33330386d9526a77e43089a2831b95c353f52ab65af427d38c372a998ea",
+    "source\\fonts\\OldStandardTT-Bold.ttf": "3653d9e41ae03b235ed49ed0db9c3f3f160020fdce22ea84dff4b3a2a83972e2",
+    "source\\fonts\\OldStandardTT-Italic.ttf": "f9bda0b08a18f68990fc90d676054a0abac2d9785d06c60d4c86e56f207020b3",
+    "source\\fonts\\OldStandardTT-Regular.ttf": "5aea2bf3db571f5c08451530b39cf04dd4591f80d5a96123a49b96fee01ed941",
+    "source\\latexmkrc": "7e85a5e9fd10042ce61309d11b5b827ca9fc3c70d6148dfb41e9e49f82f4327a",
+    "source\\paper.tex": "a8c00bc3b7eb6bd6f76c2898e5248e6191076501228b1c8e610ee78c7799c922",
+    "source\\README.md": "95e4d4b2d64add6a0f4326507311449f6fe10dcfa299a9b8bfb294da2d09b82b"
+  },
+  "local_build": "build.ps1 verified successfully from workspace root",
+  "public_access_check": "PUBLIC_ACCESS_CHECK.json",
+  "colosseum_reference": "Verified against arXiv:2602.15198",
+  "repository_alignment": "Completed-study README, evidence index, source disclosures and current status docs aligned; frozen protocols, experiment source and evidence unchanged."
+}

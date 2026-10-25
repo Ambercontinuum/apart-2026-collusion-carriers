@@ -12,3 +12,8 @@ notes/
 
 # Local scratchpad export for our records; never committed (A021)
 /coordination/
+
+# Local document previews, compiler logs and extracted upload copies
+/tmp/
+/output/pdf/latex-source/
+/output/pdf/*.log

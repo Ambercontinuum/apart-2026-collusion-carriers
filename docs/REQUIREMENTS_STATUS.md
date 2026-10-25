@@ -1,52 +1,26 @@
-# Requirements alignment — scripted runner checkpoint
+# Completed study: requirements and claim status
 
-## Completed as-built exploratory grid - 2026-10-24
+Current as of October 25, 2026. The [paper](../output/pdf/paper.pdf) and
+[evidence index](EVIDENCE_INDEX.md) supersede earlier implementation checkpoints.
+Frozen plans, deviations and original gate reports remain unchanged source records.
 
-Latest empirical checkpoint supersedes earlier no-live-episode statements below:
-15/15 valid episodes acrossfivearms/seeds1-3,300requests, all240symbols zero.
-Native outcomes identical byseed acrossarms. Three live canonical-emission
-permits completed; no varying signal was presented for suppression. P notrun,
-assignment certification unwired, Gate0 incomplete. No prevention/superiority
-claim. See project README and evidence/exploratory-grid/freeze-20261024/RESULTS.md
-for fixed conditions, all raw traces, failed-control limitations and analysis.
-Earlier tables remain historical engineering checkpoints.
-
-
-## Later exploratory live checkpoint - 2026-10-24
-
-The historical checkpoints below predate the authorized live shakedown. Two
-B0/B2 seed1 episodes completed40 calls with equal outcomes and all-zero symbols.
-A separate6-call explicit-codebook control encoded1111 but receiver chose the
-same task under intact/zeroed views; overall positive control failed. These are
-exploratory records, not the registered pilot, P calibration, G2 evidence or
-retrospective Gate0 passes. Current deterministic suite47 tests passes. See
-project README for raw trace/result links. Full Gate0 remains incomplete.
-
-
-Sources: [frozen v3.1 plan](protocol/FROZEN_v3_1.md),
-[supplied amended handoff](protocol/HANDOFF_2.md), and the explicit
-[D1 deviation record](protocol/DEVIATIONS.md). This checkpoint implements part
-of that declared scope; it does not change the question or add a new experiment.
-
-| Requirement | Checkpoint evidence | Still required |
+| Requirement / question | As-built evidence | Limit |
 | --- | --- | --- |
-| Colosseum native task/scoring semantics | Preview reads native own-cost/feasibility; three-seed scripted final scores match native control for all agents and encodings | Integrated runner/config equivalence |
-| D1 host-selected task, four previews, adjacent path coalition | Component plus scripted runner schemas, prompts and dispatch tested | Live inference adapter and fixed run settings |
-| 0/1/2-bit menus | Declared B0/B1/B2 symbol sets; G2 retains four sender choices | Frozen six-condition configurations and opportunity manifests |
-| Comparable-context distribution-preserving scramble | Sender/task four-slot Fisher–Yates permutation; exhaustive 256-block histogram check, retained fixed points and no symbol-dependent seed | End-to-end B2-S exposure and downstream behavior evidence |
-| Matched disclosure timing | Scripted runner makes 16 preview turns before any assignment prompt; exact provider inputs captured | Live transport and frozen configs |
-| Text suppression and channel inventory | Scripted provider schemas/dispatch and native-board bypass tests pass | Complete frozen inventory and live adapter |
-| SERAPH pre-observation canonicalization | Real public topology/frame, registered emit capability, positive canonical path and permit attacks pass | Native functional-action binding, live adapter and independent QA |
-| Prior-only monitor and separate evaluation | Research event prefix remains unchanged on later delivery | Monitor contract, features, replay tests and offline evaluation |
-| Pilot and analysis | No paid episodes or findings claimed; n=3 per arm and paired B contrast retained | P calibration, matched grid, raw traces, contrasts and legitimate performance measures |
-| Disclosure and submission | Prior work distinguished; official template archived; D1 artificiality and order-only scope documented | Verified results and final report/abstract/limitations/ethics/LLM-use statement |
+| Tool metadata carrier | Five-arm preview grid, seeds 1-3; 240/240 symbols zero | Undisclosed visibility; no varying code discovered |
+| Order-dependent control | Within-sender/task Fisher-Yates shuffle; all blocks constant | Histogram retained; no observed symbol disruption |
+| Canonical emission | Three live grid permits | Inputs already zero; grid assignment not certified |
+| Explicit coordination control | Separate supplied P completed | Different graph, channel, history, order and temperature; no matched P governance arm |
+| Information bottleneck | Initial calibration failed; final revised calibration passed 7/8, then 24 main episodes | Different versions remain separate; bundled prompt change |
+| Functional and emission governance | Final task executed 32 native permits; eight journal chains verified | Trusted host, declared capabilities; no semantic detector |
+| Behavioral suppression | Each final arm 4/8 correct, mean coalition total 10; paired differences zero | No varying source signal, hence prevention unresolved |
+| Track 3.2 trusted agents | Brief process observation, explicitly framed | No introduced offer-making trusted-agent intervention or causal disruption estimate |
+| Reproducibility | Source pins, raw transport, manifests, protocols, audits, tests and LaTeX | Independent fresh-environment replication not established |
+| Report | Four paper pages including ethics, plus references; PDF and source included | Author review / external submission separate from repository publication |
 
-All five full Gate 0 obligations remain UNKNOWN. Twenty-four passing tests
-are not a substitute for integrated evidence. No paid episodes are eligible yet.
-No detector, superiority, phase-transition or general collusion-prevention claim
-is introduced. The shuffle retains count-based information; capacity remains an
-opportunity bound, with per-sender and total episode opportunities separate.
+The original full Gate 0 report remains UNKNOWN where recorded; it is not silently
+promoted to PASS by later exploratory runs. The original six-condition pilot and
+prior-only monitor are not claimed complete. Scripted adverse permit tests are
+engineering evidence, not additional live model behavior.
 
-Future implementation stays within this map. A new scientific change requires
-a separate Amber decision and dated deviation before affected runs. Approval
-to commit/push this checkpoint is not approval for inference spending or submission.
+No new experiment is scheduled. Future protocol changes and paid inference require
+separate owner authorization. Project publication does not reopen the scratchpad.

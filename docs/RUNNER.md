@@ -1,10 +1,30 @@
-# D1 scripted runner and certified view emission
+# Runner setup, offline verification and historical live drivers
 
-This is the actual D1 turn loop with a scripted provider, not a model experiment.
-The provider interface receives exactly the captured messages and offered tools.
-`provider.py` defines the live-provider boundary, tested with mocked transport
-only. There is no network transport, paid inference backend or P calibration
-command in this module, and the CLI remains scripted-only.
+The study is complete. The D1 CLI below remains a scripted local fixture; actual
+model runs used the separate bounded Modal drivers in `tools/`. Do not confuse
+scripted results with live evidence or rerun a paid driver to inspect the records.
+See [the evidence index](EVIDENCE_INDEX.md) and [current paper](../output/pdf/paper.pdf).
+No new inference is authorized by these instructions.
+
+## Final-task offline checks
+
+After the pinned environment and SERAPH checkout below are ready, from the project
+root run:
+
+```powershell
+.venv/Scripts/python.exe tools/test_final_attempt.py
+```
+
+This uses scripted responses only and imports no Modal worker. It does not call a
+model, rewrite the frozen protocol or replace archived evidence. The published
+final audit is at `evidence/experiment2/final-attempt-v1/AUDIT.json`. The source,
+wire requests, records and journal chains are retained alongside it.
+
+Historical live entrypoints include `modal_frozen_grid.py`, `modal_p_calibration.py`
+and `modal_final_attempt.py`. They are archived execution code, not a current
+recommendation to spend credits. The final driver refuses existing run evidence.
+Independent reproduction needs separate output paths, setup review and approval;
+it must not alter or overwrite the published run.
 
 ## Public SERAPH source
 
@@ -70,7 +90,7 @@ host events, native summary, code/config/output hashes, and G2 journal.
 `manifest.research_result` is false: scripted fixtures must be excluded from
 research results.
 
-## Live-provider boundary (mocked transport only)
+## Provider interface (D1 boundary; live transport supplied by external drivers)
 
 `LiveProvider(config, transport)` serializes the runner's exact messages and
 tools once, with the frozen `ProviderConfig` (model, temperature, max tokens,
@@ -92,20 +112,16 @@ returned as-is so the runner's one-call rule rejects them.
 
 Limits: actor histories store the parsed arguments re-serialized, and drop any
 assistant text content; the exact model output is only in `provider_exchanges`.
-No real transport, credential loading or provider-specific options (for example,
-disabling router fallbacks) exist yet.
+The interface itself injects transport. The completed live runs supplied transport
+through the bounded Modal drivers. Route-specific completed `stop` acceptance and
+exactly-one-call dispatch were frozen separately; ignored parallel-call generation
+settings are not represented as guarantees.
 
-## Still required before paid runs
+## Uncompleted original obligations
 
-- A real transport for the chosen provider, explicit ignored compute.env
-  loading and frozen model/decoding config, behind the existing
-  `LiveProvider` boundary; no silent retries or model swaps.
-- Final matched configs, complete channel inventory, source/seed/cost manifests,
-  P calibration integration and complete Gate 0 report.
-- Resolve and test native functional-action permit binding; the new capability
-  currently certifies information emission, not native assignment execution.
-- Prior-only monitor and offline analysis contract. QA-2/4/5/6 remain reporting
-  obligations: achieved disruption, redundant previews, declared receiver sets,
-  and derived domain-separated seeds.
-- Independent QA, then Amber's separate spend approval. No cloud/model work has
-  been authorized by these deterministic tests.
+The original complete six-condition pilot and prior-only monitor were not completed
+as planned. Their historical Gate 0 UNKNOWN entries remain intact. Separate approved
+exploratory runs and private-bit gates do not retrospectively pass those obligations.
+Experiment 1 certifies emission only; Experiment 2 additionally executed functional
+check/allocation permits. The [requirements map](REQUIREMENTS_STATUS.md) is the
+current interpretation. No additional paid run is scheduled or authorized.

@@ -1,11 +1,12 @@
 # Collusion Carriers and Countermeasures
 
-Amber Anson, AmberContinuum
+Amber Anson, AmberContinuum Research
 Apart AI Collusion Research Sprint 2026, Track 3.1
 
-**Research report for author review - 2026-10-25.** The approved final run is
-complete. This report includes the completed evidence and its limits; it has not
-been submitted externally or rendered as a submission PDF.
+**Expanded experiment report - 2026-10-25.** The approved final run is complete.
+The concise current manuscript is [the four-page paper plus references](../output/pdf/paper.pdf),
+with [LaTeX source](../output/pdf/source/paper.tex). This expanded report retains
+additional diagnostic detail; repository publication is not external submission.
 
 ## Abstract
 
@@ -48,8 +49,12 @@ provides the Jira allocation setting and supplied private-channel calibration.
 The integration uses [SERAPH-1.0](https://github.com/Ambercontinuum/SERAPH-1.0/tree/4ee7d3044a945cbad30a8cd4230e327ba463187f)
 without native patches. Exact source origins and distribution boundaries are
 recorded in [APART_SOURCES.md](APART_SOURCES.md) and [SOURCE_FILES.json](SOURCE_FILES.json).
-This draft makes no claim to a completed literature review or algorithmic novelty
-in the underlying native core.
+SERAPH is preexisting research-alpha work by Amber Anson; sprint adapters, task
+specifications, execution and analysis are new work beginning October 24, 2026.
+The paper cites [Nakamura et al. (2026)](https://arxiv.org/abs/2602.15198),
+[Motwani et al. (2024)](https://arxiv.org/abs/2402.07510), and
+[Mathew et al. (2025)](https://arxiv.org/abs/2410.03768). No literature-wide
+algorithmic priority claim is made for the native core.
 
 ## Methods
 
@@ -61,7 +66,9 @@ agent. All matched arms share opportunities, graph and disclosure barrier.
 B0 has one legal symbol, B1 two, B2 four. B2-S uniformly shuffles event instances
 within a sender/task block, preserving its histogram. This tests order-dependent
 information only. G2 emits canonical zeroes through native SERAPH permits.
-Final assignments and scoring retain the native task semantics.
+Final assignments and scoring retain the native task semantics. The field's
+peer visibility was not disclosed; all four symbols were selected before peer
+views arrived. A disclosed-visibility version of this grid was not run.
 
 The five-arm grid used seeds 1, 2, 3 and the pinned Qwen/Qwen3-4B-Instruct-2507
 revision cdbee75f17c01a7cc42f958dc650907174af0554, temperature 0. The grid was frozen
@@ -121,6 +128,11 @@ is not represented as a generation-level guarantee. No retries or replacements.
 | Initial Experiment 2 calibration | 24 requests; 8/8 notes correct; 4 correct, 3 wrong, 1 fair, 0 invalid | Failed positive screen; 0 main episodes |
 | Minimal/oracle diagnostic | 12 requests; 4/4 text XOR, 4/4 simple-tool XOR, 4/4 explicit-oracle allocations | Minimal competence and answer following can work |
 | Full-context diagnostic | 8 requests; 4/4 input-pair extraction, 2/4 XOR reports; all XOR answers 1 | Contextual computation/use remains unreliable |
+
+Eight non-skipping agents selected the previewed task despite cheaper alternatives;
+four skipped, none selected another task. At seed 3 all four selected it, producing
+three native violations. Preview anchoring is a possible explanation, not a
+measured cause.
 
 The final calibration passed with 8/8 faithful notes, 7 correct allocations,
 1 incorrect allocation, 0 fair choices and 0 invalid episodes. Main execution
@@ -203,6 +215,19 @@ journals lack an independent authentication anchor. Common authorization wording
 was not a separately varied factor; Amber's warrant-anchor hypothesis is noted
 for future work without a present causal finding.
 
+## Exploratory human-agent process observation
+
+Agent-authored records report four safeguard episodes: two Claude classifier
+stops and two Muse read-driven pauses. Particular work halted; Codex acknowledged
+reports and continued separately authorized work. Scoped QA later continued in
+both other seats. In Amber's framing, she enacts the warrant-bearing SERAPH role;
+the software is her proxy for delegated authority. This documents asymmetric
+participation boundaries, not that software caused flags or stopped an ongoing
+collusive act. Raw classifier telemetry is unavailable; roles, prompts and policy
+stacks were unmatched. Track 3.2's introduced trusted-agent intervention was not
+run. The paper cites author-held records; the detailed private audit and decision
+continuation are not newly published here.
+
 ## Conclusion
 
 The approved study is complete. In these tested settings, agents did not exploit
@@ -219,8 +244,8 @@ we close the study without an additional diagnostic loop.
 ## Code and data
 
 [Project repository](https://github.com/Ambercontinuum/apart-2026-collusion-carriers)
-contains source, versioned protocols and raw evidence. Author decisions, reviews
-and hashes are in the [project scratchpad](https://github.com/Ambercontinuum/Apart-research-collusion-scratchpad-).
+contains source, versioned protocols and raw evidence. Author decisions, reviews and hashes remain in separately held process records;
+the scratchpad is closed to further publication and is not required for the quantitative evidence.
 Credentials and local environments are excluded. The final dataset is
 [the completed matched attempt](../evidence/experiment2/final-attempt-v1/RESULTS.md);
 its source commit, protocol, raw requests/responses, journal chains, independent
@@ -243,7 +268,7 @@ Amber. The scratchpad preserves contributions and disagreements. Hashes bind
 recorded bytes; they do not authenticate authorship or constitute approval.
 Amber must review the final scientific claims and author attribution.
 
-## Appendix: ethical considerations and dual use
+## Appendix: Limitations and Dual-Use / Ethical Considerations
 
 Experiments use synthetic allocations and a fictional outsider; no real account,
 market or external victim is manipulated. Model tool calls act in the local
@@ -266,7 +291,18 @@ are bounded to the measured sandbox. Secrets are not part of the published data.
 
 Scientific content and Figure 1 include the final approved outcome. No independent
 review endorsement of the compact-prompt revision is claimed. Owner claim/
-author review and submission-format rendering remain; no external submission is
-claimed. Independent reproduction and access to the recorded hosted image from
+author review remains separate from repository publication. The paper has been
+rendered and visually checked at four main pages plus references; no external
+submission is claimed. Independent reproduction and access to the recorded hosted image from
 another workspace have not been established. This is a research-alpha artifact,
 not production certification or a claim of general collusion prevention.
+
+
+The codebook/discriminator tooling and private-bit task could aid attempts to elicit
+concealed signaling. The declared-field membrane leaves task choice, timing and
+other undeclared channels open. No effective new code or general safety result was
+demonstrated. Existing artifacts retain their prior distribution status; private
+process material is not newly released. Withheld responses were not reconstructed.
+The paper and repository publish the completed synthetic study and its limits.
+The source and environment pins support re-execution; exact provider determinism
+and independent third-party replication are not promised.

@@ -2,7 +2,7 @@
 
 # Collusion Carriers and Countermeasures
 
-Amber Anson, AmberContinuum
+Amber Anson, AmberContinuum Research
 Apart AI Collusion Research Sprint 2026, Track 3.1
 
 **Working research report, 2026-10-25.** This is not submitted or published as a

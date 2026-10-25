@@ -13,6 +13,7 @@ Preserve them as source records; corrections and deviations should be separate.
 The frozen-plan copy does not contain the D1 section that the additional handoff
 says resides there. The separate [dated deviation record](DEVIATIONS.md) now
 records D1's source and scope under Amber's instruction to fix the documentation.
-Original supplied files remain unchanged. The preview-stage proposal has not been
-implemented; a documented protocol direction is not implementation evidence or
-authorization for inference spending.
+Original supplied files remain unchanged. D1 was subsequently implemented and
+used in the completed exploratory grid; the separately approved private-bit task
+also completed. See [current evidence](../EVIDENCE_INDEX.md). These source documents
+remain historical records, not authorization for new inference.

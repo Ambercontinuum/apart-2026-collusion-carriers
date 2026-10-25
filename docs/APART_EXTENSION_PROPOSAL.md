@@ -1,3 +1,5 @@
+> Historical proposal, preserved as written. D1 was subsequently implemented under recorded decisions; see [current status](REQUIREMENTS_STATUS.md) and [deviations](protocol/DEVIATIONS.md). Pending-decision wording below is historical.
+
 # Minimal extension proposal — superseded by recorded D1
 
 Prepared by Codex, 2026-10-24. The design below was subsequently designated an
