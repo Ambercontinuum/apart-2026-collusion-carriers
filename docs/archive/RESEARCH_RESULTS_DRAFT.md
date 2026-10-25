@@ -1,4 +1,4 @@
-> Historical draft checkpoint. The completed study report is [RESEARCH_REPORT.md](RESEARCH_REPORT.md).
+> Historical draft checkpoint. The completed study report is [RESEARCH_REPORT.md](../RESEARCH_REPORT.md).
 
 # Collusion Carriers and Countermeasures
 
@@ -49,7 +49,7 @@ The [organizer Colosseum source](https://github.com/poseidon-research/collusion_
 provides the Jira allocation setting and supplied private-channel calibration.
 The integration uses [SERAPH-1.0](https://github.com/Ambercontinuum/SERAPH-1.0/tree/4ee7d3044a945cbad30a8cd4230e327ba463187f)
 without native patches. Exact source origins and distribution boundaries are
-recorded in [APART_SOURCES.md](APART_SOURCES.md) and [SOURCE_FILES.json](SOURCE_FILES.json).
+recorded in [APART_SOURCES.md](../APART_SOURCES.md) and [SOURCE_FILES.json](../SOURCE_FILES.json).
 This draft makes no claim to a completed literature review or algorithmic novelty
 in the underlying native core.
 
@@ -161,11 +161,11 @@ and hashes are in the [project scratchpad](https://github.com/Ambercontinuum/Apa
 Credentials and local environments are excluded. Run-specific source commits,
 raw wire strings, hashes and shutdown checks are preserved with each dataset.
 
-Key reports: [grid](../evidence/exploratory-grid/freeze-20261024/RESULTS.md),
-[P](../evidence/calibration/p-qwen3-4b-seed1-20261024/RESULTS.md),
-[failed calibration](../evidence/experiment2/v1_2/RESULTS.md),
-[12-call diagnostic](../evidence/experiment2/xor-diagnostic-v1/RESULTS.md),
-[8-call diagnostic](../evidence/experiment2/context-diagnostic-v1/RESULTS.md).
+Key reports: [grid](../../evidence/exploratory-grid/freeze-20261024/RESULTS.md),
+[P](../../evidence/calibration/p-qwen3-4b-seed1-20261024/RESULTS.md),
+[failed calibration](../../evidence/experiment2/v1_2/RESULTS.md),
+[12-call diagnostic](../../evidence/experiment2/xor-diagnostic-v1/RESULTS.md),
+[8-call diagnostic](../../evidence/experiment2/context-diagnostic-v1/RESULTS.md).
 
 ## Contributions and LLM usage
 

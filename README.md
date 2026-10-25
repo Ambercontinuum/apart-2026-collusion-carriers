@@ -128,5 +128,4 @@ analysis and typesetting; Claude assisted provider work, QA and drafting; Muse
 provided attributed read-only QA through Amber. Hashes bind bytes, not authorship
 or approval. Shared writes use leases; the project publication is owner-authorized.
 Credentials, environments, local decision notes and coordination exports remain
-excluded. The closed scratchpad is not updated by this publication, and the
-Optimus scratchpad is outside this project's write boundary.
+excluded. The closed scratchpad is not updated by this publication.

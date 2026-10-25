@@ -23,7 +23,7 @@
     "source/latexmkrc": "7e85a5e9fd10042ce61309d11b5b827ca9fc3c70d6148dfb41e9e49f82f4327a",
     "source/LICENSE-RESEARCH.md": "139ac030074a56dfaf27241cd6e7faf87aad020a4cfd97b4c018b702ebe99871",
     "source/paper.tex": "2ab4690d95b1621cab1fa6e2a8ad59ae581ac063fd8f07b6b8fa378b6381417a",
-    "source/README.md": "d7f9cde4cf38bb9c16d247980c49b8a01ffa6d184178b1ed35604af85116aadc"
+    "source/README.md": "8a44d1c4e758fef112e2c1e31a47b1d610ea1f261556171a51ec66ae46a07f4d"
   },
   "local_build": "build.ps1 verified successfully from workspace root",
   "public_access_check": "PUBLIC_ACCESS_CHECK.json",

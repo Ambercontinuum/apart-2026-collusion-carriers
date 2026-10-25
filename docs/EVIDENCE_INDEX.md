@@ -37,3 +37,7 @@ second Muse log exists at the cited local snapshot, but the scratchpad repositor
 returned 404 without login during checks. No process logs, private audit or decision
 continuation are newly released in this project publication. This evidence is
 observational, not a matched trusted-agent experiment.
+
+## Publication redaction
+
+The supplied P evidence has a dated forward-only [redaction note](../evidence/calibration/p-qwen3-4b-seed1-20261024/REDACTION_NOTE.json). Local paths were removed and a pre-inference startup traceback omitted; original hashes are retained. Requests, responses, native results and scores are unchanged. Historical commits were not rewritten and still contain their original bytes.

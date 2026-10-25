@@ -57,7 +57,7 @@ schedule pass for this compact prompt. Scripted data are not model results.
 The live driver is tools/modal_final_attempt.py; it requires recorded owner approval before execution. Source and final gate record will be published
 before any live request. Original runs and failures remain intact.
 
-A submission-shaped report is already at [RESEARCH_RESULTS_DRAFT.md](RESEARCH_RESULTS_DRAFT.md).
+A submission-shaped report is already at [RESEARCH_RESULTS_DRAFT.md](archive/RESEARCH_RESULTS_DRAFT.md).
 It separates engineering evidence, observed private coordination, failed carrier
 elicitation and receiver failures. Final-attempt results will be added without
 rewriting previous outcomes. No collusion-prevention claim unless supported.

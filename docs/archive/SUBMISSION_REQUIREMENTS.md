@@ -4,12 +4,12 @@ Amber authorized PDF creation, LaTeX production and project publication after th
 earlier outline hold. That historical hold no longer describes the current artifact.
 External submission remains a separate owner action.
 
-- [Paper PDF](../output/pdf/paper.pdf): exactly four paper pages plus one references page.
-- [LaTeX](../output/pdf/source/paper.tex), [source ZIP](../output/pdf/latex-source.zip), [build instructions](../output/pdf/source/README.md).
-- [Validation](../output/pdf/VALIDATION.json): pagination, abstract and source hashes.
-- [Access checks](../output/pdf/PUBLIC_ACCESS_CHECK.json): unauthenticated project/final evidence access; scratchpad evidence separately author-held.
+- [Paper PDF](../../output/pdf/paper.pdf): exactly four paper pages plus one references page.
+- [LaTeX](../../output/pdf/source/paper.tex), [source ZIP](../../output/pdf/latex-source.zip), [build instructions](../../output/pdf/source/README.md).
+- [Validation](../../output/pdf/VALIDATION.json): pagination, abstract and source hashes.
+- [Access checks](../../output/pdf/PUBLIC_ACCESS_CHECK.json): unauthenticated project/final evidence access; scratchpad evidence separately author-held.
 
-The supplied [template PDF](apart-research-submission-template.pdf) provides US Letter,
+The supplied [template PDF](https://apartresearch.com/sprints/ai-collusion-research-sprint-2026-10-23-to-2026-10-25#guidelines) provides US Letter,
 one-inch margins, Old Standard TT typography, ruled title block, author/affiliation,
 Apart attribution, abstract, numbered main sections, citations and sprint footnote.
 The current artifact follows that reference with adaptable section organization.

@@ -10,8 +10,8 @@ powershell -NoProfile -ExecutionPolicy Bypass -File output/pdf/source/build.ps1
 
 The script locates the project's downloaded Tectonic compiler and sets the correct
 working directory for the fonts. No global TeX installation is needed. Output is
-`output/pdf/paper.pdf`. With the project folder open in VS Code and the LaTeX
-Workshop extension installed, select the **Project Tectonic** recipe.
+`output/pdf/paper.pdf`. The build script is editor-independent; no editor-specific
+configuration is distributed.
 
 Do not use pdfLaTeX: `fontspec` requires XeLaTeX (or the supplied Tectonic).
 

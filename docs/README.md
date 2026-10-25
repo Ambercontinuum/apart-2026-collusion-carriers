@@ -7,7 +7,7 @@
 - [Evidence index](EVIDENCE_INDEX.md) and [requirements/claim status](REQUIREMENTS_STATUS.md).
 - [SERAPH integration](SERAPH_INTEGRATION.md), [source attribution](APART_SOURCES.md), [file origins](SOURCE_FILES.json).
 - [Setup and offline checks](RUNNER.md).
-- [Submission requirements](SUBMISSION_REQUIREMENTS.md), [implemented paper structure](SUBMISSION_OUTLINE.md), [template reference](SUBMISSION_TEMPLATE.md).
+- [Submission requirements](archive/SUBMISSION_REQUIREMENTS.md), [implemented paper structure](archive/SUBMISSION_OUTLINE.md), [template reference](SUBMISSION_TEMPLATE.md).
 
 ## Historical records
 

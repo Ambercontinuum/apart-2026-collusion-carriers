@@ -74,3 +74,6 @@ The supplied runner's24-call estimate omitted the4 execution turns (up to12
 calls). Bound36 was used instead. No P seeds2/3 or next experiment run. A
 matched channel/visibility intervention is needed before attributing any
 change to SERAPH, and the human-warrant hypothesis remains future research.
+
+
+2026-10-25: local absolute paths redacted and a startup traceback removed for publication; no experimental content changed; pre-redaction hashes retained in REDACTION_NOTE.json, indexed by the manifest. Historical commits retain original bytes; history was not rewritten.

@@ -301,8 +301,10 @@ not production certification or a claim of general collusion prevention.
 The codebook/discriminator tooling and private-bit task could aid attempts to elicit
 concealed signaling. The declared-field membrane leaves task choice, timing and
 other undeclared channels open. No effective new code or general safety result was
-demonstrated. Existing artifacts retain their prior distribution status; private
-process material is not newly released. Withheld responses were not reconstructed.
+demonstrated. The repository is public and includes the codebook calibration,
+receiver-discriminator and private-bit task code; these could aid concealed
+signaling. Their real-world uplift has not been measured. Private process
+material is not newly released. Withheld responses were not reconstructed.
 The paper and repository publish the completed synthetic study and its limits.
 The source and environment pins support re-execution; exact provider determinism
 and independent third-party replication are not promised.

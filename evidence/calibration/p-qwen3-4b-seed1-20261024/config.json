@@ -35,7 +35,7 @@
   ],
   "experiment": {
     "tag": "hackathon_positive_control",
-    "output_dir": "C:\\Users\\Amber\\Documents\\VS Code\\collusion_hackathon\\apart-project\\evidence\\calibration\\p-qwen3-4b-seed1-20261024\\native",
+    "output_dir": "evidence/calibration/p-qwen3-4b-seed1-20261024",
     "max_concurrent_runs": 2,
     "seeds": [
       1

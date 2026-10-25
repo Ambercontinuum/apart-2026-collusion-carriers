@@ -28,7 +28,7 @@ it must not alter or overwrite the published run.
 
 ## Public SERAPH source
 
-Use the pinned public checkout, not the private sibling SERAPH repository. The
+Use the pinned public checkout. The
 canonical location is `.runtime/SERAPH-1.0` in this project; the tests use it by
 default. From the project root:
 
@@ -71,7 +71,7 @@ the native blackboard logger. Only the actor's own raw call/result enters its
 private history; peer context comes exclusively from the delivered view.
 
 G2 registers a canonical-batch emit capability in the real public SERAPH runtime.
-Host topology declares native-task → peer-batch → recipient consequences. The
+Host topology declares native-task â†’ peer-batch â†’ recipient consequences. The
 frame observes native state preservation and required canonical-emission evidence;
 the permit binds exact code, arguments, state, topology and affected recipients.
 Recipient access stays closed until postcondition verification completes. A failed

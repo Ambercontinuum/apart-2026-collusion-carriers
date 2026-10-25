@@ -33,6 +33,3 @@ Source files inherited from the organizer, new sprint files and runtime package
 dependencies remain distinguishable. Future copied or adapted files must add
 their exact origin, pinned commit, original path, local hash and modification
 description to the manifest.
-
-The private sibling SERAPH was engineering background, not integration source.
-Optimus scratchpad is outside this repository's write and coordination boundary.

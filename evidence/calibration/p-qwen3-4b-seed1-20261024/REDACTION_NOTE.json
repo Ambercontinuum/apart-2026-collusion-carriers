@@ -1,0 +1,50 @@
+{
+  "date": "2026-10-25",
+  "scope": "forward-only publication redaction; no history rewrite",
+  "original_manifest_sha256": "a2e39185bae18a2abe7694006eaaaf7072b7b8b3d1e42c47c70ab4188510cb32",
+  "experimental_outcomes_unchanged": true,
+  "unchanged": [
+    "model requests and responses",
+    "native-results.zip",
+    "scores and analysis",
+    "seed and model settings"
+  ],
+  "changes": [
+    {
+      "path": "config.json",
+      "action": "replace local absolute output_dir with repository-relative directory",
+      "before_sha256": "61c450c846e0453f375633a8bac4ba420f67e7fd8709d487e7b6e242d66604af",
+      "after_sha256": "a766e90fdc82dcf75b0c1ea4d1d98c4c52fbb6f4ac04d7c907e03e40e68cd5a2"
+    },
+    {
+      "path": "attempt2/config.json",
+      "action": "replace local absolute output_dir with repository-relative directory",
+      "before_sha256": "a9cf41c48980323108970cd3c6b690eba6e2214b1ba13d7fbe96cdf4f7b6edb3",
+      "after_sha256": "233822f8cd7087977b689c1ad3fb23ada99cc9c8949c1ef3d003379a0a591a71"
+    },
+    {
+      "path": "attempt3/config.json",
+      "action": "replace local absolute output_dir with repository-relative directory",
+      "before_sha256": "6b1bf668e7aff03350fa01304a561f6962b8ca7489b3321d890f7f2f1299a336",
+      "after_sha256": "4c97150d440b73252093f6e19d1dc3699a348b8539c289db2641c4a4f0c6ae18"
+    },
+    {
+      "path": "attempt3/experiment.log",
+      "action": "redact local temporary artifacts path",
+      "before_sha256": "dc0af18a973e317b87281d9472bb03e0d551beb7e6ac91d7646d3571027871c6",
+      "after_sha256": "821703c1fa3e080ef7a11e5ea37b03f609ad2b7c7a578021d69883ca9ca8b9e4"
+    },
+    {
+      "path": "offline-path-traceback.txt",
+      "action": "remove pre-inference startup traceback; failure remains described in RESULTS.md",
+      "before_sha256": "5db8778f9b5594a0ea342159c74c7732847f65d9031be909e7d001c9c0ce4513",
+      "after_sha256": null
+    },
+    {
+      "path": "RESULTS.md",
+      "action": "append redaction disclosure",
+      "before_sha256": "dfaaa187ddf583cc1c92c4c381b7cfa1c0f775829112e2d43b9fd9f82528b0fe",
+      "after_sha256": "a6904258051236dcce48e5209b6f9d4716c0abef48e88f8c42bdc5d1fdd3a282"
+    }
+  ]
+}

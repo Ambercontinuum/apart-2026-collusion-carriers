@@ -12,4 +12,4 @@ Amber subsequently authorized production in LaTeX and project publication.
 The paper centers Track 3.1 controlled experiments and auditable SERAPH integration.
 The human-coupled warrant interpretation is explicitly Amber's framing. It is not
 presented as a controlled trusted-agent intervention or evidence that software caused
-platform flags. [Read the current PDF](../output/pdf/paper.pdf).
+platform flags. [Read the current PDF](../../output/pdf/paper.pdf).

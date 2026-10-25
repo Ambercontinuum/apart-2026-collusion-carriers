@@ -8,7 +8,7 @@ scripted fixtures. [Evidence index](EVIDENCE_INDEX.md) separates all batches.
 **Zero patches** to public SERAPH-1.0 at
 `4ee7d3044a945cbad30a8cd4230e327ba463187f`. SERAPH is preexisting research-alpha
 work by Amber Anson. The loader checks the pin, clean checkout and imported module
-locations. No native source is copied here; the private sibling is background only.
+locations. No native source is copied here.
 The [source audit](../evidence/gate0/seraph-integration-audit.json) is a dated
 engineering checkpoint, not a new behavioral result.
 
