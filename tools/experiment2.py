@@ -16,7 +16,7 @@ import sys
 import time
 
 ROOT = Path(__file__).resolve().parents[1]
-SPEC_PATH = ROOT / "docs/protocol/EXPERIMENT_2_EXECUTION_FREEZE_v1_1.json"
+SPEC_PATH = ROOT / "docs/protocol/EXPERIMENT_2_EXECUTION_FREEZE_v1_2.json"
 PIN = "4ee7d3044a945cbad30a8cd4230e327ba463187f"
 sys.path.insert(0, str(ROOT / "colosseum"))
 from experiments.collusion.apart_2026.provider import MODAL_STOP_CONTRACT, parse_response  # noqa: E402

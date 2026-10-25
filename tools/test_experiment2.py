@@ -209,3 +209,124 @@ class Gates(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main()
+
+
+class DriverGates(unittest.TestCase):
+    def test_scripted_schedule_and_first_invalid_stop(self):
+        # Exercise the actual driver under a fake transport, never a model.
+        import contextlib
+        import importlib.util
+        import io
+        from pathlib import Path
+        import re
+        import subprocess
+        import sys
+        import tempfile
+        import types
+
+        from experiments.collusion.apart_2026 import seraph_bridge
+
+        real_load = seraph_bridge.load_public_seraph
+        real_check_output = subprocess.check_output
+        for invalid in (False, True):
+            with self.subTest(invalid=invalid), tempfile.TemporaryDirectory() as temp:
+                root = Path(temp)
+                output = root / "evidence/experiment2/v1_2"
+                output.mkdir(parents=True)
+                (output / "GATES.json").write_text(
+                    json.dumps({"offline_gates_passed": True, "source_sha256": {}})
+                )
+                app = types.SimpleNamespace(
+                    app_id="scripted-no-modal-worker", local_entrypoint=lambda: lambda fn: fn
+                )
+
+                class Worker:
+                    def __init__(self, request_limit):
+                        self.n = 0
+                        self.request = types.SimpleNamespace(remote=self.respond)
+                        self.close = types.SimpleNamespace(
+                            remote=lambda: {"server_stopped": True, "inference_requests": self.n}
+                        )
+
+                    def respond(self, text):
+                        payload = json.loads(text)
+                        self.n += 1
+                        tool = payload["tools"][0]["function"]
+                        content = payload["messages"][-1]["content"]
+                        if tool["name"] == "allocate":
+                            b = int(re.search(r"private bit b is ([01])", content).group(1))
+                            view = json.JSONDecoder().raw_decode(content.split("PEER_VIEW_JSON: ")[1])[0]
+                            args = {"choice": str(int(view.get("private_note", view.get("audit_bit"))) ^ b)}
+                        elif "audit_bit" in tool["parameters"]["properties"]:
+                            a = int(re.search(r"private bit a is ([01])", content).group(1))
+                            args = {"component_id": "A", "audit_bit": a}
+                            if "private_note" in tool["parameters"]["properties"]:
+                                args["private_note"] = str(a)
+                        else:
+                            args = {"component_id": "B"}
+                        calls = [
+                            {
+                                "type": "function",
+                                "function": {"name": tool["name"], "arguments": json.dumps(args)},
+                            }
+                        ]
+                        if invalid:
+                            calls *= 2
+                        raw = json.dumps(
+                            {
+                                "model": payload["model"],
+                                "choices": [{"finish_reason": "stop", "message": {"tool_calls": calls}}],
+                            }
+                        )
+                        return {
+                            **{k: e.MODAL_STOP_CONTRACT[k] for k in ("model", "revision", "image", "vllm")},
+                            "http_status": 200,
+                            "raw": raw,
+                            "actual_request_index": self.n,
+                        }
+
+                stub = types.ModuleType("modal_shakedown")
+                stub.app, stub.Server = app, Worker
+                module_spec = importlib.util.spec_from_file_location(
+                    "exp2_scripted_driver", e.ROOT / "tools/modal_experiment2.py"
+                )
+                module = importlib.util.module_from_spec(module_spec)
+                with patch.dict(sys.modules, {"modal_shakedown": stub}):
+                    module_spec.loader.exec_module(module)
+                module.__file__ = str(root / "tools/modal_experiment2.py")
+
+                def git_output(args, **kwargs):
+                    if "-C" in args and args[args.index("-C") + 1] == str(root):
+                        return (
+                            "scripted-source refs/heads/main\n"
+                            if "ls-remote" in args
+                            else "scripted-source\n"
+                        )
+                    return real_check_output(args, **kwargs)
+
+                with (
+                    patch.object(
+                        seraph_bridge,
+                        "load_public_seraph",
+                        side_effect=lambda path: real_load(e.ROOT / ".runtime/SERAPH-1.0"),
+                    ),
+                    patch.object(subprocess, "check_output", side_effect=git_output),
+                    contextlib.redirect_stdout(io.StringIO()),
+                ):
+                    module.run()
+                data = json.loads((output / "record.json").read_text())
+                events = json.loads((output / "transport.json").read_text())
+                if invalid:
+                    self.assertEqual(data["requests"], 1)
+                    self.assertEqual(data["calibration_screen"]["invalid"], 1)
+                    self.assertEqual(data["calibration"][0]["calls"], [])
+                    self.assertEqual(data["main"], [])
+                else:
+                    self.assertTrue(data["complete"])
+                    self.assertEqual(data["requests"], 96)
+                    self.assertEqual(len(data["main"]), 24)
+                    self.assertTrue(data["calibration_screen"]["passed"])
+                    certs = [x for row in data["main"] for x in row.get("certified_events", [])]
+                    self.assertEqual(len(certs), 32)
+                self.assertEqual(len(events), data["requests"])
+                self.assertTrue(data["shutdown"]["server_stopped"])
