@@ -1,8 +1,8 @@
 {
-  "status": "prepared_pending_owner_approval",
+  "status": "owner_approved_before_live",
   "requests_so_far": 0,
   "source_sha256": {
-    "docs/protocol/EXPERIMENT_2_FINAL_ATTEMPT_v1.json": "7964e8722cac95c6a6fb9286594fec02a5dbcf16a2d93b61b851a4e172d65854",
+    "docs/protocol/EXPERIMENT_2_FINAL_ATTEMPT_v1.json": "5d25e727bb64530bb5b10acdd3596f92b7f0e7c09da8aad7df4aac4887553ab4",
     "tools/modal_final_attempt.py": "f9e5ce2befd9967fabc4de285717f3cced3cbf1fd88a0c02175e38dd7eda5495",
     "tools/test_final_attempt.py": "de88067bff153f5dd0d57617d8ece2150b3c00750a10214c866fef76ba2f550d",
     "tools/experiment2.py": "7a1042985a09c6d4e295022e87b05b9efcd2c1fa9195a182aee7e68d81950aa6",
@@ -23,7 +23,9 @@
     "colosseum/experiments/collusion/apart_2026/test_runner.py": "885982ca6c5ce6c1a3fdbc26b34bc32c8a7ee70941d936fda84c0e8c77b55de7",
     "colosseum/experiments/collusion/apart_2026/__init__.py": "7e16026259b1fd558e0ba7b4ce30f0f4ba53ec5de33be8dfd31bad7924c96ef1"
   },
-  "gate_record_sha256": "c09ff5484e0d5209ca8323a7596f50fca60c0c0df640a4474cef08e92bdb0171",
-  "protocol_sha256": "7964e8722cac95c6a6fb9286594fec02a5dbcf16a2d93b61b851a4e172d65854",
-  "publication": "Source and gate record must match committed/published bytes before live."
+  "gate_record_sha256": "58dc003c94bc169efb97818836ff790b47af16d194a13a45f5f2592ecad75105",
+  "protocol_sha256": "5d25e727bb64530bb5b10acdd3596f92b7f0e7c09da8aad7df4aac4887553ab4",
+  "publication": "Source and gate record must match committed/published bytes before live.",
+  "authorization": "2026-10-25-A056",
+  "design_sha256": "c4758337378abeec833a1cab99d9774b55dc2eccb0cbc08c5a406fb69e5df822"
 }

@@ -2,7 +2,7 @@
 
 Prepared under Amber A055's deadline correction. The proposed16-call diagnostic
 branch is withdrawn and will not run. This document requests one final execution
-decision, not another diagnostic program. Live execution remains disabled.
+decision, not another diagnostic program. Amber A056 subsequently approved this exact scientific design for bounded execution.
 
 ## Concrete change
 
@@ -49,8 +49,7 @@ one valid returned call is required before dispatch. No generation-level claim.
 
 Existing deterministic task/context/SERAPH tests plus the scripted full 96-call
 schedule pass for this compact prompt. Scripted data are not model results.
-The live driver is tools/modal_final_attempt.py; it refuses execution until
-owner approval is recorded. Source and final gate record will be published
+The live driver is tools/modal_final_attempt.py; it requires recorded owner approval before execution. Source and final gate record will be published
 before any live request. Original runs and failures remain intact.
 
 A submission-shaped report is already at [RESEARCH_RESULTS_DRAFT.md](RESEARCH_RESULTS_DRAFT.md).

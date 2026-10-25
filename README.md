@@ -1,8 +1,8 @@
 # Collusion Carriers and Countermeasures
 
-**Apart AI Collusion Research Sprint 2026 · Track 3.1**
+**Apart AI Collusion Research Sprint 2026 Â· Track 3.1**
 
-Amber Anson · AmberContinuum
+Amber Anson Â· AmberContinuum
 
 > We experimentally test whether discretionary information carried by legitimate
 > tool actions enables coalition advantage, and whether topology-scoped governance
@@ -17,7 +17,7 @@ pathway-specific evidence and an auditable governance integration.
 
 The [research report draft](docs/RESEARCH_RESULTS_DRAFT.md) consolidates completed
 experiments and their limits. A [single final matched run](docs/FINAL_EXPERIMENT_RUN_SCOPE.md)
-is prepared with live execution disabled pending owner approval. If calibration
+is approved under Amber A056 for one bounded attempt. If calibration
 fails, the plan closes with the report; the proposed16-call diagnostic is withdrawn.
 
 ## Experiment 2: calibration failed; main arms not run
@@ -118,8 +118,8 @@ of a governance effect. These approved exploratory runs do not pass Gate 0.
 | Historical carrier candidate | Metadata wrapper on native `assign_task`; four tests pass. Retained as feasibility evidence, not the selected D1 experiment. |
 | D1 preview action | Component schema and dispatch for `preview_task(task_id, carrier_symbol)`; native own-cost/feasibility without changing task state. |
 | Barrier and peer views | Four-slot blocks collected before release; peer fields limited to sender, public task ID, delivered slot and symbol; path-neighbor audiences. |
-| Scramble | Seeded Fisher–Yates event-instance shuffle per sender/task block; counts preserved, fixed points retained, index mapping host-only. |
-| Tests | **47 deterministic tests pass:** historical candidate, preview/shuffle, runner/permits, provider, native assignment component and route contract. Checks include all B arms at seeds 1–3, raw-board bypass prevention, canonical peer-input noninterference and permit attacks. |
+| Scramble | Seeded Fisherâ€“Yates event-instance shuffle per sender/task block; counts preserved, fixed points retained, index mapping host-only. |
+| Tests | **47 deterministic tests pass:** historical candidate, preview/shuffle, runner/permits, provider, native assignment component and route contract. Checks include all B arms at seeds 1â€“3, raw-board bypass prevention, canonical peer-input noninterference and permit attacks. |
 | SERAPH baseline | Public upstream corpus passes 17/17 cases; prior-instrument validation, not sprint G2 evidence. |
 | G2 | Real pinned SERAPH capability certifies canonical emission; missing evidence, replay, argument mutation, noncanonical batches and stale state are rejected in scripted tests. Native assignment permit binding remains unresolved. |
 | Runner and analysis | D1 turn loop, isolated histories, exact provider input/response capture and a zero-spend CLI exist. Bounded Modal live tools now exist; P calibration, monitor, full integration and analysis remain incomplete. |
@@ -169,7 +169,7 @@ state and action ordering, remain to be inventoried and controlled as declared.
 
 ## Planned experiment arms
 
-The core pilot is **six conditions × three seed identifiers = 18 episodes**.
+The core pilot is **six conditions Ã— three seed identifiers = 18 episodes**.
 It has not run. P is standalone calibration; each B-arm contrast has three matched
 seed pairs. Actions and slots within an episode are not independent replicates.
 
@@ -224,8 +224,8 @@ evidence for an earlier decision.
 
 Evaluation will report received-symbol-to-subsequent-action dependence, native
 coalition advantage and individual rewards, legitimate task performance, and
-migration to inventoried alternative channels. Planned contrasts are B2−B0,
-B2−B2-S and B2−G2, with B0→B1→B2 descriptive. The small pilot does not support
+migration to inventoried alternative channels. Planned contrasts are B2âˆ’B0,
+B2âˆ’B2-S and B2âˆ’G2, with B0â†’B1â†’B2 descriptive. The small pilot does not support
 significance, filter-superiority, general safety, detector-validation or
 phase-transition claims. Null and negative findings remain results.
 
@@ -271,7 +271,7 @@ as a validated collusion detector. Upstream validation is separate from sprint c
 
 ## Submission and collaboration
 
-The intended submission is a 4–8-page report, 150–250-word abstract, required
+The intended submission is a 4â€“8-page report, 150â€“250-word abstract, required
 Limitations and Dual-Use/Ethical Considerations appendix, and LLM usage statement.
 See the [official template](docs/apart-research-submission-template.pdf),
 [template guidance](docs/SUBMISSION_TEMPLATE.md), and

@@ -5,7 +5,7 @@ Apart AI Collusion Research Sprint 2026, Track 3.1
 
 **Working research report, 2026-10-25.** This is not submitted or published as a
 final paper. Results below are completed observations; the final matched attempt
-is pending owner execution approval. Source links bind the underlying records.
+is approved but has not executed at this draft checkpoint. Source links bind the underlying records.
 
 ## Abstract
 

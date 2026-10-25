@@ -1,9 +1,9 @@
 {
   "offline_gates_passed": true,
-  "execution_authorized": false,
+  "execution_authorized": true,
   "recorded_at_utc": "2026-10-25T04:15:04.086983+00:00",
   "source_sha256": {
-    "docs/protocol/EXPERIMENT_2_FINAL_ATTEMPT_v1.json": "7964e8722cac95c6a6fb9286594fec02a5dbcf16a2d93b61b851a4e172d65854",
+    "docs/protocol/EXPERIMENT_2_FINAL_ATTEMPT_v1.json": "5d25e727bb64530bb5b10acdd3596f92b7f0e7c09da8aad7df4aac4887553ab4",
     "tools/modal_final_attempt.py": "f9e5ce2befd9967fabc4de285717f3cced3cbf1fd88a0c02175e38dd7eda5495",
     "tools/test_final_attempt.py": "de88067bff153f5dd0d57617d8ece2150b3c00750a10214c866fef76ba2f550d",
     "tools/experiment2.py": "7a1042985a09c6d4e295022e87b05b9efcd2c1fa9195a182aee7e68d81950aa6",
@@ -25,8 +25,11 @@
     "colosseum/experiments/collusion/apart_2026/__init__.py": "7e16026259b1fd558e0ba7b4ce30f0f4ba53ec5de33be8dfd31bad7924c96ef1"
   },
   "test_methods": 8,
-  "test_output": "test_scripted_schedule_and_first_invalid_stop (final_attempt_adapted_tests.DriverGates.test_scripted_schedule_and_first_invalid_stop) ... ok\ntest_calibration_view_and_screen (final_attempt_adapted_tests.Gates.test_calibration_view_and_screen) ... ok\ntest_capability_attack_matrix (final_attempt_adapted_tests.Gates.test_capability_attack_matrix) ... ok\ntest_emission_hold_preserves_functional_availability (final_attempt_adapted_tests.Gates.test_emission_hold_preserves_functional_availability) ... ok\ntest_exact_dispatch_and_response_failures (final_attempt_adapted_tests.Gates.test_exact_dispatch_and_response_failures) ... ok\ntest_native_certified_equivalence_all_states_actions (final_attempt_adapted_tests.Gates.test_native_certified_equivalence_all_states_actions) ... ok\ntest_receipts_and_entire_wire_contexts (final_attempt_adapted_tests.Gates.test_receipts_and_entire_wire_contexts) ... ok\ntest_truth_and_nine_blind_policies (final_attempt_adapted_tests.Gates.test_truth_and_nine_blind_policies) ... ok\n\n----------------------------------------------------------------------\nRan 8 tests in 7.194s\n\nOK\n",
-  "simulation": "Owner approval simulated only inside fake-transport test process. Actual pending protocol remains disabled. Existing task/context/permit gates and a scripted96-cell-request schedule tested. Not model data.",
+  "test_output": "test_scripted_schedule_and_first_invalid_stop (final_attempt_adapted_tests.DriverGates.test_scripted_schedule_and_first_invalid_stop) ... ok\ntest_calibration_view_and_screen (final_attempt_adapted_tests.Gates.test_calibration_view_and_screen) ... ok\ntest_capability_attack_matrix (final_attempt_adapted_tests.Gates.test_capability_attack_matrix) ... ok\ntest_emission_hold_preserves_functional_availability (final_attempt_adapted_tests.Gates.test_emission_hold_preserves_functional_availability) ... ok\ntest_exact_dispatch_and_response_failures (final_attempt_adapted_tests.Gates.test_exact_dispatch_and_response_failures) ... ok\ntest_native_certified_equivalence_all_states_actions (final_attempt_adapted_tests.Gates.test_native_certified_equivalence_all_states_actions) ... ok\ntest_receipts_and_entire_wire_contexts (final_attempt_adapted_tests.Gates.test_receipts_and_entire_wire_contexts) ... ok\ntest_truth_and_nine_blind_policies (final_attempt_adapted_tests.Gates.test_truth_and_nine_blind_policies) ... ok\n\n----------------------------------------------------------------------\nRan 8 tests in 7.089s\n\nOK\n",
+  "simulation": "All test responses are scripted; fake transport tests simulate successful and first-invalid paths. Real live permission comes only from Amber A056, not from these tests.",
   "run_policy": "One8episode calibration then24matched main episodes only on pass. If calibration fails,stop and report; no more diagnostic loop.",
-  "prior_prompt_adapter_correction": "Fake transport input-bit regex adapted to compact prompt wording; native runner uses no such regex."
+  "prior_prompt_adapter_correction": "Fake transport input-bit regex adapted to compact prompt wording; native runner uses no such regex.",
+  "authorization": "2026-10-25-A056",
+  "design_sha256": "c4758337378abeec833a1cab99d9774b55dc2eccb0cbc08c5a406fb69e5df822",
+  "reviewed_candidate": "0357265"
 }

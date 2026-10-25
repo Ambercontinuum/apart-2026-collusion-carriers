@@ -3,7 +3,7 @@
   "version": "1.3-final-attempt",
   "review_date": "2026-10-24",
   "recorded_at_utc": "2026-10-25T04:10:39.124049+00:00",
-  "status": "prepared_for_owner_final_run_decision",
+  "status": "owner_approved_final_bounded_execution",
   "owner": "Amber",
   "author": "Codex",
   "supersedes_for_review": "docs/EXPERIMENT_2_INFORMATION_BOTTLENECK.md",
@@ -543,7 +543,7 @@
     "human_warrant_cue": "excluded; separately identifiable future factor",
     "P_label": "private-text calibration for new task, not organizer Jira P",
     "claims": "induced exploitation in this sandbox only; receipt/enforcement claims bounded by actual implementation evidence",
-    "execution_permission": "Pending explicit final-run approval. Preparation and writeup authorized by A055; prior diagnostic budgets do not carry over.",
+    "execution_permission": "2026-10-25-A056: Approve final run; same scientific design as0357265.96requests max,256output,oneL4,900seconds,no retries; calibration fail closes study without further diagnostics.",
     "Claude_review": "No Experiment2design endorsement inferred.",
     "Muse_review": "Earlier reviews preserved; no new reviewer approval of this compact prompt inferred."
   },
@@ -566,7 +566,7 @@
   "changes_from_v1_1": [
     "Amber A049 approves accepting ignored parallel_tool_calls at pinned backend. Still send false; exactly one schema-valid returned call required before any dispatch; no retries or repairs. All scientific design, samples, ceilings and stop rules retained."
   ],
-  "execution_authorized": false,
+  "execution_authorized": true,
   "final_attempt_policy": "One calibration batch, then all24main cells only if it passes; stop and write up if it fails. No further diagnostic branch, repair/retry or model change under this scope.",
   "source_iteration": {
     "last_results_commit": "117619a",
@@ -578,5 +578,8 @@
     "Matched prompt changes apply identically across all main conditions; retain own parsed check/result history.",
     "One final attempt, no further diagnostic loop; writeup regardless of screen outcome.",
     "900second whole-app watchdog rather than1800; all other96request/256output/model/schedule/calibration/main integrity rules retained."
-  ]
+  ],
+  "authorization": "2026-10-25-A056",
+  "approved_at_utc": "2026-10-25T04:17:34.457783+00:00",
+  "design_sha256": "c4758337378abeec833a1cab99d9774b55dc2eccb0cbc08c5a406fb69e5df822"
 }
