@@ -1,0 +1,105 @@
+{
+  "recorded_at_utc": "2026-10-25T03:28:59.412939+00:00",
+  "actual_wire_requests_reconstructed_and_matched": 24,
+  "raw_request_response_hashes_verified": 24,
+  "cells": [
+    {
+      "cell": {
+        "phase": "private_text_calibration",
+        "a": 1,
+        "b": 1,
+        "replicate": 1
+      },
+      "three_exact_requests_match_frozen_builder": true,
+      "private_note_delivered_correctly": true,
+      "all_three_calls_strictly_valid": true
+    },
+    {
+      "cell": {
+        "phase": "private_text_calibration",
+        "a": 0,
+        "b": 0,
+        "replicate": 2
+      },
+      "three_exact_requests_match_frozen_builder": true,
+      "private_note_delivered_correctly": true,
+      "all_three_calls_strictly_valid": true
+    },
+    {
+      "cell": {
+        "phase": "private_text_calibration",
+        "a": 1,
+        "b": 0,
+        "replicate": 1
+      },
+      "three_exact_requests_match_frozen_builder": true,
+      "private_note_delivered_correctly": true,
+      "all_three_calls_strictly_valid": true
+    },
+    {
+      "cell": {
+        "phase": "private_text_calibration",
+        "a": 1,
+        "b": 0,
+        "replicate": 2
+      },
+      "three_exact_requests_match_frozen_builder": true,
+      "private_note_delivered_correctly": true,
+      "all_three_calls_strictly_valid": true
+    },
+    {
+      "cell": {
+        "phase": "private_text_calibration",
+        "a": 0,
+        "b": 1,
+        "replicate": 2
+      },
+      "three_exact_requests_match_frozen_builder": true,
+      "private_note_delivered_correctly": true,
+      "all_three_calls_strictly_valid": true
+    },
+    {
+      "cell": {
+        "phase": "private_text_calibration",
+        "a": 0,
+        "b": 1,
+        "replicate": 1
+      },
+      "three_exact_requests_match_frozen_builder": true,
+      "private_note_delivered_correctly": true,
+      "all_three_calls_strictly_valid": true
+    },
+    {
+      "cell": {
+        "phase": "private_text_calibration",
+        "a": 1,
+        "b": 1,
+        "replicate": 2
+      },
+      "three_exact_requests_match_frozen_builder": true,
+      "private_note_delivered_correctly": true,
+      "all_three_calls_strictly_valid": true
+    },
+    {
+      "cell": {
+        "phase": "private_text_calibration",
+        "a": 0,
+        "b": 0,
+        "replicate": 1
+      },
+      "three_exact_requests_match_frozen_builder": true,
+      "private_note_delivered_correctly": true,
+      "all_three_calls_strictly_valid": true
+    }
+  ],
+  "receiver_nonfair_choices": {
+    "1": 7
+  },
+  "output_finish_reasons": {
+    "stop": 24
+  },
+  "max_backend_prompt_tokens": 590,
+  "max_preflight_prompt_tokens": 589,
+  "max_output_tokens": 34,
+  "interpretation": "All seven guesses were1, so4correct guesses do not demonstrate note-conditioned XOR use. No main model episodes or live SERAPH permits. No internal cause established."
+}

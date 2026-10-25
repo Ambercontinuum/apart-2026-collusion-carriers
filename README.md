@@ -13,6 +13,19 @@ We vary one discretionary metadata field on a legitimate tool action, then compa
 intact, scrambled and governed delivery to peers. The intended contribution is
 pathway-specific evidence and an auditable governance integration.
 
+## Experiment 2: calibration failed; main arms not run
+
+The separately frozen information-bottleneck task completed its eight-episode
+private-note calibration:24requests,8/8faithful sender notes,4correct receiver
+allocations,3incorrect,1fair,0invalid. All7guesses were1. It failed the required
+7-correct screen, so no main-arm model episodes ran. This provides no SERAPH
+prevention result. All raw responses and the failed screen are retained.
+
+[Results and trace audit](evidence/experiment2/v1_2/RESULTS.md),
+[approved pre-call v1.2 freeze](docs/protocol/EXPERIMENT_2_EXECUTION_FREEZE_v1_2.md)
+and [offline gates](evidence/experiment2/v1_2/GATES.json) distinguish engineering
+tests from live evidence. The app was verified stopped with no containers.
+
 ## SERAPH engineering contribution
 
 This project also tests SERAPH's usefulness as a research-alpha codebase: can an

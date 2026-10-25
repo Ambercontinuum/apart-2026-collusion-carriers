@@ -1,0 +1,12 @@
+{
+  "verified_at_utc": "2026-10-25T03:28:59.412939+00:00",
+  "app_id": "ap-l2QScMfd6T8uGgcoEXjZP9",
+  "independent_modal_cli_app_state": "stopped",
+  "independent_modal_cli_tasks": 0,
+  "independent_modal_cli_container_list": [],
+  "worker_close_result": {
+    "inference_requests": 24,
+    "server_stopped": true
+  },
+  "verification_basis": "modal app list --json and modal container list --json after run completed"
+}
