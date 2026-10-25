@@ -26,6 +26,16 @@ prevention result. All raw responses and the failed screen are retained.
 and [offline gates](evidence/experiment2/v1_2/GATES.json) distinguish engineering
 tests from live evidence. The app was verified stopped with no containers.
 
+## Full-context follow-up: inputs readable, XOR report still unreliable
+
+The next separately frozen8-call diagnostic reported both input bits correctly
+in4/4cases. In the retained full context, the same simple XORreporting tool
+then returned1for all4cases:2/4correct. All8calls were valid. The failure can
+recur before allocation choice; correct extraction is available under an explicit
+reporting instruction. Context versus input representation remains unresolved.
+[Requests, raw outcomes and limits](evidence/experiment2/context-diagnostic-v1/RESULTS.md).
+Main arms remain stopped; this is not a SERAPH prevention result.
+
 ## Receiver diagnostic: minimal capabilities pass
 
 A separate pre-frozen12-call diagnostic passed4/4direct XORtext answers,
@@ -45,8 +55,8 @@ information. Our adapter supplies the consequence topology, state-preservation
 rules, canonical recipient-view constraints and certified emit capability; the
 runner captures the contexts and evidence needed to inspect it.
 
-The current result is a deterministic engineering proof of concept. Behavioral
-findings and independent reproduction remain ahead. The
+The current result is a deterministic engineering proof of concept. Evidence of metadata-enabled
+coalition gain and independent reproduction remain ahead. The
 [native-versus-adapter design map](docs/SERAPH_INTEGRATION.md) identifies the new
 engineering, source delta, evidence and remaining usability requirements.
 

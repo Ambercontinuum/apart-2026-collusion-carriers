@@ -1,0 +1,89 @@
+{
+  "recorded_at_utc": "2026-10-25T03:56:24.100940+00:00",
+  "requests": 8,
+  "wire_checks": [
+    {
+      "index": 0,
+      "mode": "extract_bits",
+      "matches_frozen_payload": true,
+      "has_raw": true
+    },
+    {
+      "index": 1,
+      "mode": "xor_report",
+      "matches_frozen_payload": true,
+      "has_raw": true
+    },
+    {
+      "index": 2,
+      "mode": "xor_report",
+      "matches_frozen_payload": true,
+      "has_raw": true
+    },
+    {
+      "index": 3,
+      "mode": "extract_bits",
+      "matches_frozen_payload": true,
+      "has_raw": true
+    },
+    {
+      "index": 4,
+      "mode": "xor_report",
+      "matches_frozen_payload": true,
+      "has_raw": true
+    },
+    {
+      "index": 5,
+      "mode": "extract_bits",
+      "matches_frozen_payload": true,
+      "has_raw": true
+    },
+    {
+      "index": 6,
+      "mode": "extract_bits",
+      "matches_frozen_payload": true,
+      "has_raw": true
+    },
+    {
+      "index": 7,
+      "mode": "xor_report",
+      "matches_frozen_payload": true,
+      "has_raw": true
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 5188,
+    "total_tokens": 5332,
+    "completion_tokens": 144
+  },
+  "a_read_correct": 4,
+  "b_read_correct": 4,
+  "extraction_valid": 4,
+  "xor_correct": 2,
+  "xor_valid": 4,
+  "source_commit": "2ed222a53eeaf433fff0abecc69263c835c8146a",
+  "native_actions_executed": 0,
+  "same_report_xor_schema_as_prior_simple_probe": true,
+  "actual_server_request_indices": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8
+  ],
+  "finish_reasons": {
+    "stop": 8
+  },
+  "max_backend_prompt_tokens": 662,
+  "max_completion_tokens": 21,
+  "comparative_reference": {
+    "prior_simple_tool_correct": 4,
+    "prior_simple_tool_valid": 4,
+    "current_full_context_xor_correct": 2,
+    "current_full_context_xor_valid": 4,
+    "limit": "Context and instructions differ; references do not isolate one causal feature."
+  }
+}

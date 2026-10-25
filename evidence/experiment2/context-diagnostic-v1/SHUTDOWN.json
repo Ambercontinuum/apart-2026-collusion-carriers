@@ -1,0 +1,17 @@
+{
+  "verified_at_utc": "2026-10-25T03:57:43.258852+00:00",
+  "app_id": "ap-bD5C4GWoiqSYtGGQ9M9LCn",
+  "independent_modal_cli_state": "stopped",
+  "independent_modal_cli_tasks": 0,
+  "independent_modal_cli_containers": [],
+  "worker_close_result": {
+    "inference_requests": 8,
+    "server_stopped": true
+  },
+  "driver_wall_seconds": 309.20300000000134,
+  "watchdog_expired": false,
+  "app_created_at": "2026-10-24 23:49:08-04:00",
+  "app_stopped_at": "2026-10-24 23:54:24-04:00",
+  "startup_observation": "Container was observed Pending before responses arrived; queue/allocation wait is not classified as a model failure.",
+  "billing": "not independently verified"
+}

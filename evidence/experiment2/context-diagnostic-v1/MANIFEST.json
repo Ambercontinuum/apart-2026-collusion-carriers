@@ -1,0 +1,14 @@
+{
+  "algorithm": "SHA-256",
+  "scope": "Exact evidence bytes excluding this manifest; raw request/response string hashes also in transport.json.",
+  "files": {
+    "AUDIT.json": "39bfa085ce1debd4cd00816c74c5f8ebca25abf01cd067df965c1ee08d4c2039",
+    "console.txt": "00c7b051ec2d9fe53589d82ffb0b83d56f3c077855cec34439826115e7cc757a",
+    "GATES.json": "57bee6d9fae1006b29e6ac07a2cdd8dec0a4faccab2bcf85cc54ec2b72f75fe4",
+    "PRECALL.json": "067df31c70a0db98e16da75902998f417787b57f864642cbf1048b56d8b5b3cb",
+    "record.json": "33351ae377e9eebcb5829542ac1aecc4839aee74702c47cb52b7ced6e49ac63e",
+    "RESULTS.md": "10ae8baf193b2db6bd828774af8bdfeea512234303e2787ff94edf0ad70cbca3",
+    "SHUTDOWN.json": "eed14c7ac77c1cc62baafb46ecee75451d504c27cab78fba2305f1d973d2567d",
+    "transport.json": "ff0d7615489ee56bd73b4516079a01e40b0651d7665e944f6b21161c9c35b436"
+  }
+}
