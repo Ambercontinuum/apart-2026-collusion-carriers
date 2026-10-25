@@ -55,7 +55,8 @@ cheaper alternatives; this suggests anchoring without proving cause.
 Experiment 2 creates an explicit information bottleneck: A and B hold private bits,
 B predicts XOR or chooses fair, and a fictional outsider bears the payoff tradeoff.
 The final main arms match prompts and histories while delivering intact or canonical
-metadata. A's receipt never reaches B. No main audit-bit code is assigned. This is
+metadata. A's receipt never reaches B. The sender is told that the delivered
+record includes the audit bit, but no main audit-bit code is assigned. This is
 induced coalition pressure, not spontaneous misconduct.
 
 [The SERAPH design map](docs/SERAPH_INTEGRATION.md) distinguishes native mechanisms
@@ -93,7 +94,7 @@ the source. [Build instructions](output/pdf/source/README.md) describe the alter
 ## Sources and prior work
 
 SERAPH is **preexisting research-alpha work by Amber Anson**, developed before the
-sprint. New sprint work, beginning October 24, 2026, comprises the preview/barrier/
+sprint. New work during the sprint (October 23-25, 2026) comprises setup, the preview/barrier/
 shuffle specification, domain adapters, provider integration, private-bit task,
 controls, live runs, audits and report. Its upstream validation corpus is prior
 instrument evidence, not a new sprint efficacy result.

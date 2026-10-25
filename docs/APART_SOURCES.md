@@ -19,8 +19,8 @@ The installed distribution supplies native Jira task semantics and scoring.
 We inspect those files without modifying the installed dependency. Package
 version is pinned; an upstream Git commit for the distribution is not asserted.
 
-SERAPH is preexisting research-alpha work by Amber Anson. New sprint work began
-October 24, 2026: preview/barrier/shuffle specifications, provider and domain
+SERAPH is preexisting research-alpha work by Amber Anson. New work during the
+sprint (October 23-25, 2026) includes setup, preview/barrier/shuffle specifications, provider and domain
 adapters, private-bit task, bounded live experiments, audits, analysis and paper.
 The public core has zero patches. Final execution includes three grid emission
 permits and 32 functional/emission permits in the private-bit task. No varying

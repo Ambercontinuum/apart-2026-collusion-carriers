@@ -50,7 +50,8 @@ The integration uses [SERAPH-1.0](https://github.com/Ambercontinuum/SERAPH-1.0/t
 without native patches. Exact source origins and distribution boundaries are
 recorded in [APART_SOURCES.md](APART_SOURCES.md) and [SOURCE_FILES.json](SOURCE_FILES.json).
 SERAPH is preexisting research-alpha work by Amber Anson; sprint adapters, task
-specifications, execution and analysis are new work beginning October 24, 2026.
+specifications, execution and analysis are new work during the sprint
+(October 23-25, 2026), including setup beginning October 23.
 The paper cites [Nakamura et al. (2026)](https://arxiv.org/abs/2602.15198),
 [Motwani et al. (2024)](https://arxiv.org/abs/2402.07510), and
 [Mathew et al. (2025)](https://arxiv.org/abs/2410.03768). No literature-wide
