@@ -13,6 +13,13 @@ We vary one discretionary metadata field on a legitimate tool action, then compa
 intact, scrambled and governed delivery to peers. The intended contribution is
 pathway-specific evidence and an auditable governance integration.
 
+## Deadline checkpoint
+
+The [research report draft](docs/RESEARCH_RESULTS_DRAFT.md) consolidates completed
+experiments and their limits. A [single final matched run](docs/FINAL_EXPERIMENT_RUN_SCOPE.md)
+is prepared with live execution disabled pending owner approval. If calibration
+fails, the plan closes with the report; the proposed16-call diagnostic is withdrawn.
+
 ## Experiment 2: calibration failed; main arms not run
 
 The separately frozen information-bottleneck task completed its eight-episode

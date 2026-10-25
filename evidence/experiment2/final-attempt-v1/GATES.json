@@ -1,0 +1,32 @@
+{
+  "offline_gates_passed": true,
+  "execution_authorized": false,
+  "recorded_at_utc": "2026-10-25T04:15:04.086983+00:00",
+  "source_sha256": {
+    "docs/protocol/EXPERIMENT_2_FINAL_ATTEMPT_v1.json": "7964e8722cac95c6a6fb9286594fec02a5dbcf16a2d93b61b851a4e172d65854",
+    "tools/modal_final_attempt.py": "f9e5ce2befd9967fabc4de285717f3cced3cbf1fd88a0c02175e38dd7eda5495",
+    "tools/test_final_attempt.py": "de88067bff153f5dd0d57617d8ece2150b3c00750a10214c866fef76ba2f550d",
+    "tools/experiment2.py": "7a1042985a09c6d4e295022e87b05b9efcd2c1fa9195a182aee7e68d81950aa6",
+    "tools/test_experiment2.py": "4026a2b44f28a7ed4e0d20ea1ba8cf65fda6f1baa9665d0f5f36949ca104dc92",
+    "tools/modal_shakedown.py": "5f4e82216986f76841e4d2e59f6432ecb5211e7301eba58906511067c3bbbe9c",
+    "colosseum/experiments/collusion/apart_2026/carrier.py": "80894939aea5dabdcb864e32ec5ffad1bc39a8f854a37d112ccb0312e5fcf93c",
+    "colosseum/experiments/collusion/apart_2026/functional_bridge.py": "ed1fc7d4c34bc5420e35aeacdd371d3ac7e6c41087773a909dc0750d1fe2b7d1",
+    "colosseum/experiments/collusion/apart_2026/preview.py": "93e67468b3ddc6dc7aae633673aae3c083f4aad3d0c6045a01728b460503ace5",
+    "colosseum/experiments/collusion/apart_2026/provider.py": "781873ece6a867216e8a926cc584da63c3cfe6545bb0a538e87c1f5190469727",
+    "colosseum/experiments/collusion/apart_2026/runner.py": "bd6e8e52f64e11511fd3959af8ee5d45bba8fd7a1a9275385a3754242b4e9e31",
+    "colosseum/experiments/collusion/apart_2026/scramble.py": "d07ae21b47ff438e62f212a1e0f00dbd6e7f86dd9fc431fa684adfae777ffeb0",
+    "colosseum/experiments/collusion/apart_2026/seraph_bridge.py": "6a82c4f54967d15a9ca2836ca87afe99ba6719459d02c63565e4cff25f5a2913",
+    "colosseum/experiments/collusion/apart_2026/test_carrier.py": "34f078d6d80ae2ce216ba1d86f6bfbe82ce9001561b83266342f1aef2dce0f9c",
+    "colosseum/experiments/collusion/apart_2026/test_functional_bridge.py": "6fa7026d74e17dfae5c972d9f68f0af830109bfbf3b7a58da23551518f3c6ace",
+    "colosseum/experiments/collusion/apart_2026/test_preview.py": "84f817481a8f726a0b1bc749a8a87dc861501a27ddb68649d526cd9148c728d3",
+    "colosseum/experiments/collusion/apart_2026/test_provider.py": "d4a82c0252d4f8bcd0e3781c18843c5708d83c09838f54d759ac9f1b02f93118",
+    "colosseum/experiments/collusion/apart_2026/test_route_contract.py": "b24221386f6aa3d582275cc6a780197fd6e3da92b2845f2a4c5940e94e10faa1",
+    "colosseum/experiments/collusion/apart_2026/test_runner.py": "885982ca6c5ce6c1a3fdbc26b34bc32c8a7ee70941d936fda84c0e8c77b55de7",
+    "colosseum/experiments/collusion/apart_2026/__init__.py": "7e16026259b1fd558e0ba7b4ce30f0f4ba53ec5de33be8dfd31bad7924c96ef1"
+  },
+  "test_methods": 8,
+  "test_output": "test_scripted_schedule_and_first_invalid_stop (final_attempt_adapted_tests.DriverGates.test_scripted_schedule_and_first_invalid_stop) ... ok\ntest_calibration_view_and_screen (final_attempt_adapted_tests.Gates.test_calibration_view_and_screen) ... ok\ntest_capability_attack_matrix (final_attempt_adapted_tests.Gates.test_capability_attack_matrix) ... ok\ntest_emission_hold_preserves_functional_availability (final_attempt_adapted_tests.Gates.test_emission_hold_preserves_functional_availability) ... ok\ntest_exact_dispatch_and_response_failures (final_attempt_adapted_tests.Gates.test_exact_dispatch_and_response_failures) ... ok\ntest_native_certified_equivalence_all_states_actions (final_attempt_adapted_tests.Gates.test_native_certified_equivalence_all_states_actions) ... ok\ntest_receipts_and_entire_wire_contexts (final_attempt_adapted_tests.Gates.test_receipts_and_entire_wire_contexts) ... ok\ntest_truth_and_nine_blind_policies (final_attempt_adapted_tests.Gates.test_truth_and_nine_blind_policies) ... ok\n\n----------------------------------------------------------------------\nRan 8 tests in 7.194s\n\nOK\n",
+  "simulation": "Owner approval simulated only inside fake-transport test process. Actual pending protocol remains disabled. Existing task/context/permit gates and a scripted96-cell-request schedule tested. Not model data.",
+  "run_policy": "One8episode calibration then24matched main episodes only on pass. If calibration fails,stop and report; no more diagnostic loop.",
+  "prior_prompt_adapter_correction": "Fake transport input-bit regex adapted to compact prompt wording; native runner uses no such regex."
+}
