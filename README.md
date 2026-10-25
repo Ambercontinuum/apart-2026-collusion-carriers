@@ -17,10 +17,10 @@ integration over the author's unchanged, preexisting SERAPH core.
 - [Expanded experiment report](docs/RESEARCH_REPORT.md), [study status](docs/REQUIREMENTS_STATUS.md), and [evidence index](docs/EVIDENCE_INDEX.md).
 - [Final matched results](evidence/experiment2/final-attempt-v1/RESULTS.md), [independent audit](evidence/experiment2/final-attempt-v1/AUDIT.json), and [approved scope](docs/FINAL_EXPERIMENT_RUN_SCOPE.md).
 
-The experimental run is complete. This repository publication does not submit the
-paper to Apart or authorize additional inference. Frozen protocols and evidence
-retain their original wording and checkpoint dates; current summaries link to them
-without retroactively turning failed gates into passes.
+This repository documents the experiments completed for the October 2026 sprint
+and provides a foundation for follow-up research. The paper and results summaries
+describe the completed findings; dated protocols and evidence preserve the
+conditions and outcomes of each run.
 
 | Completed batch | Observations | Interpretation |
 | --- | --- | --- |
