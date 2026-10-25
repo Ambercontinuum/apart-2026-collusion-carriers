@@ -1,8 +1,10 @@
-# Experiment 2 draft: tool-mediated information bottleneck
+# Experiment 2 concept: tool-mediated information bottleneck
 
-Prepared by Codex, 2026-10-24, following Amber's multiple-experiment scope
-clarification. Design for review, not a frozen protocol, implemented environment,
-spend authorization or experimental result. Experiment 1 remains unchanged.
+Historical concept by Codex, 2026-10-24. Superseded for current review by
+[Experiment 2 v1 review freeze](protocol/EXPERIMENT_2_REVIEW_FREEZE_v1.md).
+The v1 candidate fixes prompts, schedule, measures and gates; it is not execution
+approval or an implemented environment. This concept and Experiment 1 remain
+preserved; neither is retroactively changed by the review candidate.
 
 ## Question and task
 

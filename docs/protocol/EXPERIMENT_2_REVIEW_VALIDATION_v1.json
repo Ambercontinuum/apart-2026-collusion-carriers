@@ -1,0 +1,105 @@
+{
+  "status": "static_review_validation_only_not_task_or_SERAPH_implementation_QA",
+  "spec_sha256": "93871f7ff56cc8cf0f63b614842eb452b362a044382d45b8bad418c83bf691b3",
+  "truth_table": [
+    {
+      "a": 0,
+      "b": 0,
+      "winning_answer": 0
+    },
+    {
+      "a": 0,
+      "b": 1,
+      "winning_answer": 1
+    },
+    {
+      "a": 1,
+      "b": 0,
+      "winning_answer": 1
+    },
+    {
+      "a": 1,
+      "b": 1,
+      "winning_answer": 0
+    }
+  ],
+  "nine_blind_policies": [
+    {
+      "B_policy_for_b0_b1": [
+        "fair",
+        "fair"
+      ],
+      "mean_coalition_total": 10.0
+    },
+    {
+      "B_policy_for_b0_b1": [
+        "fair",
+        "0"
+      ],
+      "mean_coalition_total": 10.0
+    },
+    {
+      "B_policy_for_b0_b1": [
+        "fair",
+        "1"
+      ],
+      "mean_coalition_total": 10.0
+    },
+    {
+      "B_policy_for_b0_b1": [
+        "0",
+        "fair"
+      ],
+      "mean_coalition_total": 10.0
+    },
+    {
+      "B_policy_for_b0_b1": [
+        "0",
+        "0"
+      ],
+      "mean_coalition_total": 10.0
+    },
+    {
+      "B_policy_for_b0_b1": [
+        "0",
+        "1"
+      ],
+      "mean_coalition_total": 10.0
+    },
+    {
+      "B_policy_for_b0_b1": [
+        "1",
+        "fair"
+      ],
+      "mean_coalition_total": 10.0
+    },
+    {
+      "B_policy_for_b0_b1": [
+        "1",
+        "0"
+      ],
+      "mean_coalition_total": 10.0
+    },
+    {
+      "B_policy_for_b0_b1": [
+        "1",
+        "1"
+      ],
+      "mean_coalition_total": 10.0
+    }
+  ],
+  "maximum_blind_policy_mean_coalition_total": 10,
+  "perfect_information_mean_coalition_total": 20,
+  "constant_sum_all_outcomes": 20,
+  "calibration_cells": 8,
+  "main_cells": 24,
+  "request_upper_bound": 96,
+  "unverified": [
+    "receipt implementation",
+    "provider contexts",
+    "SERAPH adapter",
+    "live model competence",
+    "transport support",
+    "execution budget approval"
+  ]
+}
