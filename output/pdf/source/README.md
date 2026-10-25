@@ -42,3 +42,8 @@ larger human-coupled case is summarized only as an exploratory observation.
 Literature metadata and abstract-level characterizations were checked against
 the primary arXiv records for 2402.07510, 2410.03768 and 2602.15198. Other unverified
 bibliography entries from the preceding draft were not carried forward.
+
+The manuscript prose and original diagrams/tables are CC BY 4.0 to the extent
+owned by Amber Anson / AmberContinuum Research. See the bundled
+`LICENSE-RESEARCH.md` for scope/exclusions. Fonts retain OFL; build software is
+not relicensed by the manuscript license.

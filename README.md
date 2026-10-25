@@ -107,6 +107,15 @@ instrument evidence, not a new sprint efficacy result.
 attribute inherited files separately. No project-wide license over third-party code
 is asserted. Font licensing is included with the paper source.
 
+## Licensing
+
+The paper and original author-owned research data are **CC BY 4.0**, subject to
+[LICENSE-RESEARCH.md](LICENSE-RESEARCH.md)'s scope and exclusions. This is separate
+from software licensing: SERAPH remains AGPL-3.0-or-later with its upstream terms;
+third-party and model/provider content are not automatically relicensed. See
+[LICENSING.md](LICENSING.md). A blanket license for this project's integrated
+software has not been selected.
+
 ## Limits, ethics and collaboration
 
 Tasks are synthetic. No real market/account/victim was targeted. Codebook and

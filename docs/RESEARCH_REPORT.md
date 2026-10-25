@@ -306,3 +306,10 @@ process material is not newly released. Withheld responses were not reconstructe
 The paper and repository publish the completed synthetic study and its limits.
 The source and environment pins support re-execution; exact provider determinism
 and independent third-party replication are not promised.
+
+
+## Research-material licensing
+
+The paper and original author-owned research data are CC BY 4.0, subject to
+[LICENSE-RESEARCH.md](../LICENSE-RESEARCH.md). Software, third-party and provider/model
+content retain separate terms; private records are excluded.
