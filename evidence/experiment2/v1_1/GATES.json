@@ -1,0 +1,48 @@
+{
+  "recorded_at_utc": "2026-10-25T02:57:58.554694+00:00",
+  "owner_authorization": "A048 Run the experiment; frozen gates retained",
+  "deterministic_test_exit_code": 0,
+  "deterministic_tests_passed": true,
+  "test_methods": 7,
+  "scope": "exhaustive finite payoff/policy and receipt/context checks plus capability attack matrix; not a complete live transport gate",
+  "source_sha256": {
+    "tools/experiment2.py": "15a5302356f70517e63d5b5c29046b53582c4270a637142c2c04056e6a153a2a",
+    "tools/test_experiment2.py": "76766190ba31aa529f9d52298ea266349e2a4811f0395c15b7855636583fa701",
+    "tools/modal_experiment2.py": "a3aa47d4912167ef0c4dedfbda5c6e99c4246a3eef98456c4ce59ac7b3ecd8b9",
+    "docs/protocol/EXPERIMENT_2_EXECUTION_FREEZE_v1_1.json": "ccfd7ad0a0de4181c7c9d6ee7f0de53e8799e3416951adb9c4b16b4295082c0f",
+    "docs/protocol/EXPERIMENT_2_EXECUTION_FREEZE_v1_1.md": "28c8f1d97e0ef65d4331822805b2f0ed397401bcc81b9bde9acfb446f0196099"
+  },
+  "seraph_pin": "4ee7d3044a945cbad30a8cd4230e327ba463187f",
+  "public_seraph_patches": 0,
+  "live_execution_ready": false,
+  "stop_reason": "Pinned vLLM0.11.0 ignores parallel_tool_calls; freeze explicitly requires honored false setting or stop. No approved transport-contract amendment.",
+  "blocking_gate": "parallel_tool_calls false supported without silent server normalization",
+  "primary_sources": [
+    {
+      "url": "https://raw.githubusercontent.com/vllm-project/vllm/v0.11.0/vllm/entrypoints/openai/protocol.py",
+      "lines": "426-427",
+      "observation": "Comment explicitly says vLLM ignores this field; model determines behavior."
+    },
+    {
+      "url": "https://raw.githubusercontent.com/vllm-project/vllm/v0.11.0/vllm/entrypoints/openai/serving_chat.py",
+      "lines": "90-96",
+      "observation": "Auto-tools setup logs that the compatibility option is ignored."
+    }
+  ],
+  "source_verification_limit": "Inspected official pinned-version upstream source, not remote image installed byte hashes. No GPU started to inspect it. Cannot claim pinned image honors a field upstream ignores.",
+  "live_requests": 0,
+  "modal_workers_started": 0,
+  "inference_tokens": 0,
+  "billing_amount": "not independently verified; no new worker or inference launched in this attempt",
+  "development_corrections_before_any_live_call": [
+    "Declared affected recipient role/effect explicitly.",
+    "Sorted manifold entity projection to match realized-state normalization.",
+    "Recovery probe restores preexisting staged state and snapshots by value."
+  ],
+  "remaining_work": [
+    "Owner-reviewed transport contract amendment or verified supporting route.",
+    "Complete bounded live driver and runtime-specific gate verification before inference.",
+    "Publish any revised protocol/source before first live call."
+  ],
+  "lint": "ruff check passed"
+}

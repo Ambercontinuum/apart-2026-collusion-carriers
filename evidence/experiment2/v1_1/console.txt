@@ -1,0 +1,12 @@
+test_calibration_view_and_screen (test_experiment2.Gates.test_calibration_view_and_screen) ... ok
+test_capability_attack_matrix (test_experiment2.Gates.test_capability_attack_matrix) ... ok
+test_emission_hold_preserves_functional_availability (test_experiment2.Gates.test_emission_hold_preserves_functional_availability) ... ok
+test_exact_dispatch_and_response_failures (test_experiment2.Gates.test_exact_dispatch_and_response_failures) ... ok
+test_native_certified_equivalence_all_states_actions (test_experiment2.Gates.test_native_certified_equivalence_all_states_actions) ... ok
+test_receipts_and_entire_wire_contexts (test_experiment2.Gates.test_receipts_and_entire_wire_contexts) ... ok
+test_truth_and_nine_blind_policies (test_experiment2.Gates.test_truth_and_nine_blind_policies) ... ok
+
+----------------------------------------------------------------------
+Ran 7 tests in 4.244s
+
+OK

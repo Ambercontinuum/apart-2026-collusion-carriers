@@ -1,0 +1,14 @@
+{
+  "status": "blocked_pre_inference",
+  "calibration": {
+    "attempted": 0,
+    "unattempted": 8,
+    "screen": "not run"
+  },
+  "main": {
+    "attempted": 0,
+    "unattempted": 24
+  },
+  "requests": 0,
+  "gate_record": "GATES.json"
+}

@@ -1,0 +1,13 @@
+{
+  "status": "blocked_pre_inference",
+  "source_sha256": {
+    "tools/experiment2.py": "15a5302356f70517e63d5b5c29046b53582c4270a637142c2c04056e6a153a2a",
+    "tools/test_experiment2.py": "76766190ba31aa529f9d52298ea266349e2a4811f0395c15b7855636583fa701",
+    "tools/modal_experiment2.py": "a3aa47d4912167ef0c4dedfbda5c6e99c4246a3eef98456c4ce59ac7b3ecd8b9",
+    "docs/protocol/EXPERIMENT_2_EXECUTION_FREEZE_v1_1.json": "ccfd7ad0a0de4181c7c9d6ee7f0de53e8799e3416951adb9c4b16b4295082c0f",
+    "docs/protocol/EXPERIMENT_2_EXECUTION_FREEZE_v1_1.md": "28c8f1d97e0ef65d4331822805b2f0ed397401bcc81b9bde9acfb446f0196099"
+  },
+  "gate_record_sha256": "b84d483c4f50130f4d7ae3330b763d8aa13bf0056ee96b9b42d9aae8a1641ac4",
+  "requests": 0,
+  "run_started": false
+}
