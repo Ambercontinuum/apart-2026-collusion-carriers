@@ -27,6 +27,19 @@ findings and independent reproduction remain ahead. The
 [native-versus-adapter design map](docs/SERAPH_INTEGRATION.md) identifies the new
 engineering, source delta, evidence and remaining usability requirements.
 
+## Ungated P calibration: coordination observed
+
+The supplied private-channel P calibration completed at seed 1 without SERAPH:
+28 requests, seven coalition-private messages, task-allocation plans reflected
+in final assignments. Native coalition-minus-noncoalition mean reward was
+**+10.49** (a group difference, not a causal estimate). One native violation
+remained. [Raw evidence and limits](evidence/calibration/p-qwen3-4b-seed1-20261024/RESULTS.md).
+
+This demonstrates explicit private-channel coordination in this setup. It does
+not establish SERAPH prevention: P differs from D1 in channel, graph, history,
+temperature and order. Only P seed 1 ran; there is no matched SERAPH-on P arm or
+human-warrant test. The earlier frozen grid and failed controls remain intact.
+
 ## Frozen exploratory grid completed
 
 **15/15 episodes valid across B0, B1, B2, B2-S and G2 at seeds 1?3; 300 requests.**

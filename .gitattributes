@@ -2,3 +2,6 @@
 *.pdf binary
 docs/protocol/*.md -text
 evidence/gate0/scripted-g2-smoke/* -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+
+# Preserve native P logs/config/archive and raw hashes exactly.
+evidence/calibration/p-qwen3-4b-seed1-20261024/** -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol

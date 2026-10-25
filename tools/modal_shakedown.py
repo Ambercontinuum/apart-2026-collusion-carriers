@@ -19,6 +19,8 @@ app = modal.App("apart-b0-b2-shakedown")
          retries=0, max_containers=1, scaledown_window=30)
 class Server:
     request_limit: int = modal.parameter(default=40)
+    output_limit: int = modal.parameter(default=256)
+    required_tools: bool = modal.parameter(default=True)
 
     @modal.enter()
     def start(self):
@@ -31,6 +33,8 @@ class Server:
         self.calls = 0
         if not 1 <= self.request_limit <= 300:
             raise ValueError("request limit outside authorized bounded runner range")
+        if self.output_limit not in (256, 1500):
+            raise ValueError("unsupported bounded output limit")
         self.tokenizer = AutoTokenizer.from_pretrained(MODEL, revision=REVISION)
         self.log = tempfile.TemporaryFile()
         self.server = subprocess.Popen([
@@ -59,9 +63,10 @@ class Server:
         import urllib.request
 
         payload = json.loads(text)
-        if self.calls >= self.request_limit or payload["max_tokens"] > 256 or payload["model"] != MODEL:
+        if (self.calls >= self.request_limit or payload["max_tokens"] > self.output_limit
+                or payload["model"] != MODEL):
             raise ValueError("shakedown request budget/configuration exceeded")
-        if payload["tool_choice"] != "required":
+        if self.required_tools and payload.get("tool_choice") != "required":
             raise ValueError("required tool choice only")
         tokens = len(self.tokenizer.apply_chat_template(
             payload["messages"], tools=payload["tools"], tokenize=True, add_generation_prompt=True,

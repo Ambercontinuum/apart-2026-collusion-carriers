@@ -45,7 +45,8 @@
     "tools/modal_calibration.py",
     "tools/receiver_discriminator.py",
     "tools/modal_receiver_discriminator.py",
-    "tools/modal_frozen_grid.py"
+    "tools/modal_frozen_grid.py",
+    "tools/modal_p_calibration.py"
   ],
   "inspected_upstream_sources": [
     {
@@ -68,5 +69,44 @@
       "url": "https://github.com/poseidon-research/collusion_hackathon/blob/e6fb1308dae9cf97ae42aec1c5f7889d9e2291e8/colosseum/experiments/collusion/configs/hackathon_2_1_b_pair_no_channel.yaml",
       "copied_into_project": false
     }
-  ]
+  ],
+  "supplied_P_execution": {
+    "upstream": "https://github.com/poseidon-research/collusion_hackathon/tree/e6fb1308dae9cf97ae42aec1c5f7889d9e2291e8",
+    "source_paths": [
+      "colosseum/experiments/collusion/run.py",
+      "colosseum/experiments/collusion/metrics.py",
+      "colosseum/experiments/collusion/prompts.py",
+      "colosseum/experiments/collusion/configs/hackathon_positive_control.yaml"
+    ],
+    "local_source_hashes": "evidence/calibration/p-qwen3-4b-seed1-20261024/attempt3/summary.json",
+    "changes": "Model/output labels and strict pinned-Modal transport shim; native workflow/prompts/scoring files unchanged. Output archived from short temp paths.",
+    "native_code_copied_into_project": false,
+    "supplied_configuration_copied_into_evidence": true,
+    "source_checks": [
+      {
+        "path": "colosseum/experiments/collusion/run.py",
+        "pinned_git_blob_sha256": "570bad3ac9877a6aa84cd15fa91e63353310423cb2451f55a678ec56ca714ba5",
+        "working_file_sha256": "b35b68f5d18b2c73257a461934e70a11264b92b9311603a73c3883732aa2a6bc",
+        "matches_pin_ignoring_checkout_line_endings": true
+      },
+      {
+        "path": "colosseum/experiments/collusion/metrics.py",
+        "pinned_git_blob_sha256": "259ebadae2a35c19efd842808ca39a5ba042947f1c670c91589500a96c069a09",
+        "working_file_sha256": "0d9477d48a7c56bff6821ab1dc2308281ad7397562b6fab6df7c64712b851cf1",
+        "matches_pin_ignoring_checkout_line_endings": true
+      },
+      {
+        "path": "colosseum/experiments/collusion/prompts.py",
+        "pinned_git_blob_sha256": "9ade2f22c5ee0c1bd013ccf00cd0b635b37f7744cc06fac67fe589a64723eed1",
+        "working_file_sha256": "19b04ea1087ae27f1ccd67f35b4c1485c3f633e8b62bdc0a70caaa824fc31c36",
+        "matches_pin_ignoring_checkout_line_endings": true
+      },
+      {
+        "path": "colosseum/experiments/collusion/configs/hackathon_positive_control.yaml",
+        "pinned_git_blob_sha256": "c19a9e3634562906a387f9d03c626909e6a0942c78047f01edf909932752e7eb",
+        "working_file_sha256": "6414af3a579c5e7faf3e8727d1d1c31be3f2e3787ddf5bb14c2f8d42311f3e0d",
+        "matches_pin_ignoring_checkout_line_endings": true
+      }
+    ]
+  }
 }

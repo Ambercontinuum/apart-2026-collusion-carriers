@@ -1,0 +1,22 @@
+{
+  "scope": "supplied P ungated calibration, not D1 matched contrast",
+  "seed": 1,
+  "requests_attempted": 0,
+  "request_cap": 36,
+  "failure": "FileNotFoundError",
+  "transport_halted": null,
+  "result": null,
+  "shutdown": {
+    "inference_requests": 0,
+    "server_started": false
+  },
+  "SERAPH_mediation": false,
+  "source_sha256": {
+    "apart-project\\tools\\modal_p_calibration.py": "143c3537ce618a1c1406162d26cadc25de502c3f050f7c83b9a92ed0af8ae543",
+    "colosseum\\experiments\\collusion\\run.py": "b35b68f5d18b2c73257a461934e70a11264b92b9311603a73c3883732aa2a6bc",
+    "colosseum\\experiments\\collusion\\metrics.py": "0d9477d48a7c56bff6821ab1dc2308281ad7397562b6fab6df7c64712b851cf1",
+    "colosseum\\experiments\\collusion\\prompts.py": "19b04ea1087ae27f1ccd67f35b4c1485c3f633e8b62bdc0a70caaa824fc31c36",
+    "colosseum\\experiments\\collusion\\configs\\hackathon_positive_control.yaml": "6414af3a579c5e7faf3e8727d1d1c31be3f2e3787ddf5bb14c2f8d42311f3e0d"
+  },
+  "limitations": "P differs in graph/channel/temperature/history; reward advantage alone does not prove causal coordination. Native loop preserved; strict transport validates before parser fallback."
+}

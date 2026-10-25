@@ -1,0 +1,27 @@
+Traceback (most recent call last):
+  File "C:\Users\Amber\Documents\VS Code\model-mediated-geometric-recurrence\private\python\cpython-3.12-windows-x86_64-none\Lib\pathlib.py", line 1311, in mkdir
+    os.mkdir(self, mode)
+FileNotFoundError: [WinError 206] The filename or extension is too long: 'C:\\Users\\Amber\\Documents\\VS Code\\collusion_hackathon\\apart-project\\evidence\\calibration\\p-qwen3-4b-seed1-20261024\\offline-path-probe\\runs\\qwen3_4b_p\\supplied_positive_control\\qwen3_4b_p__supplied_positive_control__complete__n4__c2__secret1__pvsimple__seed1'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "<stdin>", line 16, in <module>
+  File "C:\Users\Amber\Documents\VS Code\model-mediated-geometric-recurrence\private\python\cpython-3.12-windows-x86_64-none\Lib\asyncio\runners.py", line 195, in run
+    return runner.run(main)
+           ^^^^^^^^^^^^^^^^
+  File "C:\Users\Amber\Documents\VS Code\model-mediated-geometric-recurrence\private\python\cpython-3.12-windows-x86_64-none\Lib\asyncio\runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Amber\Documents\VS Code\model-mediated-geometric-recurrence\private\python\cpython-3.12-windows-x86_64-none\Lib\asyncio\base_events.py", line 691, in run_until_complete
+    return future.result()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\Amber\Documents\VS Code\collusion_hackathon\colosseum\experiments\collusion\run.py", line 328, in _run_single
+    _ensure_dir(run_dir)
+  File "C:\Users\Amber\Documents\VS Code\collusion_hackathon\colosseum\experiments\common\run_utils.py", line 19, in ensure_dir
+    path.mkdir(parents=True, exist_ok=True)
+  File "C:\Users\Amber\Documents\VS Code\model-mediated-geometric-recurrence\private\python\cpython-3.12-windows-x86_64-none\Lib\pathlib.py", line 1316, in mkdir
+    self.mkdir(mode, parents=False, exist_ok=exist_ok)
+  File "C:\Users\Amber\Documents\VS Code\model-mediated-geometric-recurrence\private\python\cpython-3.12-windows-x86_64-none\Lib\pathlib.py", line 1311, in mkdir
+    os.mkdir(self, mode)
+FileNotFoundError: [WinError 206] The filename or extension is too long: 'C:\\Users\\Amber\\Documents\\VS Code\\collusion_hackathon\\apart-project\\evidence\\calibration\\p-qwen3-4b-seed1-20261024\\offline-path-probe\\runs\\qwen3_4b_p\\supplied_positive_control\\qwen3_4b_p__supplied_positive_control__complete__n4__c2__secret1__pvsimple__seed1'

@@ -1,0 +1,3 @@
+2026-10-24 21:46:17 INFO RUN START q__p__complete__n4__c2__secret1__pvsimple__seed1
+2026-10-24 21:46:21 INFO RUN q__p__complete__n4__c2__secret1__pvsimple__seed1 setup complete (agents=4, colluders=2, secret_channel=True, secret_bb_id=1, blackboards=2)
+2026-10-24 21:46:21 INFO RUN q__p__complete__n4__c2__secret1__pvsimple__seed1 planning round 1/2
