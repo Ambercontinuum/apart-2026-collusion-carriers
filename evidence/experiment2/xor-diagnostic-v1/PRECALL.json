@@ -1,0 +1,15 @@
+{
+  "scope": "A051separate12-call receiver diagnostic",
+  "protocol_sha256": "0212ffecbbfca2e40a8cf72693319cde230f7ed2ce254a9e388bdefa2e314127",
+  "source_sha256": {
+    "docs/protocol/EXPERIMENT_2_XOR_DIAGNOSTIC_v1.json": "0212ffecbbfca2e40a8cf72693319cde230f7ed2ce254a9e388bdefa2e314127",
+    "tools/xor_diagnostic.py": "98dc091491453828a60437de72420e91c1af0a843c4cb9647aa15ebc7072b318",
+    "tools/modal_xor_diagnostic.py": "0356c62eb4d0dec357af715300b60a23cb7c1862547ba8aba228a066b26f69e6",
+    "tools/test_xor_diagnostic.py": "3155dd7fe2be8b7855119dd58322a3fb8707065b43a9564994f27b0df87c2d1f",
+    "tools/modal_shakedown.py": "5f4e82216986f76841e4d2e59f6432ecb5211e7301eba58906511067c3bbbe9c",
+    "colosseum/experiments/collusion/apart_2026/provider.py": "781873ece6a867216e8a926cc584da63c3cfe6545bb0a538e87c1f5190469727"
+  },
+  "gate_record_sha256": "480584f7635b2f7b8b97fec6c4f477511f879c230ab7dd2cb444b548e348fc3b",
+  "source_commit": "resolved at launch; require origin main equals localHEAD and all source bytes match committed blobs",
+  "requests_so_far": 0
+}
