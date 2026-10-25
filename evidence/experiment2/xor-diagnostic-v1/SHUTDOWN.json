@@ -1,0 +1,12 @@
+{
+  "verified_at_utc": "2026-10-25T03:43:08.698572+00:00",
+  "app_id": "ap-0a34M5k2EQGrbkZ860X7N7",
+  "independent_modal_cli_state": "stopped",
+  "independent_modal_cli_tasks": 0,
+  "independent_modal_cli_containers": [],
+  "worker_close_result": {
+    "inference_requests": 12,
+    "server_stopped": true
+  },
+  "cli_note": "After all12responses and server close succeeded, Modal client timed out waiting for final app logs and wrapper exited1. This is retained in console.txt. Independent CLI then confirmed stopped/tasks0/no containers. No inference retry or missing response."
+}

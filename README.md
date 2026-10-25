@@ -26,6 +26,16 @@ prevention result. All raw responses and the failed screen are retained.
 and [offline gates](evidence/experiment2/v1_2/GATES.json) distinguish engineering
 tests from live evidence. The app was verified stopped with no containers.
 
+## Receiver diagnostic: minimal capabilities pass
+
+A separate pre-frozen12-call diagnostic passed4/4direct XORtext answers,
+4/4simple-tool XORanswers and4/4original allocations with an explicit correct
+answer appended. The model can compute XOR in a simple context and emit both
+allocation bits. The prior failure is context-dependent; note interpretation,
+reasoning-to-choice integration and instruction sensitivity remain unresolved.
+These successes do not replace the failed calibration or restart main arms.
+[Diagnostic requests, outcomes and limits](evidence/experiment2/xor-diagnostic-v1/RESULTS.md).
+
 ## SERAPH engineering contribution
 
 This project also tests SERAPH's usefulness as a research-alpha codebase: can an

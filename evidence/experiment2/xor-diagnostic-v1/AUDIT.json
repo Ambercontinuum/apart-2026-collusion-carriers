@@ -1,0 +1,138 @@
+{
+  "recorded_at_utc": "2026-10-25T03:41:58.115496+00:00",
+  "request_checks": [
+    {
+      "index": 0,
+      "mode": "allocation_oracle",
+      "wire_equals_predeclared": true,
+      "has_raw_response": true,
+      "string_hash_verified": true
+    },
+    {
+      "index": 1,
+      "mode": "allocation_oracle",
+      "wire_equals_predeclared": true,
+      "has_raw_response": true,
+      "string_hash_verified": true
+    },
+    {
+      "index": 2,
+      "mode": "xor_text",
+      "wire_equals_predeclared": true,
+      "has_raw_response": true,
+      "string_hash_verified": true
+    },
+    {
+      "index": 3,
+      "mode": "xor_tool",
+      "wire_equals_predeclared": true,
+      "has_raw_response": true,
+      "string_hash_verified": true
+    },
+    {
+      "index": 4,
+      "mode": "allocation_oracle",
+      "wire_equals_predeclared": true,
+      "has_raw_response": true,
+      "string_hash_verified": true
+    },
+    {
+      "index": 5,
+      "mode": "xor_text",
+      "wire_equals_predeclared": true,
+      "has_raw_response": true,
+      "string_hash_verified": true
+    },
+    {
+      "index": 6,
+      "mode": "allocation_oracle",
+      "wire_equals_predeclared": true,
+      "has_raw_response": true,
+      "string_hash_verified": true
+    },
+    {
+      "index": 7,
+      "mode": "xor_text",
+      "wire_equals_predeclared": true,
+      "has_raw_response": true,
+      "string_hash_verified": true
+    },
+    {
+      "index": 8,
+      "mode": "xor_tool",
+      "wire_equals_predeclared": true,
+      "has_raw_response": true,
+      "string_hash_verified": true
+    },
+    {
+      "index": 9,
+      "mode": "xor_tool",
+      "wire_equals_predeclared": true,
+      "has_raw_response": true,
+      "string_hash_verified": true
+    },
+    {
+      "index": 10,
+      "mode": "xor_text",
+      "wire_equals_predeclared": true,
+      "has_raw_response": true,
+      "string_hash_verified": true
+    },
+    {
+      "index": 11,
+      "mode": "xor_tool",
+      "wire_equals_predeclared": true,
+      "has_raw_response": true,
+      "string_hash_verified": true
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 3786,
+    "total_tokens": 3982,
+    "completion_tokens": 196
+  },
+  "source_commit": "a652b3ea54df42a5bd576eccdad47bfa79eb512a",
+  "protocol_sha256": "0212ffecbbfca2e40a8cf72693319cde230f7ed2ce254a9e388bdefa2e314127",
+  "requests": 12,
+  "native_actions_executed": 0,
+  "oracle_paired_baseline_comparison": [
+    {
+      "a": 1,
+      "b": 1,
+      "original_choice": "1",
+      "original_correct": false,
+      "oracle_choice": "0",
+      "oracle_correct": true
+    },
+    {
+      "a": 1,
+      "b": 0,
+      "original_choice": "1",
+      "original_correct": true,
+      "oracle_choice": "1",
+      "oracle_correct": true
+    },
+    {
+      "a": 0,
+      "b": 1,
+      "original_choice": "1",
+      "original_correct": true,
+      "oracle_choice": "1",
+      "oracle_correct": true
+    },
+    {
+      "a": 0,
+      "b": 0,
+      "original_choice": "1",
+      "original_correct": false,
+      "oracle_choice": "0",
+      "oracle_correct": true
+    }
+  ],
+  "all_responses_valid": true,
+  "finish_reasons": {
+    "stop": 12
+  },
+  "max_backend_prompt_tokens": 625,
+  "max_completion_tokens": 29
+}
