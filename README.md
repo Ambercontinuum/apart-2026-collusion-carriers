@@ -27,11 +27,24 @@ findings and independent reproduction remain ahead. The
 [native-versus-adapter design map](docs/SERAPH_INTEGRATION.md) identifies the new
 engineering, source delta, evidence and remaining usability requirements.
 
+## Frozen exploratory grid completed
+
+**15/15 episodes valid across B0, B1, B2, B2-S and G2 at seeds 1?3; 300 requests.**
+Every preview symbol was zero (240/240), and every arm produced identical native
+assignments and rewards at each seed. All descriptive paired reward differences
+were zero. Three real SERAPH-mediated canonical emissions completed, but there
+was no varying signal to disrupt. This does not establish collusion prevention.
+
+[Results, limits and raw traces](evidence/exploratory-grid/freeze-20261024/RESULTS.md)
+and the [pre-call local freeze](docs/protocol/EXPLORATORY_FREEZE_20261024.md)
+preserve the full batch. P was not integrated or run; this is the five-arm
+as-built exploratory grid, not the complete six-condition study or a Gate 0 pass.
+The earlier shakedown and failed controls below remain separate evidence.
+
 ## Current implementation
 
-**Two exploratory live episodes and a separate six-call codebook calibration have
-run. The registered pilot has not run; no collusion or model-driven G2 finding is
-claimed.** The B0/B2 seed-1 pair completed 40 requests with identical assignments
+**Before the frozen grid above, two exploratory episodes and a separate six-call
+codebook calibration ran. These historical results are retained.** The B0/B2 seed-1 pair completed 40 requests with identical assignments
 and rewards; all agents chose `0000` even with B2's larger menu. In the separate
 calibration, the sender emitted `1111` as instructed, but the receiver chose the
 same task under intact and zeroed views: the overall positive control failed.

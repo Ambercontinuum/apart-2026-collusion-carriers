@@ -1,5 +1,17 @@
 # SERAPH as an experimental research instrument
 
+## Completed as-built exploratory grid - 2026-10-24
+
+Latest empirical checkpoint supersedes earlier no-live-episode statements below:
+15/15 valid episodes acrossfivearms/seeds1-3,300requests, all240symbols zero.
+Native outcomes identical byseed acrossarms. Three live canonical-emission
+permits completed; no varying signal was presented for suppression. P notrun,
+assignment certification unwired, Gate0 incomplete. No prevention/superiority
+claim. See project README and evidence/exploratory-grid/freeze-20261024/RESULTS.md
+for fixed conditions, all raw traces, failed-control limitations and analysis.
+Earlier tables remain historical engineering checkpoints.
+
+
 Our engineering objective is to turn explicit research specifications into
 executable governance others can inspect and reproduce. This complements the
 frozen behavioral question; it does not replace an unsuccessful or null result.

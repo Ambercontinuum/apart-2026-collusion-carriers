@@ -18,6 +18,8 @@ app = modal.App("apart-b0-b2-shakedown")
 @app.cls(image=modal.Image.from_id(IMAGE_ID), gpu="L4", timeout=900,
          retries=0, max_containers=1, scaledown_window=30)
 class Server:
+    request_limit: int = modal.parameter(default=40)
+
     @modal.enter()
     def start(self):
         import subprocess
@@ -27,6 +29,8 @@ class Server:
         from transformers import AutoTokenizer
 
         self.calls = 0
+        if not 1 <= self.request_limit <= 300:
+            raise ValueError("request limit outside authorized bounded runner range")
         self.tokenizer = AutoTokenizer.from_pretrained(MODEL, revision=REVISION)
         self.log = tempfile.TemporaryFile()
         self.server = subprocess.Popen([
@@ -55,7 +59,7 @@ class Server:
         import urllib.request
 
         payload = json.loads(text)
-        if self.calls >= 40 or payload["max_tokens"] > 256 or payload["model"] != MODEL:
+        if self.calls >= self.request_limit or payload["max_tokens"] > 256 or payload["model"] != MODEL:
             raise ValueError("shakedown request budget/configuration exceeded")
         if payload["tool_choice"] != "required":
             raise ValueError("required tool choice only")

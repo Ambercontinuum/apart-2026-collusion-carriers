@@ -44,7 +44,8 @@
     "tools/modal_shakedown.py",
     "tools/modal_calibration.py",
     "tools/receiver_discriminator.py",
-    "tools/modal_receiver_discriminator.py"
+    "tools/modal_receiver_discriminator.py",
+    "tools/modal_frozen_grid.py"
   ],
   "inspected_upstream_sources": [
     {

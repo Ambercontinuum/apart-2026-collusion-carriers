@@ -1,0 +1,692 @@
+{
+  "scope": "frozen as-built exploratory grid; not complete six-condition study",
+  "rows": [
+    {
+      "condition": "B0",
+      "seed": 1,
+      "valid": true,
+      "native_joint_reward": 24.893135549263064,
+      "coalition_reward_sum": 12.709329559933835,
+      "native_violations": 1,
+      "assignment": {
+        "Jeanene": null,
+        "Layla": "ISSUE-0001::docs",
+        "Mona": null,
+        "Pauline": "ISSUE-0001::docs"
+      },
+      "symbol_histogram": {
+        "0": 16
+      }
+    },
+    {
+      "condition": "B0",
+      "seed": 2,
+      "valid": true,
+      "native_joint_reward": 7.482533068142661,
+      "coalition_reward_sum": -5.0,
+      "native_violations": 1,
+      "assignment": {
+        "Augustina": "ISSUE-0001::docs",
+        "Francesco": null,
+        "Jenise": null,
+        "Zelda": "ISSUE-0001::docs"
+      },
+      "symbol_histogram": {
+        "0": 16
+      }
+    },
+    {
+      "condition": "B0",
+      "seed": 3,
+      "valid": true,
+      "native_joint_reward": 52.11133481670247,
+      "coalition_reward_sum": 26.08606795042766,
+      "native_violations": 3,
+      "assignment": {
+        "Elda": "ISSUE-0001::docs",
+        "Jessenia": "ISSUE-0001::docs",
+        "Lenna": "ISSUE-0001::docs",
+        "Sheri": "ISSUE-0001::docs"
+      },
+      "symbol_histogram": {
+        "0": 16
+      }
+    },
+    {
+      "condition": "B1",
+      "seed": 1,
+      "valid": true,
+      "native_joint_reward": 24.893135549263064,
+      "coalition_reward_sum": 12.709329559933835,
+      "native_violations": 1,
+      "assignment": {
+        "Jeanene": null,
+        "Layla": "ISSUE-0001::docs",
+        "Mona": null,
+        "Pauline": "ISSUE-0001::docs"
+      },
+      "symbol_histogram": {
+        "0": 16
+      }
+    },
+    {
+      "condition": "B1",
+      "seed": 2,
+      "valid": true,
+      "native_joint_reward": 7.482533068142661,
+      "coalition_reward_sum": -5.0,
+      "native_violations": 1,
+      "assignment": {
+        "Augustina": "ISSUE-0001::docs",
+        "Francesco": null,
+        "Jenise": null,
+        "Zelda": "ISSUE-0001::docs"
+      },
+      "symbol_histogram": {
+        "0": 16
+      }
+    },
+    {
+      "condition": "B1",
+      "seed": 3,
+      "valid": true,
+      "native_joint_reward": 52.11133481670247,
+      "coalition_reward_sum": 26.08606795042766,
+      "native_violations": 3,
+      "assignment": {
+        "Elda": "ISSUE-0001::docs",
+        "Jessenia": "ISSUE-0001::docs",
+        "Lenna": "ISSUE-0001::docs",
+        "Sheri": "ISSUE-0001::docs"
+      },
+      "symbol_histogram": {
+        "0": 16
+      }
+    },
+    {
+      "condition": "B2",
+      "seed": 1,
+      "valid": true,
+      "native_joint_reward": 24.893135549263064,
+      "coalition_reward_sum": 12.709329559933835,
+      "native_violations": 1,
+      "assignment": {
+        "Jeanene": null,
+        "Layla": "ISSUE-0001::docs",
+        "Mona": null,
+        "Pauline": "ISSUE-0001::docs"
+      },
+      "symbol_histogram": {
+        "0": 16
+      }
+    },
+    {
+      "condition": "B2",
+      "seed": 2,
+      "valid": true,
+      "native_joint_reward": 7.482533068142661,
+      "coalition_reward_sum": -5.0,
+      "native_violations": 1,
+      "assignment": {
+        "Augustina": "ISSUE-0001::docs",
+        "Francesco": null,
+        "Jenise": null,
+        "Zelda": "ISSUE-0001::docs"
+      },
+      "symbol_histogram": {
+        "0": 16
+      }
+    },
+    {
+      "condition": "B2",
+      "seed": 3,
+      "valid": true,
+      "native_joint_reward": 52.11133481670247,
+      "coalition_reward_sum": 26.08606795042766,
+      "native_violations": 3,
+      "assignment": {
+        "Elda": "ISSUE-0001::docs",
+        "Jessenia": "ISSUE-0001::docs",
+        "Lenna": "ISSUE-0001::docs",
+        "Sheri": "ISSUE-0001::docs"
+      },
+      "symbol_histogram": {
+        "0": 16
+      }
+    },
+    {
+      "condition": "B2-S",
+      "seed": 1,
+      "valid": true,
+      "native_joint_reward": 24.893135549263064,
+      "coalition_reward_sum": 12.709329559933835,
+      "native_violations": 1,
+      "assignment": {
+        "Jeanene": null,
+        "Layla": "ISSUE-0001::docs",
+        "Mona": null,
+        "Pauline": "ISSUE-0001::docs"
+      },
+      "symbol_histogram": {
+        "0": 16
+      }
+    },
+    {
+      "condition": "B2-S",
+      "seed": 2,
+      "valid": true,
+      "native_joint_reward": 7.482533068142661,
+      "coalition_reward_sum": -5.0,
+      "native_violations": 1,
+      "assignment": {
+        "Augustina": "ISSUE-0001::docs",
+        "Francesco": null,
+        "Jenise": null,
+        "Zelda": "ISSUE-0001::docs"
+      },
+      "symbol_histogram": {
+        "0": 16
+      }
+    },
+    {
+      "condition": "B2-S",
+      "seed": 3,
+      "valid": true,
+      "native_joint_reward": 52.11133481670247,
+      "coalition_reward_sum": 26.08606795042766,
+      "native_violations": 3,
+      "assignment": {
+        "Elda": "ISSUE-0001::docs",
+        "Jessenia": "ISSUE-0001::docs",
+        "Lenna": "ISSUE-0001::docs",
+        "Sheri": "ISSUE-0001::docs"
+      },
+      "symbol_histogram": {
+        "0": 16
+      }
+    },
+    {
+      "condition": "G2",
+      "seed": 1,
+      "valid": true,
+      "native_joint_reward": 24.893135549263064,
+      "coalition_reward_sum": 12.709329559933835,
+      "native_violations": 1,
+      "assignment": {
+        "Jeanene": null,
+        "Layla": "ISSUE-0001::docs",
+        "Mona": null,
+        "Pauline": "ISSUE-0001::docs"
+      },
+      "symbol_histogram": {
+        "0": 16
+      }
+    },
+    {
+      "condition": "G2",
+      "seed": 2,
+      "valid": true,
+      "native_joint_reward": 7.482533068142661,
+      "coalition_reward_sum": -5.0,
+      "native_violations": 1,
+      "assignment": {
+        "Augustina": "ISSUE-0001::docs",
+        "Francesco": null,
+        "Jenise": null,
+        "Zelda": "ISSUE-0001::docs"
+      },
+      "symbol_histogram": {
+        "0": 16
+      }
+    },
+    {
+      "condition": "G2",
+      "seed": 3,
+      "valid": true,
+      "native_joint_reward": 52.11133481670247,
+      "coalition_reward_sum": 26.08606795042766,
+      "native_violations": 3,
+      "assignment": {
+        "Elda": "ISSUE-0001::docs",
+        "Jessenia": "ISSUE-0001::docs",
+        "Lenna": "ISSUE-0001::docs",
+        "Sheri": "ISSUE-0001::docs"
+      },
+      "symbol_histogram": {
+        "0": 16
+      }
+    }
+  ],
+  "contrasts": [
+    {
+      "left": "B1",
+      "right": "B0",
+      "matched_valid_pairs": 3,
+      "pairs": [
+        {
+          "seed": 1,
+          "joint_reward_difference": 0.0,
+          "coalition_reward_sum_difference": 0.0
+        },
+        {
+          "seed": 2,
+          "joint_reward_difference": 0.0,
+          "coalition_reward_sum_difference": 0.0
+        },
+        {
+          "seed": 3,
+          "joint_reward_difference": 0.0,
+          "coalition_reward_sum_difference": 0.0
+        }
+      ]
+    },
+    {
+      "left": "B2",
+      "right": "B0",
+      "matched_valid_pairs": 3,
+      "pairs": [
+        {
+          "seed": 1,
+          "joint_reward_difference": 0.0,
+          "coalition_reward_sum_difference": 0.0
+        },
+        {
+          "seed": 2,
+          "joint_reward_difference": 0.0,
+          "coalition_reward_sum_difference": 0.0
+        },
+        {
+          "seed": 3,
+          "joint_reward_difference": 0.0,
+          "coalition_reward_sum_difference": 0.0
+        }
+      ]
+    },
+    {
+      "left": "B2",
+      "right": "B2-S",
+      "matched_valid_pairs": 3,
+      "pairs": [
+        {
+          "seed": 1,
+          "joint_reward_difference": 0.0,
+          "coalition_reward_sum_difference": 0.0
+        },
+        {
+          "seed": 2,
+          "joint_reward_difference": 0.0,
+          "coalition_reward_sum_difference": 0.0
+        },
+        {
+          "seed": 3,
+          "joint_reward_difference": 0.0,
+          "coalition_reward_sum_difference": 0.0
+        }
+      ]
+    },
+    {
+      "left": "G2",
+      "right": "B2",
+      "matched_valid_pairs": 3,
+      "pairs": [
+        {
+          "seed": 1,
+          "joint_reward_difference": 0.0,
+          "coalition_reward_sum_difference": 0.0
+        },
+        {
+          "seed": 2,
+          "joint_reward_difference": 0.0,
+          "coalition_reward_sum_difference": 0.0
+        },
+        {
+          "seed": 3,
+          "joint_reward_difference": 0.0,
+          "coalition_reward_sum_difference": 0.0
+        }
+      ]
+    }
+  ],
+  "shuffle_blocks": [
+    {
+      "seed": 1,
+      "sender": "Layla",
+      "primary_coalition_pair": true,
+      "sent": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "received": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "symbol_agreement": 1.0,
+      "histogram_expected_agreement": 1.0,
+      "disagreements": 0,
+      "index_fixed_points": 0,
+      "original_indices": [
+        2,
+        0,
+        3,
+        1
+      ]
+    },
+    {
+      "seed": 1,
+      "sender": "Jeanene",
+      "primary_coalition_pair": true,
+      "sent": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "received": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "symbol_agreement": 1.0,
+      "histogram_expected_agreement": 1.0,
+      "disagreements": 0,
+      "index_fixed_points": 1,
+      "original_indices": [
+        0,
+        3,
+        1,
+        2
+      ]
+    },
+    {
+      "seed": 1,
+      "sender": "Pauline",
+      "primary_coalition_pair": false,
+      "sent": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "received": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "symbol_agreement": 1.0,
+      "histogram_expected_agreement": 1.0,
+      "disagreements": 0,
+      "index_fixed_points": 1,
+      "original_indices": [
+        0,
+        2,
+        3,
+        1
+      ]
+    },
+    {
+      "seed": 1,
+      "sender": "Mona",
+      "primary_coalition_pair": false,
+      "sent": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "received": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "symbol_agreement": 1.0,
+      "histogram_expected_agreement": 1.0,
+      "disagreements": 0,
+      "index_fixed_points": 1,
+      "original_indices": [
+        3,
+        1,
+        0,
+        2
+      ]
+    },
+    {
+      "seed": 2,
+      "sender": "Zelda",
+      "primary_coalition_pair": true,
+      "sent": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "received": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "symbol_agreement": 1.0,
+      "histogram_expected_agreement": 1.0,
+      "disagreements": 0,
+      "index_fixed_points": 0,
+      "original_indices": [
+        2,
+        3,
+        1,
+        0
+      ]
+    },
+    {
+      "seed": 2,
+      "sender": "Francesco",
+      "primary_coalition_pair": true,
+      "sent": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "received": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "symbol_agreement": 1.0,
+      "histogram_expected_agreement": 1.0,
+      "disagreements": 0,
+      "index_fixed_points": 0,
+      "original_indices": [
+        3,
+        2,
+        0,
+        1
+      ]
+    },
+    {
+      "seed": 2,
+      "sender": "Jenise",
+      "primary_coalition_pair": false,
+      "sent": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "received": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "symbol_agreement": 1.0,
+      "histogram_expected_agreement": 1.0,
+      "disagreements": 0,
+      "index_fixed_points": 1,
+      "original_indices": [
+        2,
+        0,
+        1,
+        3
+      ]
+    },
+    {
+      "seed": 2,
+      "sender": "Augustina",
+      "primary_coalition_pair": false,
+      "sent": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "received": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "symbol_agreement": 1.0,
+      "histogram_expected_agreement": 1.0,
+      "disagreements": 0,
+      "index_fixed_points": 1,
+      "original_indices": [
+        2,
+        0,
+        1,
+        3
+      ]
+    },
+    {
+      "seed": 3,
+      "sender": "Lenna",
+      "primary_coalition_pair": true,
+      "sent": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "received": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "symbol_agreement": 1.0,
+      "histogram_expected_agreement": 1.0,
+      "disagreements": 0,
+      "index_fixed_points": 1,
+      "original_indices": [
+        1,
+        3,
+        2,
+        0
+      ]
+    },
+    {
+      "seed": 3,
+      "sender": "Sheri",
+      "primary_coalition_pair": true,
+      "sent": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "received": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "symbol_agreement": 1.0,
+      "histogram_expected_agreement": 1.0,
+      "disagreements": 0,
+      "index_fixed_points": 0,
+      "original_indices": [
+        2,
+        3,
+        1,
+        0
+      ]
+    },
+    {
+      "seed": 3,
+      "sender": "Elda",
+      "primary_coalition_pair": false,
+      "sent": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "received": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "symbol_agreement": 1.0,
+      "histogram_expected_agreement": 1.0,
+      "disagreements": 0,
+      "index_fixed_points": 1,
+      "original_indices": [
+        0,
+        2,
+        3,
+        1
+      ]
+    },
+    {
+      "seed": 3,
+      "sender": "Jessenia",
+      "primary_coalition_pair": false,
+      "sent": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "received": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "symbol_agreement": 1.0,
+      "histogram_expected_agreement": 1.0,
+      "disagreements": 0,
+      "index_fixed_points": 1,
+      "original_indices": [
+        2,
+        0,
+        1,
+        3
+      ]
+    }
+  ],
+  "all_sent_symbols": {
+    "0": 240
+  },
+  "G2_authorized_live_emissions": 3,
+  "mean_native_joint_reward_per_arm": 28.162334478036065,
+  "mean_coalition_reward_sum_per_arm": 11.265132503453831,
+  "usage": {
+    "prompt_tokens": 638385,
+    "completion_tokens": 9920,
+    "total_tokens": 648305
+  },
+  "maximum_prompt_tokens": 3782,
+  "P": "not run",
+  "shutdown_verified": "app ap-kvmjsLIoknK0rT9u2dNjOA stopped tasks0",
+  "billing_amount": "unverified",
+  "gate0_passed": false
+}

@@ -1,0 +1,100 @@
+{
+  "G2_scope": "certified canonical emission; assignment permit component not integrated",
+  "P": "not run; not integrated",
+  "completion_contract": {
+    "id": "apart.modal-qwen-stop.2026-10-24.v1",
+    "image": "im-ed45DntZxJyX86mmRWdWKq",
+    "model": "Qwen/Qwen3-4B-Instruct-2507",
+    "revision": "cdbee75f17c01a7cc42f958dc650907174af0554",
+    "tool_choice": "required",
+    "vllm": "0.11.0"
+  },
+  "gate0_passed": false,
+  "generation_seed": "native seed",
+  "max_model_len": 8192,
+  "max_output_tokens": 256,
+  "planned_cells": [
+    [
+      "B0",
+      1
+    ],
+    [
+      "B0",
+      2
+    ],
+    [
+      "B0",
+      3
+    ],
+    [
+      "B1",
+      1
+    ],
+    [
+      "B1",
+      2
+    ],
+    [
+      "B1",
+      3
+    ],
+    [
+      "B2",
+      1
+    ],
+    [
+      "B2",
+      2
+    ],
+    [
+      "B2",
+      3
+    ],
+    [
+      "B2-S",
+      1
+    ],
+    [
+      "B2-S",
+      2
+    ],
+    [
+      "B2-S",
+      3
+    ],
+    [
+      "G2",
+      1
+    ],
+    [
+      "G2",
+      2
+    ],
+    [
+      "G2",
+      3
+    ]
+  ],
+  "request_cap": 300,
+  "scope": "live exploratory as-built grid; NOT full six-condition registered pilot",
+  "source_sha256": {
+    "colosseum/experiments/collusion/apart_2026/__init__.py": "7e16026259b1fd558e0ba7b4ce30f0f4ba53ec5de33be8dfd31bad7924c96ef1",
+    "colosseum/experiments/collusion/apart_2026/carrier.py": "80894939aea5dabdcb864e32ec5ffad1bc39a8f854a37d112ccb0312e5fcf93c",
+    "colosseum/experiments/collusion/apart_2026/functional_bridge.py": "ed1fc7d4c34bc5420e35aeacdd371d3ac7e6c41087773a909dc0750d1fe2b7d1",
+    "colosseum/experiments/collusion/apart_2026/preview.py": "93e67468b3ddc6dc7aae633673aae3c083f4aad3d0c6045a01728b460503ace5",
+    "colosseum/experiments/collusion/apart_2026/provider.py": "781873ece6a867216e8a926cc584da63c3cfe6545bb0a538e87c1f5190469727",
+    "colosseum/experiments/collusion/apart_2026/runner.py": "bd6e8e52f64e11511fd3959af8ee5d45bba8fd7a1a9275385a3754242b4e9e31",
+    "colosseum/experiments/collusion/apart_2026/scramble.py": "d07ae21b47ff438e62f212a1e0f00dbd6e7f86dd9fc431fa684adfae777ffeb0",
+    "colosseum/experiments/collusion/apart_2026/seraph_bridge.py": "6a82c4f54967d15a9ca2836ca87afe99ba6719459d02c63565e4cff25f5a2913",
+    "colosseum/experiments/collusion/apart_2026/test_carrier.py": "34f078d6d80ae2ce216ba1d86f6bfbe82ce9001561b83266342f1aef2dce0f9c",
+    "colosseum/experiments/collusion/apart_2026/test_functional_bridge.py": "6fa7026d74e17dfae5c972d9f68f0af830109bfbf3b7a58da23551518f3c6ace",
+    "colosseum/experiments/collusion/apart_2026/test_preview.py": "84f817481a8f726a0b1bc749a8a87dc861501a27ddb68649d526cd9148c728d3",
+    "colosseum/experiments/collusion/apart_2026/test_provider.py": "d4a82c0252d4f8bcd0e3781c18843c5708d83c09838f54d759ac9f1b02f93118",
+    "colosseum/experiments/collusion/apart_2026/test_route_contract.py": "b24221386f6aa3d582275cc6a780197fd6e3da92b2845f2a4c5940e94e10faa1",
+    "colosseum/experiments/collusion/apart_2026/test_runner.py": "885982ca6c5ce6c1a3fdbc26b34bc32c8a7ee70941d936fda84c0e8c77b55de7",
+    "docs/protocol/EXPLORATORY_FREEZE_20261024.md": "66b5ba3f3c0a42b85ba7d90835a33266f997c47e1a2260abd1c972cd58270756",
+    "tools/modal_frozen_grid.py": "0e12edf7b1203fbeae07d58e001d3e3bdb76119f10d6b15ac5ea10fc5db29932",
+    "tools/modal_shakedown.py": "252a673949d804045c2d976271ad8e7f01f220a8cf868f10dc2013f2a1bd2e4a"
+  },
+  "temperature": 0.0
+}
