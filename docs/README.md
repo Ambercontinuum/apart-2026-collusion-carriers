@@ -17,6 +17,5 @@ current pending tasks. Evidence folder reports describe their own batches at the
 checkpoint dates; use the evidence index to locate later completed runs. Do not
 rewrite frozen inputs or raw evidence to match later conclusions.
 
-The current paper is Track 3.1 with an explicitly exploratory process observation;
-it does not claim a controlled Track 3.2 trusted-agent intervention. The private
+The current paper is strictly Track 3.1. The private
 roadmap/decision exports and scratchpad audit are not newly published here.

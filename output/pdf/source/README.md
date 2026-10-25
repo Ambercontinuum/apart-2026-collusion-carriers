@@ -32,12 +32,11 @@ breaks preserve this division. Recheck pagination after any edits.
 This is an author-review candidate, not an externally submitted artifact.
 Repository publication is owner-authorized; external submission is separate.
 No new model inference or scratchpad publication accompanies this update. The project repository and pinned final experiment folder returned HTTP 200
-without authentication on October 25, 2026. The cited scratchpad stop-log page
-returned HTTP 404. Its citation now identifies author-held records without a broken public hyperlink. Git confirms the file exists in the cited local snapshot.
+without authentication on October 25, 2026. The paper contains no process-case citation.
 
 Inputs: the supplied PDF template in `docs/`, Claude's supplied draft, published
-research report and experiment evidence, and the local stop-event audit. The
-larger human-coupled case is summarized only as an exploratory observation.
+research report and experiment evidence. The submission is strictly Track 3.1;
+process observations are excluded.
 
 Literature metadata and abstract-level characterizations were checked against
 the primary arXiv records for 2402.07510, 2410.03768 and 2602.15198. Other unverified

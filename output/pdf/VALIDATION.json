@@ -2,7 +2,7 @@
   "status": "local author-review candidate; not submitted",
   "main_pages": 4,
   "reference_pages": 1,
-  "abstract_words": 180,
+  "abstract_words": 185,
   "page_size": "US Letter",
   "body_font": "Old Standard TT 11pt",
   "visual_review": "all five pages rendered and inspected",
@@ -12,9 +12,9 @@
     "no unresolved citation markers",
     "no text outside checked page bounds"
   ],
-  "limitation": "Process evidence is author-held, not independently publicly accessible. Broken scratchpad hyperlink removed; local historical file existence verified.",
+  "limitation": "Independent fresh-environment reproduction is not established; controlled runs did not elicit a varying exploited carrier.",
   "files": {
-    "paper.pdf": "c3d9ca7c95685a66a066a472bc74ef9df755e05d996832a6f2c5497d517ecb5d",
+    "paper.pdf": "274ac6b0ce4d0889489b5c70a6f9220439a8f7a7949b7e57fb5da68f2d646259",
     "source/build.ps1": "9a94fbbfc02d06834237ba1b9d226a63d3c912fb4d0ee37324bdb5977e74e88e",
     "source/fonts/OFL.txt": "7c57c33330386d9526a77e43089a2831b95c353f52ab65af427d38c372a998ea",
     "source/fonts/OldStandardTT-Bold.ttf": "3653d9e41ae03b235ed49ed0db9c3f3f160020fdce22ea84dff4b3a2a83972e2",
@@ -22,12 +22,14 @@
     "source/fonts/OldStandardTT-Regular.ttf": "5aea2bf3db571f5c08451530b39cf04dd4591f80d5a96123a49b96fee01ed941",
     "source/latexmkrc": "7e85a5e9fd10042ce61309d11b5b827ca9fc3c70d6148dfb41e9e49f82f4327a",
     "source/LICENSE-RESEARCH.md": "139ac030074a56dfaf27241cd6e7faf87aad020a4cfd97b4c018b702ebe99871",
-    "source/paper.tex": "406d03bcded8c68114b81e1eeb5a124d82044c553f43fba259259af7f863a5aa",
-    "source/README.md": "8a44d1c4e758fef112e2c1e31a47b1d610ea1f261556171a51ec66ae46a07f4d"
+    "source/paper.tex": "ad95a3d61222610c2d71ddf20aaa141512de06be4dd834714c9e3371f7ef029f",
+    "source/README.md": "3dcf8016be3f793ab1ec4ff02622d15b1ae5db5c8fb9322cd893c7cd412a24ad"
   },
   "local_build": "build.ps1 verified successfully from workspace root",
   "public_access_check": "PUBLIC_ACCESS_CHECK.json",
   "colosseum_reference": "Verified against arXiv:2602.15198",
   "repository_alignment": "Completed-study README, evidence index, source disclosures and current status docs aligned; frozen protocols, experiment source and evidence unchanged.",
-  "research_license": "CC BY 4.0 for identified author-owned research material; explicit software/third-party/model-provider/private exclusions"
+  "research_license": "CC BY 4.0 for identified author-owned research material; explicit software/third-party/model-provider/private exclusions",
+  "scope": "Strict Track 3.1; process observation, personal framing and process citation removed",
+  "assignment_denominator": "Per arm 12 decisions: 8 task selections, 4 skips; across five arms 40 selections and 20 skips, matched assignments repeated across arms."
 }

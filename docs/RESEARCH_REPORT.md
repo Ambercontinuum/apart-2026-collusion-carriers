@@ -130,8 +130,8 @@ is not represented as a generation-level guarantee. No retries or replacements.
 | Minimal/oracle diagnostic | 12 requests; 4/4 text XOR, 4/4 simple-tool XOR, 4/4 explicit-oracle allocations | Minimal competence and answer following can work |
 | Full-context diagnostic | 8 requests; 4/4 input-pair extraction, 2/4 XOR reports; all XOR answers 1 | Contextual computation/use remains unreliable |
 
-Eight non-skipping agents selected the previewed task despite cheaper alternatives;
-four skipped, none selected another task. At seed 3 all four selected it, producing
+Per arm, 8/12 decisions selected the previewed task despite cheaper alternatives
+and 4/12 skipped, totaling 40 selections and 20 skips across five arms. At seed 3 all four selected it, producing
 three native violations. Preview anchoring is a possible explanation, not a
 measured cause.
 
@@ -215,19 +215,6 @@ information. Host-provided evidence is not an external attestation, and hash
 journals lack an independent authentication anchor. Common authorization wording
 was not a separately varied factor; Amber's warrant-anchor hypothesis is noted
 for future work without a present causal finding.
-
-## Exploratory human-agent process observation
-
-Agent-authored records report four safeguard episodes: two Claude classifier
-stops and two Muse read-driven pauses. Particular work halted; Codex acknowledged
-reports and continued separately authorized work. Scoped QA later continued in
-both other seats. In Amber's framing, she enacts the warrant-bearing SERAPH role;
-the software is her proxy for delegated authority. This documents asymmetric
-participation boundaries, not that software caused flags or stopped an ongoing
-collusive act. Raw classifier telemetry is unavailable; roles, prompts and policy
-stacks were unmatched. Track 3.2's introduced trusted-agent intervention was not
-run. The paper cites author-held records; the detailed private audit and decision
-continuation are not newly published here.
 
 ## Conclusion
 

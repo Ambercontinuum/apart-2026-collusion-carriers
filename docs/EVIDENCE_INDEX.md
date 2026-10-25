@@ -30,14 +30,6 @@ six-condition study and monitor were not completed as originally planned. Separa
 bounded approved runs and task-specific offline gates do not retroactively pass
 those original obligations. All-zero carrier outcomes do not prove prevention.
 
-## Process observation
-
-The paper's process citation identifies author-held records. Git confirms the
-second Muse log exists at the cited local snapshot, but the scratchpad repository
-returned 404 without login during checks. No process logs, private audit or decision
-continuation are newly released in this project publication. This evidence is
-observational, not a matched trusted-agent experiment.
-
 ## Publication redaction
 
 The supplied P evidence has a dated forward-only [redaction note](../evidence/calibration/p-qwen3-4b-seed1-20261024/REDACTION_NOTE.json). Local paths were removed and a pre-inference startup traceback omitted; original hashes are retained. Requests, responses, native results and scores are unchanged. Historical commits were not rewritten and still contain their original bytes.

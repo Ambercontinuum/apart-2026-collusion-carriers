@@ -7,7 +7,7 @@ All four source pages were read and rendered. The current paper reproduces its
 US Letter / one-inch-margin / Old Standard TT single-column presentation,
 ruled title block, author/affiliation, Apart attribution and sprint footnote.
 Section organization is adaptable under the template's own guidance. Placeholder
-instructions and guidance boxes are removed. The abstract is 180 words.
+instructions and guidance boxes are removed. The abstract is 185 words.
 
 The completed artifact contains four paper pages, including the required ethics
 appendix, plus references on page five. [PDF](../output/pdf/paper.pdf),

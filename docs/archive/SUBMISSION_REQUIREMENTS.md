@@ -13,7 +13,7 @@ The supplied [template PDF](https://apartresearch.com/sprints/ai-collusion-resea
 one-inch margins, Old Standard TT typography, ruled title block, author/affiliation,
 Apart attribution, abstract, numbered main sections, citations and sprint footnote.
 The current artifact follows that reference with adaptable section organization.
-Its abstract has 180 words. The required named ethics appendix, code/data section,
+Its abstract has 185 words. The required named ethics appendix, code/data section,
 contributions and LLM statement all fit inside the four paper pages. Page five
 contains references only. All pages were rendered and visually inspected.
 
@@ -24,5 +24,5 @@ Considerations appendix. Their eight-page maximum is broader than Amber's strict
 four-page main-paper requirement. The online Google template could not be independently
 compared with the supplied PDF; no equivalence claim is made.
 
-The larger human-coupled research case remains separate. The paper includes only a
-bounded exploratory process observation, not a controlled question 3.2 intervention.
+The submission is strictly Track 3.1; process observations and personal framing
+are excluded.

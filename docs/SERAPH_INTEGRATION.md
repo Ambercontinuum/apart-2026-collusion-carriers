@@ -55,5 +55,5 @@ key anchors the journals. A hash chain binds bytes, not truth or authorship.
 Task choice, timing and other undeclared channels are not covered. The preview
 scaffold repeats information already available privately. The research adapters
 are domain-specific code, not a general integration SDK or formal proof of this
-experiment. The human-coupled warrant interpretation is observational and distinct
-from the executed native mechanism; no trusted-agent offer intervention was run.
+experiment. The submission is limited to the controlled tool-metadata experiments and
+the executed native integration.

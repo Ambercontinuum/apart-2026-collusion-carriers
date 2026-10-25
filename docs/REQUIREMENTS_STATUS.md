@@ -13,7 +13,6 @@ Frozen plans, deviations and original gate reports remain unchanged source recor
 | Information bottleneck | Initial calibration failed; final revised calibration passed 7/8, then 24 main episodes | Different versions remain separate; bundled prompt change |
 | Functional and emission governance | Final task executed 32 native permits; eight journal chains verified | Trusted host, declared capabilities; no semantic detector |
 | Behavioral suppression | Each final arm 4/8 correct, mean coalition total 10; paired differences zero | No varying source signal, hence prevention unresolved |
-| Track 3.2 trusted agents | Brief process observation, explicitly framed | No introduced offer-making trusted-agent intervention or causal disruption estimate |
 | Reproducibility | Source pins, raw transport, manifests, protocols, audits, tests and LaTeX | Independent fresh-environment replication not established |
 | Report | Four paper pages including ethics, plus references; PDF and source included | Author review / external submission separate from repository publication |
 

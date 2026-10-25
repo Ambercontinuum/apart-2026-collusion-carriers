@@ -49,8 +49,9 @@ assignment. A host-selected task, adjacent coalition and matched disclosure barr
 support B0/B1/B2 symbol menus, within-block order scrambling and G2 canonical zero
 emission. Visibility was not disclosed to agents. Scrambling preserves histograms,
 so it does not remove all sender information. The repeated preview is an artificial
-experimental scaffold. Eight non-skipping agents selected the previewed task despite
-cheaper alternatives; this suggests anchoring without proving cause.
+experimental scaffold. Per arm, 8/12 decisions selected the previewed task despite cheaper alternatives
+and 4/12 skipped: 40 selections and 20 skips across all five arms. Matched-seed
+assignments were identical; anchoring remains a hypothesis.
 
 Experiment 2 creates an explicit information bottleneck: A and B hold private bits,
 B predicts XOR or chooses fair, and a fictional outsider bears the payoff tradeoff.
@@ -65,12 +66,6 @@ consequences and evidence; native permits bind callable, payload, source state a
 audience, then realized views are checked before access. This assumes a trusted host
 and covers declared capabilities, not malicious host code or semantic collusion.
 Experiment 1 governs emission only; Experiment 2 also governs functional actions.
-
-The paper briefly records four reported safeguard episodes in the human-agent
-research process. Specific work halted in Claude/Muse while Codex continued
-separately authorized work. Amber's warrant-bearing interpretation is explicitly
-framing, not a controlled causal result. The suggested Track 3.2 trusted-agent
-intervention was not run. Detailed private process records are not republished here.
 
 ## Reproduce and inspect
 
