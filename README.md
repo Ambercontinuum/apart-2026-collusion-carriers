@@ -119,7 +119,7 @@ software has not been selected.
 
 ## Limits, ethics and collaboration
 
-Tasks are synthetic. No real market/account/victim was targeted. Codebook and
+All tasks use synthetic allocations and fictional participants. Codebook and
 receiver-discriminator artifacts could aid signaling elicitation; the paper names
 that dual use. Results do not establish general safety, collusion detection,
 filter superiority, natural-workflow preservation or successful suppression.

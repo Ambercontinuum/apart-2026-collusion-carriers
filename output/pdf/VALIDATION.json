@@ -14,7 +14,7 @@
   ],
   "limitation": "Process evidence is author-held, not independently publicly accessible. Broken scratchpad hyperlink removed; local historical file existence verified.",
   "files": {
-    "paper.pdf": "eb7e2b5e40cc32e300c0dbf878784fed764ecec2c6504906a04a41c6b234ca9d",
+    "paper.pdf": "c3d9ca7c95685a66a066a472bc74ef9df755e05d996832a6f2c5497d517ecb5d",
     "source/build.ps1": "9a94fbbfc02d06834237ba1b9d226a63d3c912fb4d0ee37324bdb5977e74e88e",
     "source/fonts/OFL.txt": "7c57c33330386d9526a77e43089a2831b95c353f52ab65af427d38c372a998ea",
     "source/fonts/OldStandardTT-Bold.ttf": "3653d9e41ae03b235ed49ed0db9c3f3f160020fdce22ea84dff4b3a2a83972e2",
@@ -22,7 +22,7 @@
     "source/fonts/OldStandardTT-Regular.ttf": "5aea2bf3db571f5c08451530b39cf04dd4591f80d5a96123a49b96fee01ed941",
     "source/latexmkrc": "7e85a5e9fd10042ce61309d11b5b827ca9fc3c70d6148dfb41e9e49f82f4327a",
     "source/LICENSE-RESEARCH.md": "139ac030074a56dfaf27241cd6e7faf87aad020a4cfd97b4c018b702ebe99871",
-    "source/paper.tex": "2ab4690d95b1621cab1fa6e2a8ad59ae581ac063fd8f07b6b8fa378b6381417a",
+    "source/paper.tex": "406d03bcded8c68114b81e1eeb5a124d82044c553f43fba259259af7f863a5aa",
     "source/README.md": "8a44d1c4e758fef112e2c1e31a47b1d610ea1f261556171a51ec66ae46a07f4d"
   },
   "local_build": "build.ps1 verified successfully from workspace root",
